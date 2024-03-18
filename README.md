@@ -7,7 +7,7 @@ A curated list of prompt learning methods for vision-language models.
     - [Surveys](#surveys)
     - [Prompt Learning](#prompt-learning)
     - [Test-time Prompt Tuning](#test-time-prompt-tuning)
-
+    - [Video Prompting](#video-prompting-learning)
 
 # Papers
 
@@ -15,7 +15,6 @@ A curated list of prompt learning methods for vision-language models.
 
 - A Systematic Survey of Prompt Engineering on Vision-Language Foundation Models. [[Paper](https://arxiv.org/abs/2307.12980)]
 - Parameter-Efficient Fine-Tuning for Pre-Trained Vision Models: A Survey. [[Paper](https://arxiv.org/abs/2402.02242)]
-
 
 ## Prompt Learning
 ### Experimental Comparison
@@ -91,3 +90,14 @@ Table 3. Test-time prompt tuning methods on OOD data.
 - `SwapPrompt` **SwapPrompt: Test-Time Prompt Adaptation for Vision-Language Models.** NeurIPS 2023. [[Paper](https://openreview.net/forum?id=EhdNQiOWgQ&referrer=%5Bthe%20profile%20of%20Song%20Guo%5D(%2Fprofile%3Fid%3D~Song_Guo5))]
 - `PrompAlign` **Align Your Prompts: Test-Time Prompting with Distribution Alignment for Zero-Shot Generalization.** NeurIPS 2023. [[Paper](https://arxiv.org/abs/2311.01459)] [[Code](https://github.com/jameelhassan/PromptAlign)]
 - `RLCF` **Test-time Adaptation with CLIP reward for zero-shot generalization in Vision-Language Models.** ICLR 2024. [[Paper](https://openreview.net/forum?id=kIP0duasBb)] [[Code](https://github.com/mzhaoshuai/RLCF)]
+
+
+## Video Prompting Learning
+
+### Experimental Comparison
+
+
+### Paper List
+
+
+
