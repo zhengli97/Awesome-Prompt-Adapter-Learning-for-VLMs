@@ -19,7 +19,7 @@ A curated list of prompt learning methods for vision-language models.
 ## Prompt Learning
 ### Experimental Comparison
 
-Base-to-Novel Generalization.
+Base-to-Novel Generalization. (ViT-B/16 CLIP)
 
 | Methods    | Pub      | Base   | Novel  | HM (main)     | Code |
 | ---        | ---      | ---    | ---    | :---:  | ---  |
@@ -30,6 +30,7 @@ Base-to-Novel Generalization.
 | RPO        | ICCV 23  | 81.13  | 75.00  | 77.78  | [Link](https://github.com/mlvlab/RPO)  |
 | MaPLe      | CVPR 23  | 82.28  | 75.14  | 78.55  | [Link](https://github.com/muzairkhattak/multimodal-prompt-learning)  |
 | MetaPrompt | TIP 24   | 83.65  | 75.48  | 79.09  | ---  |
+| LASP       | CVPR 23  | 83.18  | 76.11  | 79.48  | ---  |
 | PromptSRC  | ICCV 23  | 84.26  | 76.10  | 79.97  | [Link](https://github.com/muzairkhattak/PromptSRC)  |
 | HPT        | AAAI 24  | 84.32  | 76.86  | 80.23  | [Link](https://github.com/vill-lab/2024-aaai-hpt)  |
 | CoPrompt   | ICLR 24  | 84.00  | 77.23  | 80.48  | [Link](https://github.com/shuvenduroy/coprompt)  |
@@ -60,11 +61,20 @@ Table 2. Experimental results on ImageNet-1K. -->
 - `CoCoOp` **Conditional Prompt Learning for Vision-Language Models.** CVPR 2022. [[Paper](https://arxiv.org/abs/2203.05557)] [[Code](https://github.com/KaiyangZhou/CoOp)]
 - `ProDA` **Prompt Distribution Learning.** CVPR 2022. [[Paper](https://arxiv.org/abs/2205.03340)] [[Code](https://github.com/bbbdylan/proda)]
 - `MaPLe` **MaPLe: Multi-modal Prompt Learning.** CVPR 2023. [[Paper](https://arxiv.org/abs/2210.03117)] [[Code]()]
+- `KgCoOp` **Visual-Language Prompt Tuningx with Knowledge-guided Context Optimization.** CVPR 2023. [[Paper](https://arxiv.org/abs/2303.13283)] [[Code](https://github.com/htyao89/KgCoOp)]
+- `LASP` **LASP: Text-to-Text Optimization for Language-Aware Soft Prompting of Vision & Language Models** [[Paper](https://arxiv.org/abs/2210.01115)] 
 - `RPO` **Read-only Prompt Optimization for Vision-Language Few-shot Learning.** ICCV 2023. [[Paper](https://arxiv.org/abs/2308.14960)] [[Code](https://github.com/mlvlab/rpo)]
+- `KAPT` **Knowledge-Aware Prompt Tuning for Generalizable Vision-Language Models.** ICCV 23. [[Paper](https://openaccess.thecvf.com/content/ICCV2023/papers/Kan_Knowledge-Aware_Prompt_Tuning_for_Generalizable_Vision-Language_Models_ICCV_2023_paper.pdf)]
+<!-- Text-based ViT-B/32 -->
+- `ProGrad` **Prompt-aligned Gradient for Prompt Tuning.** ICCV 23. [[Paper](https://arxiv.org/abs/2205.14865)][[Code](https://github.com/BeierZhu/Prompt-align)]
+<!-- ViT-B/32 -->
 - `PromptSRC` **Self-regulating Prompts: Foundational Model Adaptation without Forgetting.** ICCV 2023. [[Paper](https://openaccess.thecvf.com//content/ICCV2023/papers/Khattak_Self-regulating_Prompts_Foundational_Model_Adaptation_without_Forgetting_ICCV_2023_paper.pdf)] [[Code](https://github.com/muzairkhattak/PromptSRC)]
 - `MetaPrompt` **Learning Domain Invariant Prompt for Vision-Language Models.** TIP 2024. [[Paper](https://arxiv.org/abs/2212.04196)]
 - `HPT` **Learning Hierarchical Prompt with Structured Linguistic Knowledge for Vision-Language Models.** AAAI 2024. [[Paper](https://arxiv.org/abs/2312.06323)] [[Code](https://github.com/Vill-Lab/2024-AAAI-HPT)]
+- `LaViP` **LaViP: Language-Grounded Visual Prompts**. AAAI 2024. [[Paper](https://arxiv.org/abs/2312.10945)]
+<!-- 没imagenet结果 -->
 - `CoPrompt` **Consistency-guided Prompt Learning for Vision-Language Models.** ICLR 2024. [[Paper](https://arxiv.org/abs/2306.01195)] [[Code](https://github.com/ShuvenduRoy/CoPrompt)]
+- `ProText` **Learning to Prompt with Text Only Supervision for Vision-Language Models** arxiv 24. [[Paper](https://arxiv.org/abs/2401.02418)] [[Code](https://github.com/muzairkhattak/ProText)]
 - `PromptKD` **Unsupervised Prompt Distillation for Vision Language Models.** CVPR 2024. [[Paper](https://arxiv.org/abs/2403.02781)] [[Code](https://github.com/zhengli97/PromptKD)]
 
 
