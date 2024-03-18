@@ -13,9 +13,11 @@ A curated list of prompt learning methods for vision-language models.
 
 ## Surveys
 
+- A Systematic Survey of Prompt Engineering on Vision-Language Foundation Models. [[Paper](https://arxiv.org/abs/2307.12980)]
+- Parameter-Efficient Fine-Tuning for Pre-Trained Vision Models: A Survey. [[Paper](https://arxiv.org/abs/2402.02242)]
+
 
 ## Prompt Learning
-
 ### Experimental Comparison
 
 Base-to-Novel Generalization.
