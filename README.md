@@ -12,7 +12,9 @@ A curated list of prompt learning methods for vision-language models.
 ## Keywords
 
 ![](https://img.shields.io/badge/Text-green) Use text-based learnable prompts.
+
 ![](https://img.shields.io/badge/Image-orange) Use image-based learnable prompts.
+
 ![](https://img.shields.io/badge/Image--Text-blue) Use text- and image-based learnable prompts.
 
 # Papers
@@ -63,22 +65,38 @@ Table 2. Experimental results on ImageNet-1K. -->
 
 ### Paper List
 
-- `CoOp` **Learning to Prompt for Vision-Language Models.** IJCV 2022. ![](https://img.shields.io/badge/Text-green) [[Paper](https://arxiv.org/abs/2203.05557)] [[Code](https://github.com/KaiyangZhou/CoOp)]
-- `CoCoOp` **Conditional Prompt Learning for Vision-Language Models.** CVPR 2022. ![](https://img.shields.io/badge/Text-green) [[Paper](https://arxiv.org/abs/2203.05557)] [[Code](https://github.com/KaiyangZhou/CoOp)]
-- `ProDA` **Prompt Distribution Learning.** CVPR 2022. ![](https://img.shields.io/badge/Text-green) [[Paper](https://arxiv.org/abs/2205.03340)] [[Code](https://github.com/bbbdylan/proda)]
-- `MaPLe` **MaPLe: Multi-modal Prompt Learning.** CVPR 2023. ![](https://img.shields.io/badge/Image--Text-blue) [[Paper](https://arxiv.org/abs/2210.03117)] [[Code](https://github.com/muzairkhattak/multimodal-prompt-learning)]
-- `KgCoOp` **Visual-Language Prompt Tuningx with Knowledge-guided Context Optimization.** CVPR 2023. ![](https://img.shields.io/badge/Text-green) [[Paper](https://arxiv.org/abs/2303.13283)] [[Code](https://github.com/htyao89/KgCoOp)]
-- `LASP` **LASP: Text-to-Text Optimization for Language-Aware Soft Prompting of Vision & Language Models** CVPR 2023. ![](https://img.shields.io/badge/Text-green) [[Paper](https://arxiv.org/abs/2210.01115)] 
-- `RPO` **Read-only Prompt Optimization for Vision-Language Few-shot Learning.** ICCV 2023. ![](https://img.shields.io/badge/Image--Text-blue) [[Paper](https://arxiv.org/abs/2308.14960)] [[Code](https://github.com/mlvlab/rpo)]
-- `KAPT` **Knowledge-Aware Prompt Tuning for Generalizable Vision-Language Models.** ICCV 2023. ![](https://img.shields.io/badge/Text-green) [[Paper](https://openaccess.thecvf.com/content/ICCV2023/papers/Kan_Knowledge-Aware_Prompt_Tuning_for_Generalizable_Vision-Language_Models_ICCV_2023_paper.pdf)] <!-- Text-based ViT-B/32 -->
-- `ProGrad` **Prompt-aligned Gradient for Prompt Tuning.** ICCV 2023. ![](https://img.shields.io/badge/Text-green) [[Paper](https://arxiv.org/abs/2205.14865)][[Code](https://github.com/BeierZhu/Prompt-align)] <!-- ViT-B/32 -->
-- `PromptSRC` **Self-regulating Prompts: Foundational Model Adaptation without Forgetting.** ICCV 2023. ![](https://img.shields.io/badge/Image--Text-blue) [[Paper](https://openaccess.thecvf.com//content/ICCV2023/papers/Khattak_Self-regulating_Prompts_Foundational_Model_Adaptation_without_Forgetting_ICCV_2023_paper.pdf)] [[Code](https://github.com/muzairkhattak/PromptSRC)]
-- `MetaPrompt` **Learning Domain Invariant Prompt for Vision-Language Models.** TIP 2024. ![](https://img.shields.io/badge/Image--Text-blue) [[Paper](https://arxiv.org/abs/2212.04196)]
-- `HPT` **Learning Hierarchical Prompt with Structured Linguistic Knowledge for Vision-Language Models.** AAAI 2024. ![](https://img.shields.io/badge/Image--Text-blue) [[Paper](https://arxiv.org/abs/2312.06323)] [[Code](https://github.com/Vill-Lab/2024-AAAI-HPT)]
-- `LaViP` **LaViP: Language-Grounded Visual Prompts**. AAAI 2024. ![](https://img.shields.io/badge/Image-orange) [[Paper](https://arxiv.org/abs/2312.10945)]<!-- 没imagenet结果 -->
-- `CoPrompt` **Consistency-guided Prompt Learning for Vision-Language Models.** ICLR 2024. ![](https://img.shields.io/badge/Image--Text-blue) [[Paper](https://arxiv.org/abs/2306.01195)] [[Code](https://github.com/ShuvenduRoy/CoPrompt)]
-- `ProText` **Learning to Prompt with Text Only Supervision for Vision-Language Models.** arxiv 24. ![](https://img.shields.io/badge/Text-green) [[Paper](https://arxiv.org/abs/2401.02418)] [[Code](https://github.com/muzairkhattak/ProText)]
-- `PromptKD` **Unsupervised Prompt Distillation for Vision Language Models.** CVPR 2024. ![](https://img.shields.io/badge/Image-orange) [[Paper](https://arxiv.org/abs/2403.02781)] [[Code](https://github.com/zhengli97/PromptKD)]
+- `CoOp` **Learning to Prompt for Vision-Language Models.** IJCV 2022.  
+  [[Paper](https://arxiv.org/abs/2203.05557)] [[Code](https://github.com/KaiyangZhou/CoOp)] ![](https://img.shields.io/badge/Text-green)
+- `CoCoOp` **Conditional Prompt Learning for Vision-Language Models.** CVPR 2022.   
+[[Paper](https://arxiv.org/abs/2203.05557)] [[Code](https://github.com/KaiyangZhou/CoOp)] ![](https://img.shields.io/badge/Text-green)
+- `ProDA` **Prompt Distribution Learning.** CVPR 2022.  
+[[Paper](https://arxiv.org/abs/2205.03340)] [[Code](https://github.com/bbbdylan/proda)] ![](https://img.shields.io/badge/Text-green)
+- `MaPLe` **MaPLe: Multi-modal Prompt Learning.** CVPR 2023.  
+[[Paper](https://arxiv.org/abs/2210.03117)] [[Code](https://github.com/muzairkhattak/multimodal-prompt-learning)] ![](https://img.shields.io/badge/Image--Text-blue)
+- `KgCoOp` **Visual-Language Prompt Tuningx with Knowledge-guided Context Optimization.** CVPR 2023.  
+[[Paper](https://arxiv.org/abs/2303.13283)] [[Code](https://github.com/htyao89/KgCoOp)] ![](https://img.shields.io/badge/Text-green)
+- `LASP` **LASP: Text-to-Text Optimization for Language-Aware Soft Prompting of Vision & Language Models** CVPR 2023.  
+[[Paper](https://arxiv.org/abs/2210.01115)] ![](https://img.shields.io/badge/Text-green)
+- `RPO` **Read-only Prompt Optimization for Vision-Language Few-shot Learning.** ICCV 2023.  
+[[Paper](https://arxiv.org/abs/2308.14960)] [[Code](https://github.com/mlvlab/rpo)] ![](https://img.shields.io/badge/Image--Text-blue)
+- `KAPT` **Knowledge-Aware Prompt Tuning for Generalizable Vision-Language Models.** ICCV 2023.  
+[[Paper](https://openaccess.thecvf.com/content/ICCV2023/papers/Kan_Knowledge-Aware_Prompt_Tuning_for_Generalizable_Vision-Language_Models_ICCV_2023_paper.pdf)] ![](https://img.shields.io/badge/Text-green) <!-- Text-based ViT-B/32 -->
+- `ProGrad` **Prompt-aligned Gradient for Prompt Tuning.** ICCV 2023.  
+[[Paper](https://arxiv.org/abs/2205.14865)][[Code](https://github.com/BeierZhu/Prompt-align)] ![](https://img.shields.io/badge/Text-green) <!-- ViT-B/32 -->
+- `PromptSRC` **Self-regulating Prompts: Foundational Model Adaptation without Forgetting.** ICCV 2023.  
+[[Paper](https://openaccess.thecvf.com//content/ICCV2023/papers/Khattak_Self-regulating_Prompts_Foundational_Model_Adaptation_without_Forgetting_ICCV_2023_paper.pdf)] [[Code](https://github.com/muzairkhattak/PromptSRC)] ![](https://img.shields.io/badge/Image--Text-blue)
+- `MetaPrompt` **Learning Domain Invariant Prompt for Vision-Language Models.** TIP 2024.  
+[[Paper](https://arxiv.org/abs/2212.04196)] ![](https://img.shields.io/badge/Image--Text-blue)
+- `HPT` **Learning Hierarchical Prompt with Structured Linguistic Knowledge for Vision-Language Models.** AAAI 2024.  
+[[Paper](https://arxiv.org/abs/2312.06323)] [[Code](https://github.com/Vill-Lab/2024-AAAI-HPT)] ![](https://img.shields.io/badge/Image--Text-blue)
+- `LaViP` **LaViP: Language-Grounded Visual Prompts**. AAAI 2024.  
+[[Paper](https://arxiv.org/abs/2312.10945)] ![](https://img.shields.io/badge/Image-orange) <!-- 没imagenet结果 -->
+- `CoPrompt` **Consistency-guided Prompt Learning for Vision-Language Models.** ICLR 2024.  
+[[Paper](https://arxiv.org/abs/2306.01195)] [[Code](https://github.com/ShuvenduRoy/CoPrompt)] ![](https://img.shields.io/badge/Image--Text-blue) 
+- `ProText` **Learning to Prompt with Text Only Supervision for Vision-Language Models.** arxiv 24.  
+[[Paper](https://arxiv.org/abs/2401.02418)] [[Code](https://github.com/muzairkhattak/ProText)] ![](https://img.shields.io/badge/Text-green) 
+- `PromptKD` **Unsupervised Prompt Distillation for Vision Language Models.** CVPR 2024.  
+[[Paper](https://arxiv.org/abs/2403.02781)] [[Code](https://github.com/zhengli97/PromptKD)] ![](https://img.shields.io/badge/Image-orange)
 
 
 ## Test-time Prompt Tuning
@@ -99,10 +117,14 @@ Table 3. Test-time prompt tuning methods on OOD data.
 
 ### Paper List
 
-- `TPT` **Test-Time Prompt Tuning for Zero-Shot Generalization in Vision-Language Models.** NeurIPS 2022. [[Paper](https://arxiv.org/abs/2209.07511)] [[Code](https://github.com/azshue/TPT)]
-- `SwapPrompt` **SwapPrompt: Test-Time Prompt Adaptation for Vision-Language Models.** NeurIPS 2023. [[Paper](https://openreview.net/forum?id=EhdNQiOWgQ&referrer=%5Bthe%20profile%20of%20Song%20Guo%5D(%2Fprofile%3Fid%3D~Song_Guo5))]
-- `PrompAlign` **Align Your Prompts: Test-Time Prompting with Distribution Alignment for Zero-Shot Generalization.** NeurIPS 2023. [[Paper](https://arxiv.org/abs/2311.01459)] [[Code](https://github.com/jameelhassan/PromptAlign)]
-- `RLCF` **Test-time Adaptation with CLIP reward for zero-shot generalization in Vision-Language Models.** ICLR 2024. [[Paper](https://openreview.net/forum?id=kIP0duasBb)] [[Code](https://github.com/mzhaoshuai/RLCF)]
+- `TPT` **Test-Time Prompt Tuning for Zero-Shot Generalization in Vision-Language Models.** NeurIPS 2022.  
+[[Paper](https://arxiv.org/abs/2209.07511)] [[Code](https://github.com/azshue/TPT)]
+- `SwapPrompt` **SwapPrompt: Test-Time Prompt Adaptation for Vision-Language Models.** NeurIPS 2023.  
+[[Paper](https://openreview.net/forum?id=EhdNQiOWgQ&referrer=%5Bthe%20profile%20of%20Song%20Guo%5D(%2Fprofile%3Fid%3D~Song_Guo5))]
+- `PrompAlign` **Align Your Prompts: Test-Time Prompting with Distribution Alignment for Zero-Shot Generalization.** NeurIPS 2023.  
+[[Paper](https://arxiv.org/abs/2311.01459)] [[Code](https://github.com/jameelhassan/PromptAlign)]
+- `RLCF` **Test-time Adaptation with CLIP reward for zero-shot generalization in Vision-Language Models.** ICLR 2024.  
+[[Paper](https://openreview.net/forum?id=kIP0duasBb)] [[Code](https://github.com/mzhaoshuai/RLCF)]
 
 
 ## Video Prompting Learning
