@@ -31,7 +31,7 @@ Base-to-Novel Generalization. (ViT-B/16 CLIP)
 
 | Methods    | Pub      | Base   | Novel  | HM (main)     | Code |
 | ---        | ---      | ---    | ---    | :---:  | ---  |
-| CLIP       |          | 69.34  | 74.22  | 71.70  | [Link](https://github.com/openai/CLIP)  |
+| CLIP       | ICML 21  | 69.34  | 74.22  | 71.70  | [Link](https://github.com/openai/CLIP)  |
 | CoOp       | IJCV 22  | 82.69  | 63.22  | 71.66  | [Link](https://github.com/kaiyangzhou/coop)  |
 | CoCoOp     | CVPR 22  | 80.47  | 71.69  | 75.83  | [Link](https://github.com/KaiyangZhou/CoOp)  |
 | ProDA      | CVPR 22  | 81.56  | 72.30  | 76.65  | [Link](https://github.com/bbbdylan/proda) |
@@ -71,12 +71,18 @@ Table 2. Experimental results on ImageNet-1K. -->
 [[Paper](https://arxiv.org/abs/2203.05557)] [[Code](https://github.com/KaiyangZhou/CoOp)] ![](https://img.shields.io/badge/Text-green)
 - `ProDA` **Prompt Distribution Learning.** CVPR 2022.  
 [[Paper](https://arxiv.org/abs/2205.03340)] [[Code](https://github.com/bbbdylan/proda)] ![](https://img.shields.io/badge/Text-green)
+- `VPT` **Visual Prompt Tuning**. ECCV 2022.  
+[[Paper](https://arxiv.org/abs/2203.12119)] [[Code](https://github.com/kmnp/vpt)] ![](https://img.shields.io/badge/Image-orange)
 - `MaPLe` **MaPLe: Multi-modal Prompt Learning.** CVPR 2023.  
 [[Paper](https://arxiv.org/abs/2210.03117)] [[Code](https://github.com/muzairkhattak/multimodal-prompt-learning)] ![](https://img.shields.io/badge/Image--Text-blue)
 - `KgCoOp` **Visual-Language Prompt Tuningx with Knowledge-guided Context Optimization.** CVPR 2023.  
 [[Paper](https://arxiv.org/abs/2303.13283)] [[Code](https://github.com/htyao89/KgCoOp)] ![](https://img.shields.io/badge/Text-green)
 - `LASP` **LASP: Text-to-Text Optimization for Language-Aware Soft Prompting of Vision & Language Models** CVPR 2023.  
 [[Paper](https://arxiv.org/abs/2210.01115)] ![](https://img.shields.io/badge/Text-green)
+- `DAM-VP` **Diversity-Aware Meta Visual Prompting** CVPR 2023.  
+[[Paper](https://arxiv.org/abs/2303.08138)]  [[Code](https://github.com/shikiw/DAM-VP)] ![](https://img.shields.io/badge/Image-orange) ![](https://img.shields.io/badge/Text-green)
+- `TaskRes` **Task Residual for Tuning Vision-Language Models** CVPR 2023.  
+[[Paper](https://arxiv.org/abs/2211.10277)] [[Code](https://github.com/geekyutao/TaskRes)]
 - `RPO` **Read-only Prompt Optimization for Vision-Language Few-shot Learning.** ICCV 2023.  
 [[Paper](https://arxiv.org/abs/2308.14960)] [[Code](https://github.com/mlvlab/rpo)] ![](https://img.shields.io/badge/Image--Text-blue)
 - `KAPT` **Knowledge-Aware Prompt Tuning for Generalizable Vision-Language Models.** ICCV 2023.  
@@ -85,6 +91,8 @@ Table 2. Experimental results on ImageNet-1K. -->
 [[Paper](https://arxiv.org/abs/2205.14865)][[Code](https://github.com/BeierZhu/Prompt-align)] ![](https://img.shields.io/badge/Text-green) <!-- ViT-B/32 -->
 - `PromptSRC` **Self-regulating Prompts: Foundational Model Adaptation without Forgetting.** ICCV 2023.  
 [[Paper](https://openaccess.thecvf.com//content/ICCV2023/papers/Khattak_Self-regulating_Prompts_Foundational_Model_Adaptation_without_Forgetting_ICCV_2023_paper.pdf)] [[Code](https://github.com/muzairkhattak/PromptSRC)] ![](https://img.shields.io/badge/Image--Text-blue)
+- `DeFo` **Learning to Decompose Visual Features with Latent Textual Prompts.** ICLR 2023.  
+[[Paper](https://arxiv.org/abs/2210.04287)] ![](https://img.shields.io/badge/Text-green)
 - `MetaPrompt` **Learning Domain Invariant Prompt for Vision-Language Models.** TIP 2024.  
 [[Paper](https://arxiv.org/abs/2212.04196)] ![](https://img.shields.io/badge/Image--Text-blue)
 - `HPT` **Learning Hierarchical Prompt with Structured Linguistic Knowledge for Vision-Language Models.** AAAI 2024.  
@@ -96,7 +104,7 @@ Table 2. Experimental results on ImageNet-1K. -->
 - `ProText` **Learning to Prompt with Text Only Supervision for Vision-Language Models.** arxiv 24.  
 [[Paper](https://arxiv.org/abs/2401.02418)] [[Code](https://github.com/muzairkhattak/ProText)] ![](https://img.shields.io/badge/Text-green) 
 - `PromptKD` **Unsupervised Prompt Distillation for Vision Language Models.** CVPR 2024.  
-[[Paper](https://arxiv.org/abs/2403.02781)] [[Code](https://github.com/zhengli97/PromptKD)] ![](https://img.shields.io/badge/Image-orange)
+[[Paper](https://arxiv.org/abs/2403.02781)] [[Code](https://github.com/zhengli97/PromptKD)] ![](https://img.shields.io/badge/Image--Text-blue) 
 
 
 ## Test-time Prompt Tuning
