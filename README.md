@@ -38,7 +38,9 @@ Base-to-Novel Generalization. (ViT-B/16 CLIP)
 | RPO        | ICCV 23  | 81.13  | 75.00  | 77.78  | [Link](https://github.com/mlvlab/RPO)  |
 | MaPLe      | CVPR 23  | 82.28  | 75.14  | 78.55  | [Link](https://github.com/muzairkhattak/multimodal-prompt-learning)  |
 | MetaPrompt | TIP 24   | 83.65  | 75.48  | 79.09  | ---  |
+| DePT       | CVPR 24  | 83.62  | 75.04  | 79.10  | [Link](https://github.com/Koorye/DePT) |
 | LASP       | CVPR 23  | 83.18  | 76.11  | 79.48  | ---  |
+| TCP        | CVPR 24  | 84.13  | 75.36  | 79.51  | [Link](https://github.com/htyao89/Textual-based_Class-aware_prompt_tuning) |
 | PromptSRC  | ICCV 23  | 84.26  | 76.10  | 79.97  | [Link](https://github.com/muzairkhattak/PromptSRC)  |
 | HPT        | AAAI 24  | 84.32  | 76.86  | 80.23  | [Link](https://github.com/vill-lab/2024-aaai-hpt)  |
 | CoPrompt   | ICLR 24  | 84.00  | 77.23  | 80.48  | [Link](https://github.com/shuvenduroy/coprompt)  |
@@ -93,6 +95,8 @@ Table 2. Experimental results on ImageNet-1K. -->
 [[Paper](https://openaccess.thecvf.com//content/ICCV2023/papers/Khattak_Self-regulating_Prompts_Foundational_Model_Adaptation_without_Forgetting_ICCV_2023_paper.pdf)] [[Code](https://github.com/muzairkhattak/PromptSRC)] ![](https://img.shields.io/badge/Image--Text-blue)
 - `DeFo` **Learning to Decompose Visual Features with Latent Textual Prompts.** ICLR 2023.  
 [[Paper](https://arxiv.org/abs/2210.04287)] ![](https://img.shields.io/badge/Text-green)
+- `POMP` **Prompt Pre-Training with Twenty-Thousand Classes for Open-Vocabulary Visual Recognition** NeurIPS 2023.  
+[[Paper](https://arxiv.org/abs/2304.04704)] [[Code](https://github.com/amazon-science/prompt-pretraining)]  ![](https://img.shields.io/badge/Text-green) 
 - `MetaPrompt` **Learning Domain Invariant Prompt for Vision-Language Models.** TIP 2024.  
 [[Paper](https://arxiv.org/abs/2212.04196)] ![](https://img.shields.io/badge/Image--Text-blue)
 - `SA2VP` **SA2VP: Spatially Aligned-and-Adapted Visual Prompt.** AAAI 2024.  
@@ -109,7 +113,12 @@ Table 2. Experimental results on ImageNet-1K. -->
 [[Paper](https://arxiv.org/abs/2401.02418)] [[Code](https://github.com/muzairkhattak/ProText)] ![](https://img.shields.io/badge/Text-green) 
 - `PromptKD` **Unsupervised Prompt Distillation for Vision Language Models.** CVPR 2024.  
 [[Paper](https://arxiv.org/abs/2403.02781)] [[Code](https://github.com/zhengli97/PromptKD)] ![](https://img.shields.io/badge/Image--Text-blue) 
-
+- `DePT` **DePT: Decoupled Prompt Tuning**. CVPR 2024.  
+[[Paper](https://arxiv.org/abs/2309.07439)] [[Code](https://github.com/Koorye/DePT)] ![](https://img.shields.io/badge/Text-green)
+- `ArGue` **ArGue: Attribute-Guided Prompt Tuning for Vision-Language Models**. CVPR 2024.  
+[[Paper](https://arxiv.org/abs/2311.16494)] ![](https://img.shields.io/badge/Text-green)
+- `TCP` **TCP:Textual-based Class-aware Prompt tuning for Visual-Language Model**. CVPR 2024.  
+[[Paper](https://arxiv.org/abs/2311.18231)] [[Code](https://github.com/htyao89/Textual-based_Class-aware_prompt_tuning)] ![](https://img.shields.io/badge/Text-green)
 
 ## Test-time Prompt Tuning
 
@@ -143,8 +152,5 @@ Table 3. Test-time prompt tuning methods on OOD data.
 
 ### Experimental Comparison
 
-
 ### Paper List
-
-
 
