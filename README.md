@@ -124,15 +124,17 @@ Table 2. Experimental results on ImageNet-1K. -->
 
 ### Experimental Comparison
 
-| Methods   | Pub      |ImageNet| -A    | -V2   | -R    | -S    | Avg. (main)  | Code |
-| ---       | ---      | ---    | ---   | ---   |  ---  |  ---  |  :---:  | ---  |
-| CoOp      | IJCV 22  | 71.51 | 49.71 | 64.20 | 75.21 | 47.99 | 59.28 | [Link](https://github.com/kaiyangzhou/coop) |
-| CoCoOp    | CVPR 22 | 71.02 | 50.63 | 64.07 | 76.18 | 48.75 | 59.91 | [Link](https://github.com/kaiyangzhou/coop) |
-| TPT       |  NeurIPS 22 | 68.98 | 54.77 | 63.45 | 77.06 | 47.94 | 60.81 | [Link](https://github.com/azshue/TPT) |
-| TPT+CoOp  | NeurIPS 22 | 73.61 | 57.95 | 66.83 | 77.27 | 49.29 | 62.84 | [Link](https://github.com/azshue/TPT) |
-| PromptAlign | NeurIPS 23 | ---    | 59.37 | 65.29 | 79.33 | 59.37 | 63.55 | [Link](https://github.com/jameelhassan/PromptAlign) |
-| RLCF | ICLR 24 | 73.23 | 65.45 | 69.77 | 83.35 | 54.74 | 68.33 | [Link](https://github.com/mzhaoshuai/RLCF) |
-| RLCF+CoOp| ICLR 24 | 76.05 | 69.74 | 70.62 | 84.51 | 56.49 | 70.34 | [Link](https://github.com/mzhaoshuai/RLCF) | 
+| Methods     | Pub        | ImageNet | -A    | -V2   | -R    | -S    | Avg. (main)  | Code |
+|-------------|------------|----------| ---   | ---   |  ---  |  ---  |  :---:  | ---  |
+| CoOp        | IJCV 22    | 71.51    | 49.71 | 64.20 | 75.21 | 47.99 | 59.28 | [Link](https://github.com/kaiyangzhou/coop) |
+| CoCoOp      | CVPR 22    | 71.02    | 50.63 | 64.07 | 76.18 | 48.75 | 59.91 | [Link](https://github.com/kaiyangzhou/coop) |
+| TPT         | NeurIPS 22 | 68.98    | 54.77 | 63.45 | 77.06 | 47.94 | 60.81 | [Link](https://github.com/azshue/TPT) |
+| TPT+CoOp    | NeurIPS 22 | 73.61    | 57.95 | 66.83 | 77.27 | 49.29 | 62.84 | [Link](https://github.com/azshue/TPT) |
+| PromptAlign | NeurIPS 23 | ---      | 59.37 | 65.29 | 79.33 | 59.37 | 63.55 | [Link](https://github.com/jameelhassan/PromptAlign) |
+| TPS+CoOp    | Arxiv 24   | 73.73    | 60.49 | 66.84 | 77.44 | 49.08 | 65.52 | [Link](https://github.com/elaine-sui/TPS) | 
+| RLCF        | ICLR 24    | 73.23    | 65.45 | 69.77 | 83.35 | 54.74 | 68.33 | [Link](https://github.com/mzhaoshuai/RLCF) |
+| RLCF+CoOp   | ICLR 24    | 76.05    | 69.74 | 70.62 | 84.51 | 56.49 | 70.34 | [Link](https://github.com/mzhaoshuai/RLCF) | 
+
 
 Table 3. Test-time prompt tuning methods on OOD data.
 
@@ -144,9 +146,12 @@ Table 3. Test-time prompt tuning methods on OOD data.
 [[Paper](https://openreview.net/forum?id=EhdNQiOWgQ&referrer=%5Bthe%20profile%20of%20Song%20Guo%5D(%2Fprofile%3Fid%3D~Song_Guo5))]
 - `PrompAlign` **Align Your Prompts: Test-Time Prompting with Distribution Alignment for Zero-Shot Generalization.** NeurIPS 2023.  
 [[Paper](https://arxiv.org/abs/2311.01459)] [[Code](https://github.com/jameelhassan/PromptAlign)]
+- `TPS` **Just Shift It: Test-Time Prototype Shifting for Zero-Shot Generalization with Vision-Language Models.** Arxiv 2024.  
+[[Paper](https://arxiv.org/pdf/2403.12952v1.pdf)] [[Code](https://github.com/elaine-sui/TPS)]
 - `RLCF` **Test-time Adaptation with CLIP reward for zero-shot generalization in Vision-Language Models.** ICLR 2024.  
 [[Paper](https://openreview.net/forum?id=kIP0duasBb)] [[Code](https://github.com/mzhaoshuai/RLCF)]
-
+- `InTTA` **Invariant Test-Time Adaptation for Vision-Language Model Generalization.** Arxiv 2024.  
+[[Paper](https://arxiv.org/pdf/2403.00376.pdf)] [[Code](https://github.com/MaHuanAAA/InTTA)]
 
 ## Video Prompting Learning
 
