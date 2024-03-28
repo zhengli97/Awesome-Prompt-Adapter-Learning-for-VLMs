@@ -1,4 +1,4 @@
-![image](https://github.com/zhengli97/Awesome-Prompt-Learning-for-Vision-Language-Models/assets/61263419/3d46cb94-73ae-4c3e-becb-3c39ab9e2366)# Awesome-Prompt-Learning-for-VLMs
+# Awesome-Prompt-Learning-for-VLMs
 A curated list of prompt learning methods for vision-language models.
 
 # Table of Contents
