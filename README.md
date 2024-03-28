@@ -1,4 +1,4 @@
-# Awesome-Prompt-Learning-for-VLMs
+![image](https://github.com/zhengli97/Awesome-Prompt-Learning-for-Vision-Language-Models/assets/61263419/3d46cb94-73ae-4c3e-becb-3c39ab9e2366)# Awesome-Prompt-Learning-for-VLMs
 A curated list of prompt learning methods for vision-language models.
 
 # Table of Contents
@@ -158,4 +158,10 @@ Table 3. Test-time prompt tuning methods on OOD data.
 ### Experimental Comparison
 
 ### Paper List
+- `Efficient-Prompt` **Prompting visual-language models for efficient video understanding.** ECCV 2022.  
+[[Paper](https://arxiv.org/pdf/2112.04478.pdf)] [[Code](https://github.com/ju-chen/Efficient-Prompt)]
+- `InTTA` **Expanding Language-Image Pretrained Models for General Video Recognition.** ECCV 2022.  
+[[Paper](https://arxiv.org/pdf/2208.02816.pdf)] [[Code](https://github.com/microsoft/VideoX/tree/master/X-CLIP)]
+- `RePro` **Compositional Prompt Tuning with Motion Cues for Open-vocabulary Video Relation Detection.** ICLR 2023.  
+[[Paper](https://arxiv.org/pdf/2302.00268.pdf)] [[Code](https://github.com/Dawn-LX/OpenVoc-VidVRD)]
 
