@@ -11,11 +11,11 @@ A curated list of prompt learning methods for vision-language models.
 
 ## Keywords
 
-![](https://img.shields.io/badge/Text-green) Use text-based learnable prompts.
+![](https://img.shields.io/badge/Text-green) Use text-based learnable prompts/adapters.
 
-![](https://img.shields.io/badge/Image-orange) Use image-based learnable prompts.
+![](https://img.shields.io/badge/Image-orange) Use image-based learnable prompts/adapters.
 
-![](https://img.shields.io/badge/Image--Text-blue) Use text- and image-based learnable prompts.
+![](https://img.shields.io/badge/Image--Text-blue) Use text- and image-based learnable prompts/adapters.
 
 # Papers
 
@@ -41,6 +41,7 @@ Base-to-Novel Generalization. (ViT-B/16 CLIP)
 | DePT       | CVPR 24  | 83.62  | 75.04  | 79.10  | [Link](https://github.com/Koorye/DePT) |
 | LASP       | CVPR 23  | 83.18  | 76.11  | 79.48  | ---  |
 | TCP        | CVPR 24  | 84.13  | 75.36  | 79.51  | [Link](https://github.com/htyao89/Textual-based_Class-aware_prompt_tuning) |
+| MMA        | CVPR 24  | 83.20  | 76.80  | 79.87  | [Link](https://github.com/ZjjConan/Multi-Modal-Adapter) |
 | PromptSRC  | ICCV 23  | 84.26  | 76.10  | 79.97  | [Link](https://github.com/muzairkhattak/PromptSRC)  |
 | HPT        | AAAI 24  | 84.32  | 76.86  | 80.23  | [Link](https://github.com/vill-lab/2024-aaai-hpt)  |
 | CoPrompt   | ICLR 24  | 84.00  | 77.23  | 80.48  | [Link](https://github.com/shuvenduroy/coprompt)  |
@@ -117,6 +118,10 @@ Table 2. Experimental results on ImageNet-1K. -->
 [[Paper](https://arxiv.org/abs/2311.16494)] ![](https://img.shields.io/badge/Text-green)
 - `TCP` **TCP:Textual-based Class-aware Prompt tuning for Visual-Language Model**. CVPR 2024.  
 [[Paper](https://arxiv.org/abs/2311.18231)] [[Code](https://github.com/htyao89/Textual-based_Class-aware_prompt_tuning)] ![](https://img.shields.io/badge/Text-green)
+- `MMA` **MMA: Multi-Modal Adapter for Vision-Language Models**. CVPR 2024.  
+[[Paper](https://openaccess.thecvf.com/content/CVPR2024/papers/Yang_MMA_Multi-Modal_Adapter_for_Vision-Language_Models_CVPR_2024_paper.pdf)] [[Code](https://github.com/ZjjConan/Multi-Modal-Adapter)] ![](https://img.shields.io/badge/Image--Text-blue)
+
+
 
 ## Test-time Prompt Tuning
 
