@@ -5,8 +5,9 @@ A curated list of prompt/adapter learning methods for vision-language models.
 
 - [Papers](#papers)
     - [Surveys](#surveys)
-    - [Prompt Learning](#prompt-learning)
+    - [Prompt Learning](#general-prompt-learning)
     - [Test-time Prompt Tuning](#test-time-prompt-tuning)
+    - [Adapter Learning](#adapter-learning)
     - [Video Prompting](#video-prompting-learning)
 
 ## Keywords
@@ -17,14 +18,12 @@ A curated list of prompt/adapter learning methods for vision-language models.
 
 ![](https://img.shields.io/badge/Image--Text-blue) Use text- and image-based learnable prompts/adapters.
 
-# Papers
-
 ## Surveys
 
 - A Systematic Survey of Prompt Engineering on Vision-Language Foundation Models. [[Paper](https://arxiv.org/abs/2307.12980)]
 - Parameter-Efficient Fine-Tuning for Pre-Trained Vision Models: A Survey. [[Paper](https://arxiv.org/abs/2402.02242)]
 
-## Prompt Learning
+## General Prompt Learning (Classification)
 ### Experimental Comparison
 
 Base-to-Novel Generalization. (ViT-B/16 CLIP)
@@ -127,7 +126,7 @@ Table 2. Experimental results on ImageNet-1K. -->
 [[Paper](https://openaccess.thecvf.com/content/CVPR2024/papers/Yang_MMA_Multi-Modal_Adapter_for_Vision-Language_Models_CVPR_2024_paper.pdf)] [[Code](https://github.com/ZjjConan/Multi-Modal-Adapter)] ![](https://img.shields.io/badge/Image--Text-blue)
 
 
-## Test-time Prompt Tuning
+## General Test-time Prompt Tuning (Image Classification)
 
 ### Experimental Comparison
 
@@ -143,7 +142,7 @@ Table 2. Experimental results on ImageNet-1K. -->
 | RLCF+CoOp   | ICLR 24    | 76.05    | 69.74 | 70.62 | 84.51 | 56.49 | 70.34 | [Link](https://github.com/mzhaoshuai/RLCF) | 
 
 
-Table 3. Test-time prompt tuning methods on OOD data.
+Table 2. Test-time prompt tuning methods on OOD data.
 
 ### Paper List
 
@@ -160,15 +159,40 @@ Table 3. Test-time prompt tuning methods on OOD data.
 - `InTTA` **Invariant Test-Time Adaptation for Vision-Language Model Generalization.** Arxiv 2024.  
 [[Paper](https://arxiv.org/pdf/2403.00376.pdf)] [[Code](https://github.com/MaHuanAAA/InTTA)]
 
-## Video Prompting Learning
-
-### Experimental Comparison
+## General Adapter Learning (Classification)
 
 ### Paper List
+
+- `CLIP-Adapter` **CLIP-Adapter: Better Vision-Language Models with Feature Adapters.** Arxiv 2021.  
+[[Paper](https://arxiv.org/pdf/2110.04544)] [[Code](https://github.com/gaopengcuhk/CLIP-Adapter)] ![](https://img.shields.io/badge/Image--Text-blue)  
+
+## Video Understanding
+
+### Prompt Learning
 - `Efficient-Prompt` **Prompting visual-language models for efficient video understanding.** ECCV 2022.  
 [[Paper](https://arxiv.org/pdf/2112.04478.pdf)] [[Code](https://github.com/ju-chen/Efficient-Prompt)]
 - `InTTA` **Expanding Language-Image Pretrained Models for General Video Recognition.** ECCV 2022.  
 [[Paper](https://arxiv.org/pdf/2208.02816.pdf)] [[Code](https://github.com/microsoft/VideoX/tree/master/X-CLIP)]
 - `RePro` **Compositional Prompt Tuning with Motion Cues for Open-vocabulary Video Relation Detection.** ICLR 2023.  
 [[Paper](https://arxiv.org/pdf/2302.00268.pdf)] [[Code](https://github.com/Dawn-LX/OpenVoc-VidVRD)]
+
+## Continual Learning
+
+### Prompt Learning
+- `L2P` **Learning to Prompt for Continual Learning.** CVPR 2022.  
+[[Paper](https://arxiv.org/pdf/2112.08654)] [[Code](https://github.com/google-research/l2p)]
+- `DualPrompt` **DualPrompt: Complementary Prompting for Rehearsal-free Continual Learning.** ECCV 2022.  
+[[Paper](https://arxiv.org/pdf/2204.04799)] [[Code](https://github.com/google-research/l2p)]
+
+### Adapter Learning
+- `MoE-Adapters4CL` **Boosting Continual Learning of Vision-Language Models via Mixture-of-Experts Adapters.** CVPR 2024.  
+[[Paper](https://arxiv.org/pdf/2403.11549)] [[Code](https://github.com/JiazuoYu/MoE-Adapters4CL)]
+
+
+
+
+
+
+
+
 
