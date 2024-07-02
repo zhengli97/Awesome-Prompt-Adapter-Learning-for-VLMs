@@ -1,5 +1,5 @@
-# Awesome-Prompt-Learning-for-VLMs
-A curated list of prompt learning methods for vision-language models.
+# Awesome-Prompt-Adapter-Learning-for-VLMs
+A curated list of prompt/adapter learning methods for vision-language models.
 
 # Table of Contents
 
