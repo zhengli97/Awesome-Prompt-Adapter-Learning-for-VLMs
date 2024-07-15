@@ -6,9 +6,10 @@ A curated list of prompt/adapter learning methods for vision-language models.
 - [Papers](#papers)
     - [Surveys](#surveys)
     - [Prompt Learning](#general-prompt-learning)
-    - [Test-time Prompt Tuning](#test-time-prompt-tuning)
-    - [Adapter Learning](#adapter-learning)
-    - [Video Prompting](#video-prompting-learning)
+    - [Test-time Prompt Learning](#general-test-time-prompt-learning)
+    - [Adapter Learning](#general-adapter-learning)
+    - [Video Understanding](#video-understanding)
+    - [Continual Learning](#continual-learning)
 
 ## Keywords
 
@@ -23,7 +24,7 @@ A curated list of prompt/adapter learning methods for vision-language models.
 - A Systematic Survey of Prompt Engineering on Vision-Language Foundation Models. [[Paper](https://arxiv.org/abs/2307.12980)]
 - Parameter-Efficient Fine-Tuning for Pre-Trained Vision Models: A Survey. [[Paper](https://arxiv.org/abs/2402.02242)]
 
-## General Prompt Learning (Classification)
+## General Prompt Learning
 ### Experimental Comparison
 
 Base-to-Novel Generalization. (ViT-B/16 CLIP)
@@ -126,7 +127,7 @@ Table 2. Experimental results on ImageNet-1K. -->
 [[Paper](https://openaccess.thecvf.com/content/CVPR2024/papers/Yang_MMA_Multi-Modal_Adapter_for_Vision-Language_Models_CVPR_2024_paper.pdf)] [[Code](https://github.com/ZjjConan/Multi-Modal-Adapter)] ![](https://img.shields.io/badge/Image--Text-blue)
 
 
-## General Test-time Prompt Tuning (Image Classification)
+## General Test-time Prompt Learning
 
 ### Experimental Comparison
 
@@ -159,7 +160,7 @@ Table 2. Test-time prompt tuning methods on OOD data.
 - `InTTA` **Invariant Test-Time Adaptation for Vision-Language Model Generalization.** Arxiv 2024.  
 [[Paper](https://arxiv.org/pdf/2403.00376.pdf)] [[Code](https://github.com/MaHuanAAA/InTTA)]
 
-## General Adapter Learning (Classification)
+## General Adapter Learning
 
 ### Paper List
 
@@ -185,8 +186,8 @@ Table 2. Test-time prompt tuning methods on OOD data.
 [[Paper](https://arxiv.org/pdf/2204.04799)] [[Code](https://github.com/google-research/l2p)]
 - `EvoPrompt` **Evolving Parameterized Prompt Memory for Continual Learning.** AAAI 2024.  
 [[Paper](https://ojs.aaai.org/index.php/AAAI/article/view/29231)]
-- `CPP` **Steering Prototypes with Prompt-tuning for Rehearsal-free Continual Learning.** WACV 2024.  
-[[Paper](https://openaccess.thecvf.com/content/WACV2024/papers/Li_Steering_Prototypes_With_Prompt-Tuning_for_Rehearsal-Free_Continual_Learning_WACV_2024_paper.pdf)] [[Code](https://github.com/LzVv123456/Contrastive-Prototypical-Prompt)]
+<!-- - `CPP` **Steering Prototypes with Prompt-tuning for Rehearsal-free Continual Learning.** WACV 2024.  
+[[Paper](https://openaccess.thecvf.com/content/WACV2024/papers/Li_Steering_Prototypes_With_Prompt-Tuning_for_Rehearsal-Free_Continual_Learning_WACV_2024_paper.pdf)] [[Code](https://github.com/LzVv123456/Contrastive-Prototypical-Prompt)] -->
 - `CPrompt` **Consistent Prompting for Rehearsal-Free Continual Learning.** CVPR 2024.  
 [[Paper](https://openaccess.thecvf.com/content/CVPR2024/papers/Gao_Consistent_Prompting_for_Rehearsal-Free_Continual_Learning_CVPR_2024_paper.pdf)] [[Code](https://github.com/Zhanxin-Gao/CPrompt)]
 - `DIKI` **Mind the Interference: Retaining Pre-trained Knowledge in Parameter Efficient Continual Learning of Vision-Language Models.** ECCV 2024.  
@@ -197,10 +198,10 @@ Table 2. Test-time prompt tuning methods on OOD data.
 [[Paper](https://arxiv.org/pdf/2403.11549)] [[Code](https://github.com/JiazuoYu/MoE-Adapters4CL)]
 -  **Semantically-Shifted Incremental Adapter-Tuning is A Continual ViTransformer.** CVPR 2024.  
 [[Paper](https://openaccess.thecvf.com/content/CVPR2024/papers/Tan_Semantically-Shifted_Incremental_Adapter-Tuning_is_A_Continual_ViTransformer_CVPR_2024_paper.pdf)]
-- `RAIL` **Advancing Cross-domain Discriminability in Continual Learning of Vison-Language Models.** Arxiv 2024.  
+<!--- `RAIL` **Advancing Cross-domain Discriminability in Continual Learning of Vison-Language Models.** Arxiv 2024.  
 [[Paper](https://arxiv.org/pdf/2406.18868)]
 - `SEMA` **Self-Expansion of Pre-trained Models with Mixture of Adapters for Continual Learning.** Arxiv 2024.  
-[[Paper](https://arxiv.org/pdf/2403.18886)]
+[[Paper](https://arxiv.org/pdf/2403.18886)] -->
 
 
 
