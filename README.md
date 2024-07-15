@@ -196,7 +196,7 @@ Table 2. Test-time prompt tuning methods on OOD data.
 ### Adapter Learning
 - `MoE-Adapters4CL` **Boosting Continual Learning of Vision-Language Models via Mixture-of-Experts Adapters.** CVPR 2024.  
 [[Paper](https://arxiv.org/pdf/2403.11549)] [[Code](https://github.com/JiazuoYu/MoE-Adapters4CL)]
--  **Semantically-Shifted Incremental Adapter-Tuning is A Continual ViTransformer.** CVPR 2024.  
+- `SSIAT` **Semantically-Shifted Incremental Adapter-Tuning is A Continual ViTransformer.** CVPR 2024.  
 [[Paper](https://openaccess.thecvf.com/content/CVPR2024/papers/Tan_Semantically-Shifted_Incremental_Adapter-Tuning_is_A_Continual_ViTransformer_CVPR_2024_paper.pdf)]
 <!--- `RAIL` **Advancing Cross-domain Discriminability in Continual Learning of Vison-Language Models.** Arxiv 2024.  
 [[Paper](https://arxiv.org/pdf/2406.18868)]
