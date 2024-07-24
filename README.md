@@ -11,6 +11,12 @@ A curated list of prompt/adapter learning methods for vision-language models.
     - [Video Understanding](#video-understanding)
     - [Continual Learning](#continual-learning)
 
+## 💡Tips:
+
+- If you know that some papers published in top conferences (CVPR, ICCV, ECCV, ICML, NeurlPS, ICLR) or journals (TPAMI, IJCV, TIP) have not been included in this list, please feel free to contact me at any time, either by sending an email (zhengli97[at]qq.com) or submitting an issue.
+- We would appreciate more people joining us in maintaining this list of papers.  
+- Note that papers without open-source code are not recommended.
+
 ## Keywords
 
 ![](https://img.shields.io/badge/Text-green) Use text-based learnable prompts/adapters.
@@ -29,25 +35,23 @@ A curated list of prompt/adapter learning methods for vision-language models.
 
 Base-to-Novel Generalization. (ViT-B/16 CLIP)
 
-| Methods    | Pub      | Base   | Novel  | HM (main)     | Code |
-| ---        | ---      | ---    | ---    | :---:  | ---  |
-| CLIP       | ICML 21  | 69.34  | 74.22  | 71.70  | [Link](https://github.com/openai/CLIP)  |
-| CoOp       | IJCV 22  | 82.69  | 63.22  | 71.66  | [Link](https://github.com/kaiyangzhou/coop)  |
-| CoCoOp     | CVPR 22  | 80.47  | 71.69  | 75.83  | [Link](https://github.com/KaiyangZhou/CoOp)  |
-| ProDA      | CVPR 22  | 81.56  | 72.30  | 76.65  | [Link](https://github.com/bbbdylan/proda) |
-| RPO        | ICCV 23  | 81.13  | 75.00  | 77.78  | [Link](https://github.com/mlvlab/RPO)  |
-| MaPLe      | CVPR 23  | 82.28  | 75.14  | 78.55  | [Link](https://github.com/muzairkhattak/multimodal-prompt-learning)  |
-| MetaPrompt | TIP 24   | 83.65  | 75.48  | 79.09  | ---  |
-| DePT       | CVPR 24  | 83.62  | 75.04  | 79.10  | [Link](https://github.com/Koorye/DePT) |
-| LASP       | CVPR 23  | 83.18  | 76.11  | 79.48  | ---  |
-| TCP        | CVPR 24  | 84.13  | 75.36  | 79.51  | [Link](https://github.com/htyao89/Textual-based_Class-aware_prompt_tuning) |
-| MMA        | CVPR 24  | 83.20  | 76.80  | 79.87  | [Link](https://github.com/ZjjConan/Multi-Modal-Adapter) |
-| PromptSRC  | ICCV 23  | 84.26  | 76.10  | 79.97  | [Link](https://github.com/muzairkhattak/PromptSRC)  |
-| HPT        | AAAI 24  | 84.32  | 76.86  | 80.23  | [Link](https://github.com/vill-lab/2024-aaai-hpt)  |
-| CoPrompt   | ICLR 24  | 84.00  | 77.23  | 80.48  | [Link](https://github.com/shuvenduroy/coprompt)  |
-| PromptKD   | CVPR 24  | 86.96  | 80.73  | 83.73  | [Link](https://github.com/zhengli97/promptkd)  |
+| Methods    | Pub      | Base   | Novel  | HM (main) | Code |
+| ---        | ---      | ---    | ---    | :---:     | ---  |
+| CLIP       | ICML 21  | 69.34  | 74.22  | 71.70     | [Link](https://github.com/openai/CLIP)  |
+| CoOp       | IJCV 22  | 82.69  | 63.22  | 71.66     | [Link](https://github.com/kaiyangzhou/coop)  |
+| CoCoOp     | CVPR 22  | 80.47  | 71.69  | 75.83     | [Link](https://github.com/KaiyangZhou/CoOp)  |
+| ProDA      | CVPR 22  | 81.56  | 72.30  | 76.65     | [Link](https://github.com/bbbdylan/proda) |
+| RPO        | ICCV 23  | 81.13  | 75.00  | 77.78     | [Link](https://github.com/mlvlab/RPO)  |
+| MaPLe      | CVPR 23  | 82.28  | 75.14  | 78.55     | [Link](https://github.com/muzairkhattak/multimodal-prompt-learning)  |
+| DePT       | CVPR 24  | 83.62  | 75.04  | 79.10     | [Link](https://github.com/Koorye/DePT) |
+| TCP        | CVPR 24  | 84.13  | 75.36  | 79.51     | [Link](https://github.com/htyao89/Textual-based_Class-aware_prompt_tuning) |
+| MMA        | CVPR 24  | 83.20  | 76.80  | 79.87     | [Link](https://github.com/ZjjConan/Multi-Modal-Adapter) |
+| PromptSRC  | ICCV 23  | 84.26  | 76.10  | 79.97     | [Link](https://github.com/muzairkhattak/PromptSRC)  |
+| HPT        | AAAI 24  | 84.32  | 76.86  | 80.23     | [Link](https://github.com/vill-lab/2024-aaai-hpt)  |
+| CoPrompt   | ICLR 24  | 84.00  | 77.23  | 80.48     | [Link](https://github.com/shuvenduroy/coprompt)|
+| PromptKD   | CVPR 24  | 86.96  | 80.73  | 83.73     | [Link](https://github.com/zhengli97/promptkd)|
 
-Table 1. Average results on 11 datasets.
+Table 1. Average results on 11 datasets. (Only works with open-source code will be listed.)
 
 
 <!-- | Methods    | Pub      | Base   | Novel  | HM      | Code |
@@ -83,17 +87,17 @@ Table 2. Experimental results on ImageNet-1K. -->
 [[Paper](https://arxiv.org/abs/2210.03117)] [[Code](https://github.com/muzairkhattak/multimodal-prompt-learning)] ![](https://img.shields.io/badge/Image--Text-blue)
 - `KgCoOp` **Visual-Language Prompt Tuningx with Knowledge-guided Context Optimization.** CVPR 2023.  
 [[Paper](https://arxiv.org/abs/2303.13283)] [[Code](https://github.com/htyao89/KgCoOp)] ![](https://img.shields.io/badge/Text-green)
-- `LASP` **LASP: Text-to-Text Optimization for Language-Aware Soft Prompting of Vision & Language Models** CVPR 2023.  
+- `LASP` **LASP: Text-to-Text Optimization for Language-Aware Soft Prompting of Vision & Language Models.** CVPR 2023.  
 [[Paper](https://arxiv.org/abs/2210.01115)] ![](https://img.shields.io/badge/Text-green)
-- `DAM-VP` **Diversity-Aware Meta Visual Prompting** CVPR 2023.  
+- `DAM-VP` **Diversity-Aware Meta Visual Prompting.** CVPR 2023.  
 [[Paper](https://arxiv.org/abs/2303.08138)]  [[Code](https://github.com/shikiw/DAM-VP)] ![](https://img.shields.io/badge/Image-orange) ![](https://img.shields.io/badge/Text-green)
-- `TaskRes` **Task Residual for Tuning Vision-Language Models** CVPR 2023.  
+- `TaskRes` **Task Residual for Tuning Vision-Language Models.** CVPR 2023.  
 [[Paper](https://arxiv.org/abs/2211.10277)] [[Code](https://github.com/geekyutao/TaskRes)]
 - `RPO` **Read-only Prompt Optimization for Vision-Language Few-shot Learning.** ICCV 2023.  
 [[Paper](https://arxiv.org/abs/2308.14960)] [[Code](https://github.com/mlvlab/rpo)] ![](https://img.shields.io/badge/Image--Text-blue)
 - `KAPT` **Knowledge-Aware Prompt Tuning for Generalizable Vision-Language Models.** ICCV 2023.  
 [[Paper](https://openaccess.thecvf.com/content/ICCV2023/papers/Kan_Knowledge-Aware_Prompt_Tuning_for_Generalizable_Vision-Language_Models_ICCV_2023_paper.pdf)] ![](https://img.shields.io/badge/Text-green) <!-- Text-based ViT-B/32 -->
-- `CuPL` **What does a platypus look like? Generating customized prompts for zero-shot image classification**. ICCV 2023.   
+- `CuPL` **What does a platypus look like? Generating customized prompts for zero-shot image classification.** ICCV 2023.   
 [[Paper](https://arxiv.org/pdf/2209.03320)] [[Code](https://github.com/sarahpratt/CuPL)] ![](https://img.shields.io/badge/Text-green)    
 - `ProGrad` **Prompt-aligned Gradient for Prompt Tuning.** ICCV 2023.  
 [[Paper](https://arxiv.org/abs/2205.14865)][[Code](https://github.com/BeierZhu/Prompt-align)] ![](https://img.shields.io/badge/Text-green) <!-- ViT-B/32 -->
@@ -101,7 +105,7 @@ Table 2. Experimental results on ImageNet-1K. -->
 [[Paper](https://openaccess.thecvf.com//content/ICCV2023/papers/Khattak_Self-regulating_Prompts_Foundational_Model_Adaptation_without_Forgetting_ICCV_2023_paper.pdf)] [[Code](https://github.com/muzairkhattak/PromptSRC)] ![](https://img.shields.io/badge/Image--Text-blue)
 - `DeFo` **Learning to Decompose Visual Features with Latent Textual Prompts.** ICLR 2023.  
 [[Paper](https://arxiv.org/abs/2210.04287)] ![](https://img.shields.io/badge/Text-green)
-- `POMP` **Prompt Pre-Training with Twenty-Thousand Classes for Open-Vocabulary Visual Recognition** NeurIPS 2023.  
+- `POMP` **Prompt Pre-Training with Twenty-Thousand Classes for Open-Vocabulary Visual Recognition.** NeurIPS 2023.  
 [[Paper](https://arxiv.org/abs/2304.04704)] [[Code](https://github.com/amazon-science/prompt-pretraining)]  ![](https://img.shields.io/badge/Text-green)
 
 #### 2024
@@ -111,7 +115,7 @@ Table 2. Experimental results on ImageNet-1K. -->
 [[Paper](https://arxiv.org/abs/2312.10376)] [[Code](https://github.com/tommy-xq/SA2VP)] ![](https://img.shields.io/badge/Image-orange)
 - `HPT` **Learning Hierarchical Prompt with Structured Linguistic Knowledge for Vision-Language Models.** AAAI 2024.  
 [[Paper](https://arxiv.org/abs/2312.06323)] [[Code](https://github.com/Vill-Lab/2024-AAAI-HPT)] ![](https://img.shields.io/badge/Image--Text-blue)
-- `LaViP` **LaViP: Language-Grounded Visual Prompts**. AAAI 2024.  
+- `LaViP` **LaViP: Language-Grounded Visual Prompts.** AAAI 2024.  
 [[Paper](https://arxiv.org/abs/2312.10945)] ![](https://img.shields.io/badge/Image-orange) <!-- 没imagenet结果 -->
 - `CoPrompt` **Consistency-guided Prompt Learning for Vision-Language Models.** ICLR 2024.  
 [[Paper](https://arxiv.org/abs/2306.01195)] [[Code](https://github.com/ShuvenduRoy/CoPrompt)] ![](https://img.shields.io/badge/Image--Text-blue) 
@@ -119,14 +123,18 @@ Table 2. Experimental results on ImageNet-1K. -->
 [[Paper](https://arxiv.org/abs/2401.02418)] [[Code](https://github.com/muzairkhattak/ProText)] ![](https://img.shields.io/badge/Text-green) 
 - `PromptKD` **Unsupervised Prompt Distillation for Vision Language Models.** CVPR 2024.  
 [[Paper](https://arxiv.org/abs/2403.02781)] [[Code](https://github.com/zhengli97/PromptKD)] ![](https://img.shields.io/badge/Image--Text-blue) 
-- `DePT` **DePT: Decoupled Prompt Tuning**. CVPR 2024.  
+- `DePT` **DePT: Decoupled Prompt Tuning.** CVPR 2024.  
 [[Paper](https://arxiv.org/abs/2309.07439)] [[Code](https://github.com/Koorye/DePT)] ![](https://img.shields.io/badge/Text-green)
-- `ArGue` **ArGue: Attribute-Guided Prompt Tuning for Vision-Language Models**. CVPR 2024.  
+- `ArGue` **ArGue: Attribute-Guided Prompt Tuning for Vision-Language Models.** CVPR 2024.  
 [[Paper](https://arxiv.org/abs/2311.16494)] ![](https://img.shields.io/badge/Text-green)
-- `TCP` **TCP:Textual-based Class-aware Prompt tuning for Visual-Language Model**. CVPR 2024.  
+- `TCP` **TCP:Textual-based Class-aware Prompt tuning for Visual-Language Model.** CVPR 2024.  
 [[Paper](https://arxiv.org/abs/2311.18231)] [[Code](https://github.com/htyao89/Textual-based_Class-aware_prompt_tuning)] ![](https://img.shields.io/badge/Text-green)
-- `MMA` **MMA: Multi-Modal Adapter for Vision-Language Models**. CVPR 2024.  
+- `MMA` **MMA: Multi-Modal Adapter for Vision-Language Models.** CVPR 2024.  
 [[Paper](https://openaccess.thecvf.com/content/CVPR2024/papers/Yang_MMA_Multi-Modal_Adapter_for_Vision-Language_Models_CVPR_2024_paper.pdf)] [[Code](https://github.com/ZjjConan/Multi-Modal-Adapter)] ![](https://img.shields.io/badge/Image--Text-blue)
+- `KDPL` **Improving Zero-shot Generalization of Learned Prompts via Unsupervised Knowledge Distillation.** ECCV 2024.   
+[[Paper](https://arxiv.org/abs/2407.03056)] [[Code](https://github.com/miccunifi/KDPL)] ![](https://img.shields.io/badge/Image--Text-blue)
+- `CoCoLe` **Conceptual Codebook Learning for Vision-Language Models.** ECCV 2024.   
+[[Paper](https://arxiv.org/abs/2407.02350)] ![](https://img.shields.io/badge/Image--Text-blue)  
 
 
 ## General Test-time Prompt Learning
@@ -187,9 +195,7 @@ Table 2. Test-time prompt tuning methods on OOD data.
 - `DualPrompt` **DualPrompt: Complementary Prompting for Rehearsal-free Continual Learning.** ECCV 2022.  
 [[Paper](https://arxiv.org/pdf/2204.04799)] [[Code](https://github.com/google-research/l2p)]
 - `EvoPrompt` **Evolving Parameterized Prompt Memory for Continual Learning.** AAAI 2024.  
-[[Paper](https://ojs.aaai.org/index.php/AAAI/article/view/29231)]
-<!-- - `CPP` **Steering Prototypes with Prompt-tuning for Rehearsal-free Continual Learning.** WACV 2024.  
-[[Paper](https://openaccess.thecvf.com/content/WACV2024/papers/Li_Steering_Prototypes_With_Prompt-Tuning_for_Rehearsal-Free_Continual_Learning_WACV_2024_paper.pdf)] [[Code](https://github.com/LzVv123456/Contrastive-Prototypical-Prompt)] -->
+[[Paper](https://ojs.aaai.org/index.php/AAAI/article/view/29231)]  
 - `CPrompt` **Consistent Prompting for Rehearsal-Free Continual Learning.** CVPR 2024.  
 [[Paper](https://openaccess.thecvf.com/content/CVPR2024/papers/Gao_Consistent_Prompting_for_Rehearsal-Free_Continual_Learning_CVPR_2024_paper.pdf)] [[Code](https://github.com/Zhanxin-Gao/CPrompt)]
 - `DIKI` **Mind the Interference: Retaining Pre-trained Knowledge in Parameter Efficient Continual Learning of Vision-Language Models.** ECCV 2024.  
@@ -204,11 +210,4 @@ Table 2. Test-time prompt tuning methods on OOD data.
 [[Paper](https://arxiv.org/pdf/2406.18868)]
 - `SEMA` **Self-Expansion of Pre-trained Models with Mixture of Adapters for Continual Learning.** Arxiv 2024.  
 [[Paper](https://arxiv.org/pdf/2403.18886)] -->
-
-
-
-
-
-
-
 
