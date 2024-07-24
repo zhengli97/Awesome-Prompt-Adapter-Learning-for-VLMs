@@ -41,6 +41,7 @@ Base-to-Novel Generalization. (ViT-B/16 CLIP)
 | CoOp       | IJCV 22  | 82.69  | 63.22  | 71.66     | [Link](https://github.com/kaiyangzhou/coop)  |
 | CoCoOp     | CVPR 22  | 80.47  | 71.69  | 75.83     | [Link](https://github.com/KaiyangZhou/CoOp)  |
 | ProDA      | CVPR 22  | 81.56  | 72.30  | 76.65     | [Link](https://github.com/bbbdylan/proda) |
+| KgCoOp     | CVPR 23  | 80.73  | 73.60  | 77.00     | [Link](https://github.com/htyao89/KgCoOp) |
 | RPO        | ICCV 23  | 81.13  | 75.00  | 77.78     | [Link](https://github.com/mlvlab/RPO)  |
 | MaPLe      | CVPR 23  | 82.28  | 75.14  | 78.55     | [Link](https://github.com/muzairkhattak/multimodal-prompt-learning)  |
 | DePT       | CVPR 24  | 83.62  | 75.04  | 79.10     | [Link](https://github.com/Koorye/DePT) |
