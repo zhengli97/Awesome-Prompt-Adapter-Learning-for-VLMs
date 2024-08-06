@@ -177,6 +177,14 @@ Table 2. Test-time prompt tuning methods on OOD data.
 
 - `CLIP-Adapter` **CLIP-Adapter: Better Vision-Language Models with Feature Adapters.** Arxiv 2021.  
 [[Paper](https://arxiv.org/pdf/2110.04544)] [[Code](https://github.com/gaopengcuhk/CLIP-Adapter)] ![](https://img.shields.io/badge/Image--Text-blue)  
+- `Tip-Adapter` **Tip-Adapter: Training-free Adaption of CLIP for Few-shot Classification.** ECCV 2022.   
+[[Paper](https://arxiv.org/pdf/2207.09519)] [[Code](https://github.com/gaopengcuhk/Tip-Adapter)]
+- `APE` **Not All Features Matter: Enhancing Few-shot CLIP with Adaptive Prior Refinement.** ICCV 2023.   
+[[Paper](https://arxiv.org/pdf/2304.01195)] [[Code](https://github.com/yangyangyang127/APE)]
+- `CaFo`**Prompt, Generate, then Cache: Cascade of Foundation Models makes Strong Few-shot Learners.** CVPR 2023.   
+[[Paper](https://arxiv.org/pdf/2303.02151)] [[Code](https://github.com/ZrrSkywalker/CaFo)]   
+- `Meta-Adapter` **Meta-Adapter: An Online Few-shot Learner for Vision-Language Model.** NeurIPS 2023.   
+[[Paper](https://arxiv.org/pdf/2311.03774)] [[Code](https://github.com/ArsenalCheng/Meta-Adapter)]
 
 ## Video Understanding
 
