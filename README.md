@@ -1,5 +1,5 @@
 # Awesome-Prompt-Adapter-Learning-for-VLMs
-A curated list of prompt/adapter learning methods for vision-language models.
+A curated list of prompt/adapter learning methods for vision-language models (e.g., CLIP).
 
 # Table of Contents
 
@@ -37,39 +37,22 @@ Base-to-Novel Generalization. (ViT-B/16 CLIP)
 
 | Methods    | Pub      | Base   | Novel  | HM (main) | Code |
 | ---        | ---      | ---    | ---    | :---:     | ---  |
-| CLIP       | ICML 21  | 69.34  | 74.22  | 71.70     | [Link](https://github.com/openai/CLIP)  |
-| CoOp       | IJCV 22  | 82.69  | 63.22  | 71.66     | [Link](https://github.com/kaiyangzhou/coop)  |
-| CoCoOp     | CVPR 22  | 80.47  | 71.69  | 75.83     | [Link](https://github.com/KaiyangZhou/CoOp)  |
-| ProDA      | CVPR 22  | 81.56  | 72.30  | 76.65     | [Link](https://github.com/bbbdylan/proda) |
-| KgCoOp     | CVPR 23  | 80.73  | 73.60  | 77.00     | [Link](https://github.com/htyao89/KgCoOp) |
-| RPO        | ICCV 23  | 81.13  | 75.00  | 77.78     | [Link](https://github.com/mlvlab/RPO)  |
-| MaPLe      | CVPR 23  | 82.28  | 75.14  | 78.55     | [Link](https://github.com/muzairkhattak/multimodal-prompt-learning)  |
-| DePT       | CVPR 24  | 83.62  | 75.04  | 79.10     | [Link](https://github.com/Koorye/DePT) |
-| TCP        | CVPR 24  | 84.13  | 75.36  | 79.51     | [Link](https://github.com/htyao89/Textual-based_Class-aware_prompt_tuning) |
-| MMA        | CVPR 24  | 83.20  | 76.80  | 79.87     | [Link](https://github.com/ZjjConan/Multi-Modal-Adapter) |
-| PromptSRC  | ICCV 23  | 84.26  | 76.10  | 79.97     | [Link](https://github.com/muzairkhattak/PromptSRC)  |
-| HPT        | AAAI 24  | 84.32  | 76.86  | 80.23     | [Link](https://github.com/vill-lab/2024-aaai-hpt)  |
-| CoPrompt   | ICLR 24  | 84.00  | 77.23  | 80.48     | [Link](https://github.com/shuvenduroy/coprompt)|
-| PromptKD   | CVPR 24  | 86.96  | 80.73  | 83.73     | [Link](https://github.com/zhengli97/promptkd)|
+| [CLIP](https://arxiv.org/abs/2103.00020)       | ICML 21  | 69.34  | 74.22  | 71.70     | [Link](https://github.com/openai/CLIP)  |
+| [CoOp](https://arxiv.org/abs/2203.05557)       | IJCV 22  | 82.69  | 63.22  | 71.66     | [Link](https://github.com/kaiyangzhou/coop)  |
+| [CoCoOp](https://arxiv.org/abs/2203.05557)     | CVPR 22  | 80.47  | 71.69  | 75.83     | [Link](https://github.com/KaiyangZhou/CoOp)  |
+| [ProDA](https://arxiv.org/abs/2205.03340)      | CVPR 22  | 81.56  | 72.30  | 76.65     | [Link](https://github.com/bbbdylan/proda) |
+| [KgCoOp](https://arxiv.org/abs/2303.13283)     | CVPR 23  | 80.73  | 73.60  | 77.00     | [Link](https://github.com/htyao89/KgCoOp) |
+| [RPO](https://arxiv.org/abs/2308.14960)        | ICCV 23  | 81.13  | 75.00  | 77.78     | [Link](https://github.com/mlvlab/RPO)  |
+| [MaPLe](https://arxiv.org/abs/2210.03117)      | CVPR 23  | 82.28  | 75.14  | 78.55     | [Link](https://github.com/muzairkhattak/multimodal-prompt-learning)  |
+| [DePT](https://arxiv.org/abs/2309.07439)       | CVPR 24  | 83.62  | 75.04  | 79.10     | [Link](https://github.com/Koorye/DePT) |
+| [TCP](https://arxiv.org/abs/2311.18231)        | CVPR 24  | 84.13  | 75.36  | 79.51     | [Link](https://github.com/htyao89/Textual-based_Class-aware_prompt_tuning) |
+| [MMA](https://openaccess.thecvf.com/content/CVPR2024/papers/Yang_MMA_Multi-Modal_Adapter_for_Vision-Language_Models_CVPR_2024_paper.pdf)        | CVPR 24  | 83.20  | 76.80  | 79.87     | [Link](https://github.com/ZjjConan/Multi-Modal-Adapter) |
+| [PromptSRC](https://arxiv.org/abs/2307.06948)  | ICCV 23  | 84.26  | 76.10  | 79.97     | [Link](https://github.com/muzairkhattak/PromptSRC)  |
+| [HPT](https://arxiv.org/abs/2312.06323)        | AAAI 24  | 84.32  | 76.86  | 80.23     | [Link](https://github.com/vill-lab/2024-aaai-hpt)  |
+| [CoPrompt](https://arxiv.org/abs/2311.18231)   | ICLR 24  | 84.00  | 77.23  | 80.48     | [Link](https://github.com/shuvenduroy/coprompt)|
+| [PromptKD](https://arxiv.org/abs/2403.02781)   | CVPR 24  | 86.96  | 80.73  | 83.73     | [Link](https://github.com/zhengli97/promptkd)|
 
 Table 1. Average results on 11 datasets. (Only works with open-source code will be listed.)
-
-
-<!-- | Methods    | Pub      | Base   | Novel  | HM      | Code |
-| ---        | ---      | ---    | ---    | ---     | ---  | 
-| CLIP       |          | 72.43  | 68.14  | 70.22   | [Link]()  |
-| CoOp       | IJCV 22  | 76.47  | 67.88  |         | [Link]()  |
-| CoCoOp     | CVPR 22  | 75.98  | 70.43  | 73.10   | [Link]()  |
-| MaPLe      |          | 76.66  | 70.54  | 73.47   | [Link]()  |
-| RPO        | ICCV 23  |        |        | 74.00   | ---  |
-| PromptSRC  | ICCV 23  | 77.60  | 70.73  | 74.01   | [Link]()  |
-| MetaPrompt |          |        |        | 74.02   | ---  |
-| HPT        |          |        |        | 74.17   | ---  |
-| CoPrompt   | ICLR 24  | 77.67  | 71.27  | 74.33   | ---  |
-| CE         |          |        |        | 75.49   | ---  |
-| PromptKD   | CVPR 24  | 80.83  | 74.66  | 77.62   | [Link]()  |
-
-Table 2. Experimental results on ImageNet-1K. -->
 
 ### Paper List
 
@@ -103,7 +86,7 @@ Table 2. Experimental results on ImageNet-1K. -->
 - `ProGrad` **Prompt-aligned Gradient for Prompt Tuning.** ICCV 2023.  
 [[Paper](https://arxiv.org/abs/2205.14865)][[Code](https://github.com/BeierZhu/Prompt-align)] ![](https://img.shields.io/badge/Text-green) <!-- ViT-B/32 -->
 - `PromptSRC` **Self-regulating Prompts: Foundational Model Adaptation without Forgetting.** ICCV 2023.  
-[[Paper](https://openaccess.thecvf.com//content/ICCV2023/papers/Khattak_Self-regulating_Prompts_Foundational_Model_Adaptation_without_Forgetting_ICCV_2023_paper.pdf)] [[Code](https://github.com/muzairkhattak/PromptSRC)] ![](https://img.shields.io/badge/Image--Text-blue)
+[[Paper](https://arxiv.org/abs/2307.06948)] [[Code](https://github.com/muzairkhattak/PromptSRC)] ![](https://img.shields.io/badge/Image--Text-blue)
 - `DeFo` **Learning to Decompose Visual Features with Latent Textual Prompts.** ICLR 2023.  
 [[Paper](https://arxiv.org/abs/2210.04287)] ![](https://img.shields.io/badge/Text-green)
 - `PLOT` **PLOT: Prompt Learning with Optimal Transport for Vision-Language Models.** ICLR 2023.   
@@ -167,26 +150,26 @@ Table 2. Test-time prompt tuning methods on OOD data.
 - `PrompAlign` **Align Your Prompts: Test-Time Prompting with Distribution Alignment for Zero-Shot Generalization.** NeurIPS 2023.  
 [[Paper](https://arxiv.org/abs/2311.01459)] [[Code](https://github.com/jameelhassan/PromptAlign)]
 - `TPS` **Just Shift It: Test-Time Prototype Shifting for Zero-Shot Generalization with Vision-Language Models.** Arxiv 2024.  
-[[Paper](https://arxiv.org/pdf/2403.12952v1.pdf)] [[Code](https://github.com/elaine-sui/TPS)]
+[[Paper](https://arxiv.org/abs/2403.12952)] [[Code](https://github.com/elaine-sui/TPS)]
 - `RLCF` **Test-time Adaptation with CLIP reward for zero-shot generalization in Vision-Language Models.** ICLR 2024.  
 [[Paper](https://openreview.net/forum?id=kIP0duasBb)] [[Code](https://github.com/mzhaoshuai/RLCF)]
 - `InTTA` **Invariant Test-Time Adaptation for Vision-Language Model Generalization.** Arxiv 2024.  
-[[Paper](https://arxiv.org/pdf/2403.00376.pdf)] [[Code](https://github.com/MaHuanAAA/InTTA)]
+[[Paper](https://arxiv.org/abs/2403.00376)] [[Code](https://github.com/MaHuanAAA/InTTA)]
 
 ## General Adapter Learning
 
 ### Paper List
 
 - `CLIP-Adapter` **CLIP-Adapter: Better Vision-Language Models with Feature Adapters.** Arxiv 2021.  
-[[Paper](https://arxiv.org/pdf/2110.04544)] [[Code](https://github.com/gaopengcuhk/CLIP-Adapter)] ![](https://img.shields.io/badge/Image--Text-blue)  
+[[Paper](https://arxiv.org/abs/2110.04544)] [[Code](https://github.com/gaopengcuhk/CLIP-Adapter)] ![](https://img.shields.io/badge/Image--Text-blue)  
 - `Tip-Adapter` **Tip-Adapter: Training-free Adaption of CLIP for Few-shot Classification.** ECCV 2022.   
-[[Paper](https://arxiv.org/pdf/2207.09519)] [[Code](https://github.com/gaopengcuhk/Tip-Adapter)]
+[[Paper](https://arxiv.org/abs/2207.09519)] [[Code](https://github.com/gaopengcuhk/Tip-Adapter)]
 - `APE` **Not All Features Matter: Enhancing Few-shot CLIP with Adaptive Prior Refinement.** ICCV 2023.   
-[[Paper](https://arxiv.org/pdf/2304.01195)] [[Code](https://github.com/yangyangyang127/APE)]
+[[Paper](https://arxiv.org/abs/2304.01195)] [[Code](https://github.com/yangyangyang127/APE)]
 - `CaFo`**Prompt, Generate, then Cache: Cascade of Foundation Models makes Strong Few-shot Learners.** CVPR 2023.   
-[[Paper](https://arxiv.org/pdf/2303.02151)] [[Code](https://github.com/ZrrSkywalker/CaFo)]   
+[[Paper](https://arxiv.org/abs/2303.02151)] [[Code](https://github.com/ZrrSkywalker/CaFo)]   
 - `Meta-Adapter` **Meta-Adapter: An Online Few-shot Learner for Vision-Language Model.** NeurIPS 2023.   
-[[Paper](https://arxiv.org/pdf/2311.03774)] [[Code](https://github.com/ArsenalCheng/Meta-Adapter)]
+[[Paper](https://arxiv.org/abs/2311.03774)] [[Code](https://github.com/ArsenalCheng/Meta-Adapter)]
 
 ## Video Understanding
 
