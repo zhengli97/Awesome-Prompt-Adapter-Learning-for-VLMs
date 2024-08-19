@@ -19,11 +19,11 @@ A curated list of prompt/adapter learning methods for vision-language models (e.
 
 ## Keywords
 
-![](https://img.shields.io/badge/Text-green) Use text-based learnable prompts/adapters.
+![](https://img.shields.io/badge/Text-green) Use text-based prompts/adapters.
 
-![](https://img.shields.io/badge/Image-orange) Use image-based learnable prompts/adapters.
+![](https://img.shields.io/badge/Image-orange) Use image-based prompts/adapters.
 
-![](https://img.shields.io/badge/Image--Text-blue) Use text- and image-based learnable prompts/adapters.
+![](https://img.shields.io/badge/Image--Text-blue) Use text- and image-based prompts/adapters.
 
 ## Surveys
 
@@ -65,6 +65,8 @@ Table 1. Average results on 11 datasets. (Only works with open-source code will 
 [[Paper](https://arxiv.org/abs/2205.03340)] [[Code](https://github.com/bbbdylan/proda)] ![](https://img.shields.io/badge/Text-green)
 - `VPT` **Visual Prompt Tuning**. ECCV 2022.  
 [[Paper](https://arxiv.org/abs/2203.12119)] [[Code](https://github.com/kmnp/vpt)] ![](https://img.shields.io/badge/Image-orange)
+- `VP` **Exploring Visual Prompts for Adapting Large-Scale Models.** Arxiv 2022.   
+[[Paper](https://arxiv.org/abs/2203.17274)] [[Code](https://github.com/hjbahng/visual_prompting)] ![](https://img.shields.io/badge/Image-orange)    
 
 #### 2023
 - `MaPLe` **MaPLe: Multi-modal Prompt Learning.** CVPR 2023.  
@@ -122,6 +124,19 @@ Table 1. Average results on 11 datasets. (Only works with open-source code will 
 - `CoCoLe` **Conceptual Codebook Learning for Vision-Language Models.** ECCV 2024.   
 [[Paper](https://arxiv.org/abs/2407.02350)] ![](https://img.shields.io/badge/Image--Text-blue)  
 
+
+## Another form of Prompt
+
+### Paper List
+
+- `CPT` **CPT: Colorful Prompt Tuning for pre-trained vision-language models** Arxiv 2021.   
+[[Paper](https://arxiv.org/abs/2109.11797)] [[Code](https://github.com/thunlp/CPT)] ![](https://img.shields.io/badge/Image--Text-blue)   
+- **Visual Prompting via Image Inpainting**. NeurIPS 2022.   
+[[Paper](https://arxiv.org/abs/2209.00647)] ![](https://img.shields.io/badge/Image-orange)  
+- `RedCycle` **What does CLIP know about a red circle? Visual prompt engineering for VLMs.** ICCV 2023.   
+[[Paper](http://arxiv.org/abs/2304.06712)]] ![](https://img.shields.io/badge/Image-orange)   
+- `FGVP` **Fine-Grained Visual Prompting.** NeurIPS 2023.   
+[[Paper](https://arxiv.org/abs/2306.04356)] [[Code](https://github.com/ylingfeng/FGVP)] ![](https://img.shields.io/badge/Image-orange)   
 
 ## General Test-time Prompt Learning
 
@@ -208,6 +223,11 @@ Table 2. Test-time prompt tuning methods on OOD data.
 ## Others
 
 - `LoCoOp` **LoCoOp: Few-Shot Out-of-Distribution Detection via Prompt Learning.** NeurIPS 2023.   
-[[Paper](https://proceedings.neurips.cc/paper_files/paper/2023/file/f0606b882692637835e8ac981089eccd-Paper-Conference.pdf)] [[Code](https://github.com/AtsuMiyai/LoCoOp)]   
+[[Paper](https://proceedings.neurips.cc/paper_files/paper/2023/file/f0606b882692637835e8ac981089eccd-Paper-Conference.pdf)] [[Code](https://github.com/AtsuMiyai/LoCoOp)]
+- `` **Visual Prompting via Image Inpainting.** NeurIPS 2022. 
+[[Paper](https://arxiv.org/abs/2209.00647)] 
+
+
+
 
 
