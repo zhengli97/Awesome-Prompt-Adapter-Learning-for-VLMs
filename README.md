@@ -110,7 +110,7 @@ Table 1. Average results on 11 datasets. (Only works with open-source code will 
 - `PromptKD` **Unsupervised Prompt Distillation for Vision Language Models.** CVPR 2024.  
 [[Paper](https://arxiv.org/abs/2403.02781)] [[Code](https://github.com/zhengli97/PromptKD)] ![](https://img.shields.io/badge/Image--Text-blue) 
 - `DePT` **DePT: Decoupled Prompt Tuning.** CVPR 2024.  
-[[Paper](https://arxiv.org/abs/2309.07439)] [[Code](https://github.com/Koorye/DePT)] ![](https://img.shields.io/badge/Text-green)
+[[Paper](https://arxiv.org/abs/2309.07439)] [[Code](https://github.com/Koorye/DePT)] ![](https://img.shields.io/badge/Image--Text-blue) 
 - `ArGue` **ArGue: Attribute-Guided Prompt Tuning for Vision-Language Models.** CVPR 2024.  
 [[Paper](https://arxiv.org/abs/2311.16494)] ![](https://img.shields.io/badge/Text-green)
 - `TCP` **TCP:Textual-based Class-aware Prompt tuning for Visual-Language Model.** CVPR 2024.  
