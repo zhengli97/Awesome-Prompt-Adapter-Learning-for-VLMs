@@ -137,6 +137,8 @@ Table 1. Average results on 11 datasets. (Only works with open-source code will 
 [[Paper](http://arxiv.org/abs/2304.06712)]] ![](https://img.shields.io/badge/Image-orange)   
 - `FGVP` **Fine-Grained Visual Prompting.** NeurIPS 2023.   
 [[Paper](https://arxiv.org/abs/2306.04356)] [[Code](https://github.com/ylingfeng/FGVP)] ![](https://img.shields.io/badge/Image-orange)   
+- `Alpha-CLIP` **Alpha-CLIP: A CLIP Model Focusing on Wherever You Want.** CVPR 2024.   
+[[Paper](https://arxiv.org/abs/2312.03818)] [[Code](https://github.com/SunzeY/AlphaCLIP)] ![](https://img.shields.io/badge/Image-orange)    
 
 ## General Test-time Prompt Learning
 
