@@ -76,9 +76,9 @@ Table 1. Average results on 11 datasets. (Only works with open-source code will 
 - `LASP` **LASP: Text-to-Text Optimization for Language-Aware Soft Prompting of Vision & Language Models.** CVPR 2023.  
 [[Paper](https://arxiv.org/abs/2210.01115)] ![](https://img.shields.io/badge/Text-green)
 - `DAM-VP` **Diversity-Aware Meta Visual Prompting.** CVPR 2023.  
-[[Paper](https://arxiv.org/abs/2303.08138)]  [[Code](https://github.com/shikiw/DAM-VP)] ![](https://img.shields.io/badge/Image-orange) ![](https://img.shields.io/badge/Text-green)
+[[Paper](https://arxiv.org/abs/2303.08138)]  [[Code](https://github.com/shikiw/DAM-VP)] ![](https://img.shields.io/badge/Image-orange) 
 - `TaskRes` **Task Residual for Tuning Vision-Language Models.** CVPR 2023.  
-[[Paper](https://arxiv.org/abs/2211.10277)] [[Code](https://github.com/geekyutao/TaskRes)]
+[[Paper](https://arxiv.org/abs/2211.10277)] [[Code](https://github.com/geekyutao/TaskRes)] ![](https://img.shields.io/badge/Text-green)   
 - `RPO` **Read-only Prompt Optimization for Vision-Language Few-shot Learning.** ICCV 2023.  
 [[Paper](https://arxiv.org/abs/2308.14960)] [[Code](https://github.com/mlvlab/rpo)] ![](https://img.shields.io/badge/Image--Text-blue)
 - `KAPT` **Knowledge-Aware Prompt Tuning for Generalizable Vision-Language Models.** ICCV 2023.  
