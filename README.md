@@ -132,7 +132,9 @@ Table 1. Average results on 11 datasets. (Only works with open-source code will 
 - `CPT` **CPT: Colorful Prompt Tuning for pre-trained vision-language models** Arxiv 2021.   
 [[Paper](https://arxiv.org/abs/2109.11797)] [[Code](https://github.com/thunlp/CPT)] ![](https://img.shields.io/badge/Image--Text-blue)   
 - **Visual Prompting via Image Inpainting**. NeurIPS 2022.   
-[[Paper](https://arxiv.org/abs/2209.00647)] ![](https://img.shields.io/badge/Image-orange)  
+[[Paper](https://arxiv.org/abs/2209.00647)] ![](https://img.shields.io/badge/Image-orange)
+- `LoGoPrompt` **LoGoPrompt: Synthetic Text Images Can Be Good Visual Prompts for Vision-Language Models.** ICCV 2023.    
+[[Paper](https://arxiv.org/abs/2309.01155)] ![](https://img.shields.io/badge/Image-orange)    
 - `RedCycle` **What does CLIP know about a red circle? Visual prompt engineering for VLMs.** ICCV 2023.   
 [[Paper](http://arxiv.org/abs/2304.06712)]] ![](https://img.shields.io/badge/Image-orange)   
 - `FGVP` **Fine-Grained Visual Prompting.** NeurIPS 2023.   
