@@ -135,12 +135,19 @@ Table 1. Average results on 11 datasets. (Only works with open-source code will 
 [[Paper](https://arxiv.org/abs/2209.00647)] ![](https://img.shields.io/badge/Image-orange)
 - `LoGoPrompt` **LoGoPrompt: Synthetic Text Images Can Be Good Visual Prompts for Vision-Language Models.** ICCV 2023.    
 [[Paper](https://arxiv.org/abs/2309.01155)] ![](https://img.shields.io/badge/Image-orange)    
-- `RedCycle` **What does CLIP know about a red circle? Visual prompt engineering for VLMs.** ICCV 2023.   
+- `RedCircle` **What does CLIP know about a red circle? Visual prompt engineering for VLMs.** ICCV 2023.   
 [[Paper](http://arxiv.org/abs/2304.06712)]] ![](https://img.shields.io/badge/Image-orange)   
 - `FGVP` **Fine-Grained Visual Prompting.** NeurIPS 2023.   
-[[Paper](https://arxiv.org/abs/2306.04356)] [[Code](https://github.com/ylingfeng/FGVP)] ![](https://img.shields.io/badge/Image-orange)   
+[[Paper](https://arxiv.org/abs/2306.04356)] [[Code](https://github.com/ylingfeng/FGVP)] ![](https://img.shields.io/badge/Image-orange)
+- `SoM` **Set-of-mark prompting unleashes extraordinary visual grounding in gpt-4v.** Arxiv 2023.  
+[[Paper](https://arxiv.org/abs/2310.11441)] [[Code](https://github.com/microsoft/SoM)] ![](https://img.shields.io/badge/Image-orange)
 - `Alpha-CLIP` **Alpha-CLIP: A CLIP Model Focusing on Wherever You Want.** CVPR 2024.   
-[[Paper](https://arxiv.org/abs/2312.03818)] [[Code](https://github.com/SunzeY/AlphaCLIP)] ![](https://img.shields.io/badge/Image-orange)    
+[[Paper](https://arxiv.org/abs/2312.03818)] [[Code](https://github.com/SunzeY/AlphaCLIP)] ![](https://img.shields.io/badge/Image-orange)
+- `ViP-LLaVA` **Making Large Multimodal Models Understand Arbitrary Visual Prompts.** CVPR 2024.   
+[[Paper](https://arxiv.org/abs/2312.00784)] [[Code](https://github.com/WisconsinAIVision/ViP-LLaVA)] ![](https://img.shields.io/badge/Image-orange)
+- `SSC` **Segment, Select, Correct: A Framework for Weakly-Supervised Referring Segmentation.** ECCV 2024.   
+[[Paper](https://arxiv.org/abs/2310.13479)] [[Code](https://github.com/fgirbal/segment-select-correct)] ![](https://img.shields.io/badge/Image-orange)
+
 
 ## General Test-time Prompt Learning
 
