@@ -130,9 +130,15 @@ Table 1. Average results on 11 datasets. (Only works with open-source code will 
 ### Paper List
 
 - `CPT` **CPT: Colorful Prompt Tuning for pre-trained vision-language models** Arxiv 2021.   
-[[Paper](https://arxiv.org/abs/2109.11797)] [[Code](https://github.com/thunlp/CPT)] ![](https://img.shields.io/badge/Image--Text-blue)   
+[[Paper](https://arxiv.org/abs/2109.11797)] [[Code](https://github.com/thunlp/CPT)] ![](https://img.shields.io/badge/Image--Text-blue)
+- `DetPro` **Learning to Prompt for Open-Vocabulary Object Detection with Vision-Language Model.** CVPR 2022.   
+[[Paper](https://arxiv.org/abs/2203.14940)] [[Code](https://github.com/dyabel/detpro)] ![](https://img.shields.io/badge/Text-green)
+- `PromptDet` **PromptDet: Towards Open-vocabulary Detection using Uncurated Images.** ECCV 2022.   
+[[Paper](https://arxiv.org/abs/2203.16513)] [[Code](https://github.com/fcjian/PromptDet)] ![](https://img.shields.io/badge/Text-green)
 - **Visual Prompting via Image Inpainting**. NeurIPS 2022.   
 [[Paper](https://arxiv.org/abs/2209.00647)] ![](https://img.shields.io/badge/Image-orange)
+- `OVSeg` **Open-Vocabulary Semantic Segmentation with Mask-adapted CLIP.** CVPR 2023.   
+[[Paper](https://arxiv.org/abs/2210.04150)] [[Code](https://github.com/facebookresearch/ov-seg)] ![](https://img.shields.io/badge/Image-orange)
 - `LoGoPrompt` **LoGoPrompt: Synthetic Text Images Can Be Good Visual Prompts for Vision-Language Models.** ICCV 2023.    
 [[Paper](https://arxiv.org/abs/2309.01155)] ![](https://img.shields.io/badge/Image-orange)    
 - `RedCircle` **What does CLIP know about a red circle? Visual prompt engineering for VLMs.** ICCV 2023.   
