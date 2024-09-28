@@ -37,20 +37,21 @@ Base-to-Novel Generalization. (ViT-B/16 CLIP)
 
 | Methods    | Pub      | Base   | Novel  | HM (main) | Code |
 | ---        | ---      | ---    | ---    | :---:     | ---  |
-| [CLIP](https://arxiv.org/abs/2103.00020)       | ICML 21  | 69.34  | 74.22  | 71.70     | [Link](https://github.com/openai/CLIP)  |
-| [CoOp](https://arxiv.org/abs/2203.05557)       | IJCV 22  | 82.69  | 63.22  | 71.66     | [Link](https://github.com/kaiyangzhou/coop)  |
-| [CoCoOp](https://arxiv.org/abs/2203.05557)     | CVPR 22  | 80.47  | 71.69  | 75.83     | [Link](https://github.com/KaiyangZhou/CoOp)  |
-| [ProDA](https://arxiv.org/abs/2205.03340)      | CVPR 22  | 81.56  | 72.30  | 76.65     | [Link](https://github.com/bbbdylan/proda) |
-| [KgCoOp](https://arxiv.org/abs/2303.13283)     | CVPR 23  | 80.73  | 73.60  | 77.00     | [Link](https://github.com/htyao89/KgCoOp) |
-| [RPO](https://arxiv.org/abs/2308.14960)        | ICCV 23  | 81.13  | 75.00  | 77.78     | [Link](https://github.com/mlvlab/RPO)  |
-| [MaPLe](https://arxiv.org/abs/2210.03117)      | CVPR 23  | 82.28  | 75.14  | 78.55     | [Link](https://github.com/muzairkhattak/multimodal-prompt-learning)  |
-| [DePT](https://arxiv.org/abs/2309.07439)       | CVPR 24  | 83.62  | 75.04  | 79.10     | [Link](https://github.com/Koorye/DePT) |
-| [TCP](https://arxiv.org/abs/2311.18231)        | CVPR 24  | 84.13  | 75.36  | 79.51     | [Link](https://github.com/htyao89/Textual-based_Class-aware_prompt_tuning) |
+| [CLIP](https://arxiv.org/abs/2103.00020)       | ICML 21  | 69.34  | 74.22  | 71.70   | [Link](https://github.com/openai/CLIP)  |
+| [CoOp](https://arxiv.org/abs/2203.05557)       | IJCV 22  | 82.69  | 63.22  | 71.66   | [Link](https://github.com/kaiyangzhou/coop)  |
+| [CoCoOp](https://arxiv.org/abs/2203.05557)     | CVPR 22  | 80.47  | 71.69  | 75.83   | [Link](https://github.com/KaiyangZhou/CoOp)  |
+| [ProDA](https://arxiv.org/abs/2205.03340)      | CVPR 22  | 81.56  | 72.30  | 76.65   | [Link](https://github.com/bbbdylan/proda) |
+| [KgCoOp](https://arxiv.org/abs/2303.13283)     | CVPR 23  | 80.73  | 73.60  | 77.00   | [Link](https://github.com/htyao89/KgCoOp) |
+| [RPO](https://arxiv.org/abs/2308.14960)        | ICCV 23  | 81.13  | 75.00  | 77.78   | [Link](https://github.com/mlvlab/RPO)  |
+| [MaPLe](https://arxiv.org/abs/2210.03117)      | CVPR 23  | 82.28  | 75.14  | 78.55   | [Link](https://github.com/muzairkhattak/multimodal-prompt-learning)  |
+| [DePT](https://arxiv.org/abs/2309.07439)       | CVPR 24  | 83.62  | 75.04  | 79.10   | [Link](https://github.com/Koorye/DePT) |
+| [TCP](https://arxiv.org/abs/2311.18231)        | CVPR 24  | 84.13  | 75.36  | 79.51   | [Link](https://github.com/htyao89/Textual-based_Class-aware_prompt_tuning) |
 | [MMA](https://openaccess.thecvf.com/content/CVPR2024/papers/Yang_MMA_Multi-Modal_Adapter_for_Vision-Language_Models_CVPR_2024_paper.pdf)        | CVPR 24  | 83.20  | 76.80  | 79.87     | [Link](https://github.com/ZjjConan/Multi-Modal-Adapter) |
-| [PromptSRC](https://arxiv.org/abs/2307.06948)  | ICCV 23  | 84.26  | 76.10  | 79.97     | [Link](https://github.com/muzairkhattak/PromptSRC)  |
-| [HPT](https://arxiv.org/abs/2312.06323)        | AAAI 24  | 84.32  | 76.86  | 80.23     | [Link](https://github.com/vill-lab/2024-aaai-hpt)  |
-| [CoPrompt](https://arxiv.org/abs/2311.18231)   | ICLR 24  | 84.00  | 77.23  | 80.48     | [Link](https://github.com/shuvenduroy/coprompt)|
-| [PromptKD](https://arxiv.org/abs/2403.02781)   | CVPR 24  | 86.96  | 80.73  | 83.73     | [Link](https://github.com/zhengli97/promptkd)|
+| [PromptSRC](https://arxiv.org/abs/2307.06948)  | ICCV 23  | 84.26  | 76.10  | 79.97  | [Link](https://github.com/muzairkhattak/PromptSRC) |
+| [HPT](https://arxiv.org/abs/2312.06323)        | AAAI 24  | 84.32  | 76.86  | 80.23  | [Link](https://github.com/vill-lab/2024-aaai-hpt) |
+| [CoPrompt](https://arxiv.org/abs/2311.18231)   | ICLR 24  | 84.00  | 77.23  | 80.48  | [Link](https://github.com/shuvenduroy/coprompt) |
+| [CasPL](https://arxiv.org/abs/2409.17805)      | ECCV 24  | 86.11  | 79.54  | 82.69  | [Link](https://github.com/megvii-research/CasPL) |
+| [PromptKD](https://arxiv.org/abs/2403.02781)   | CVPR 24  | 86.96  | 80.73  | 83.73  | [Link](https://github.com/zhengli97/promptkd) |
 
 Table 1. Average results on 11 datasets. (Only works with open-source code will be listed.)
 
@@ -122,7 +123,9 @@ Table 1. Average results on 11 datasets. (Only works with open-source code will 
 - `KDPL` **Improving Zero-shot Generalization of Learned Prompts via Unsupervised Knowledge Distillation.** ECCV 2024.   
 [[Paper](https://arxiv.org/abs/2407.03056)] [[Code](https://github.com/miccunifi/KDPL)] ![](https://img.shields.io/badge/Image--Text-blue)
 - `CoCoLe` **Conceptual Codebook Learning for Vision-Language Models.** ECCV 2024.   
-[[Paper](https://arxiv.org/abs/2407.02350)] ![](https://img.shields.io/badge/Image--Text-blue)  
+[[Paper](https://arxiv.org/abs/2407.02350)] ![](https://img.shields.io/badge/Image--Text-blue)
+- `CasPL` **Cascade Prompt Learning for Vision-Language Model Adaptation** ECCV 2024.   
+[[Paper](https://arxiv.org/abs/2409.17805)] [[Code](https://github.com/megvii-research/CasPL)] ![](https://img.shields.io/badge/Image--Text-blue)  
 
 
 ## Another form of Prompt
