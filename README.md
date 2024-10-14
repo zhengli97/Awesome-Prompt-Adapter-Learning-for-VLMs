@@ -100,6 +100,8 @@ Table 1. Average results on 11 datasets. (Only works with open-source code will 
 #### 2024
 - `MetaPrompt` **Learning Domain Invariant Prompt for Vision-Language Models.** TIP 2024.  
 [[Paper](https://arxiv.org/abs/2212.04196)] ![](https://img.shields.io/badge/Image--Text-blue)
+- `ProVP` **Progressive Visual Prompt Learning with Contrastive Feature Re-formation.** IJCV 2024.  
+[[Paper](https://arxiv.org/abs/2304.08386)] [[Code](https://github.com/MCG-NJU/ProVP)] ![](https://img.shields.io/badge/Image-orange)    
 - `SA2VP` **SA2VP: Spatially Aligned-and-Adapted Visual Prompt.** AAAI 2024.  
 [[Paper](https://arxiv.org/abs/2312.10376)] [[Code](https://github.com/tommy-xq/SA2VP)] ![](https://img.shields.io/badge/Image-orange)
 - `HPT` **Learning Hierarchical Prompt with Structured Linguistic Knowledge for Vision-Language Models.** AAAI 2024.  
@@ -110,13 +112,13 @@ Table 1. Average results on 11 datasets. (Only works with open-source code will 
 [[Paper](https://arxiv.org/abs/2306.01195)] [[Code](https://github.com/ShuvenduRoy/CoPrompt)] ![](https://img.shields.io/badge/Image--Text-blue) 
 - `ProText` **Learning to Prompt with Text Only Supervision for Vision-Language Models.** arxiv 24.  
 [[Paper](https://arxiv.org/abs/2401.02418)] [[Code](https://github.com/muzairkhattak/ProText)] ![](https://img.shields.io/badge/Text-green) 
-- `PromptKD` **Unsupervised Prompt Distillation for Vision Language Models.** CVPR 2024.  
+- `PromptKD` **PromptKD: Unsupervised Prompt Distillation for Vision Language Models.** CVPR 2024.  
 [[Paper](https://arxiv.org/abs/2403.02781)] [[Code](https://github.com/zhengli97/PromptKD)] ![](https://img.shields.io/badge/Image--Text-blue) 
 - `DePT` **DePT: Decoupled Prompt Tuning.** CVPR 2024.  
 [[Paper](https://arxiv.org/abs/2309.07439)] [[Code](https://github.com/Koorye/DePT)] ![](https://img.shields.io/badge/Image--Text-blue) 
 - `ArGue` **ArGue: Attribute-Guided Prompt Tuning for Vision-Language Models.** CVPR 2024.  
 [[Paper](https://arxiv.org/abs/2311.16494)] ![](https://img.shields.io/badge/Text-green)
-- `TCP` **TCP:Textual-based Class-aware Prompt tuning for Visual-Language Model.** CVPR 2024.  
+- `TCP` **TCP: Textual-based Class-aware Prompt tuning for Visual-Language Model.** CVPR 2024.  
 [[Paper](https://arxiv.org/abs/2311.18231)] [[Code](https://github.com/htyao89/Textual-based_Class-aware_prompt_tuning)] ![](https://img.shields.io/badge/Text-green)
 - `MMA` **MMA: Multi-Modal Adapter for Vision-Language Models.** CVPR 2024.  
 [[Paper](https://openaccess.thecvf.com/content/CVPR2024/papers/Yang_MMA_Multi-Modal_Adapter_for_Vision-Language_Models_CVPR_2024_paper.pdf)] [[Code](https://github.com/ZjjConan/Multi-Modal-Adapter)] ![](https://img.shields.io/badge/Image--Text-blue)
@@ -126,7 +128,8 @@ Table 1. Average results on 11 datasets. (Only works with open-source code will 
 [[Paper](https://arxiv.org/abs/2407.02350)] ![](https://img.shields.io/badge/Image--Text-blue)
 - `CasPL` **Cascade Prompt Learning for Vision-Language Model Adaptation** ECCV 2024.   
 [[Paper](https://arxiv.org/abs/2409.17805)] [[Code](https://github.com/megvii-research/CasPL)] ![](https://img.shields.io/badge/Image--Text-blue)  
-
+- `AWT` **AWT: Transferring Vision-Language Models via Augmentation, Weighting, and Transportation.** NeurIPS 2024.  
+[[Paper](https://arxiv.org/abs/2407.04603)] [[Code](https://github.com/MCG-NJU/AWT)] ![](https://img.shields.io/badge/Image--Text-blue)   
 
 ## Another form of Prompt
 
@@ -172,7 +175,6 @@ Table 1. Average results on 11 datasets. (Only works with open-source code will 
 | TPS+CoOp    | Arxiv 24   | 73.73    | 60.49 | 66.84 | 77.44 | 49.08 | 65.52 | [Link](https://github.com/elaine-sui/TPS) | 
 | RLCF        | ICLR 24    | 73.23    | 65.45 | 69.77 | 83.35 | 54.74 | 68.33 | [Link](https://github.com/mzhaoshuai/RLCF) |
 | RLCF+CoOp   | ICLR 24    | 76.05    | 69.74 | 70.62 | 84.51 | 56.49 | 70.34 | [Link](https://github.com/mzhaoshuai/RLCF) | 
-
 
 Table 2. Test-time prompt tuning methods on OOD data.
 
