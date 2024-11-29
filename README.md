@@ -127,7 +127,9 @@ Table 1. Average results on 11 datasets. (Only works with open-source code will 
 - `CoCoLe` **Conceptual Codebook Learning for Vision-Language Models.** ECCV 2024.   
 [[Paper](https://arxiv.org/abs/2407.02350)] ![](https://img.shields.io/badge/Image--Text-blue)
 - `CasPL` **Cascade Prompt Learning for Vision-Language Model Adaptation** ECCV 2024.   
-[[Paper](https://arxiv.org/abs/2409.17805)] [[Code](https://github.com/megvii-research/CasPL)] ![](https://img.shields.io/badge/Image--Text-blue)  
+[[Paper](https://arxiv.org/abs/2409.17805)] [[Code](https://github.com/megvii-research/CasPL)] ![](https://img.shields.io/badge/Image--Text-blue)
+- `GalLoP` **GalLoP: Learning Global and Local Prompts for Vision-Language Models.** ECCV 2024.   
+[[Paper](https://arxiv.org/abs/2407.01400)] ![](https://img.shields.io/badge/Image--Text-blue)   
 - `AWT` **AWT: Transferring Vision-Language Models via Augmentation, Weighting, and Transportation.** NeurIPS 2024.  
 [[Paper](https://arxiv.org/abs/2407.04603)] [[Code](https://github.com/MCG-NJU/AWT)] ![](https://img.shields.io/badge/Image--Text-blue)   
 
