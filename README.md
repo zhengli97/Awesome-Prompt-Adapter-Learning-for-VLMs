@@ -101,7 +101,9 @@ Table 1. Average results on 11 datasets. (Only works with open-source code will 
 - `MetaPrompt` **Learning Domain Invariant Prompt for Vision-Language Models.** TIP 2024.  
 [[Paper](https://arxiv.org/abs/2212.04196)] ![](https://img.shields.io/badge/Image--Text-blue)
 - `ProVP` **Progressive Visual Prompt Learning with Contrastive Feature Re-formation.** IJCV 2024.  
-[[Paper](https://arxiv.org/abs/2304.08386)] [[Code](https://github.com/MCG-NJU/ProVP)] ![](https://img.shields.io/badge/Image-orange)    
+[[Paper](https://arxiv.org/abs/2304.08386)] [[Code](https://github.com/MCG-NJU/ProVP)] ![](https://img.shields.io/badge/Image-orange)
+- `CoPL` **CoPL: Contextual Prompt Learning for Vision-Language Understanding.**  AAAI 2024.    
+[[Paper](https://arxiv.org/abs/2307.00910)] ![](https://img.shields.io/badge/Text-green)    
 - `SA2VP` **SA2VP: Spatially Aligned-and-Adapted Visual Prompt.** AAAI 2024.  
 [[Paper](https://arxiv.org/abs/2312.10376)] [[Code](https://github.com/tommy-xq/SA2VP)] ![](https://img.shields.io/badge/Image-orange)
 - `HPT` **Learning Hierarchical Prompt with Structured Linguistic Knowledge for Vision-Language Models.** AAAI 2024.  
