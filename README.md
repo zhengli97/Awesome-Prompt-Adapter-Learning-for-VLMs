@@ -41,6 +41,7 @@ Base-to-Novel Generalization. (ViT-B/16 CLIP)
 | [CoOp](https://arxiv.org/abs/2203.05557)       | IJCV 22  | 82.69  | 63.22  | 71.66   | [Link](https://github.com/kaiyangzhou/coop)  |
 | [CoCoOp](https://arxiv.org/abs/2203.05557)     | CVPR 22  | 80.47  | 71.69  | 75.83   | [Link](https://github.com/KaiyangZhou/CoOp)  |
 | [ProDA](https://arxiv.org/abs/2205.03340)      | CVPR 22  | 81.56  | 72.30  | 76.65   | [Link](https://github.com/bbbdylan/proda) |
+| [TextRefiner](https://arxiv.org/abs/2412.08176)| AAAI 25  | 79.74  | 74.32  | 76.94   | [Link](https://github.com/xjjxmu/TextRefiner) |
 | [KgCoOp](https://arxiv.org/abs/2303.13283)     | CVPR 23  | 80.73  | 73.60  | 77.00   | [Link](https://github.com/htyao89/KgCoOp) |
 | [RPO](https://arxiv.org/abs/2308.14960)        | ICCV 23  | 81.13  | 75.00  | 77.78   | [Link](https://github.com/mlvlab/RPO)  |
 | [MaPLe](https://arxiv.org/abs/2210.03117)      | CVPR 23  | 82.28  | 75.14  | 78.55   | [Link](https://github.com/muzairkhattak/multimodal-prompt-learning)  |
