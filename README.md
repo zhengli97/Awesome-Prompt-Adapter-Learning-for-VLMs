@@ -204,6 +204,9 @@ Table 2. Test-time prompt tuning methods on OOD data.
 [[Paper](https://openreview.net/forum?id=kIP0duasBb)] [[Code](https://github.com/mzhaoshuai/RLCF)]
 - `InTTA` **Invariant Test-Time Adaptation for Vision-Language Model Generalization.** Arxiv 2024.  
 [[Paper](https://arxiv.org/abs/2403.00376)] [[Code](https://github.com/MaHuanAAA/InTTA)]
+- `TDA` **Efficient Test-Time Adaptation of Vision-Language Models.** CVPR 2024.   
+[[Paper](https://arxiv.org/abs/2403.18293)] [[Code](https://github.com/kdiAAA/TDA?tab=readme-ov-file)]   
+
 
 ## General Adapter Learning
 
