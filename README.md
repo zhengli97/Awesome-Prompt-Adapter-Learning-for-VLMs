@@ -39,7 +39,7 @@ A curated list of prompt/adapter learning methods for vision-language models (e.
 - `LiT` **LiT: Zero-Shot Transfer with Locked-image text Tuning.** CVPR 2022.   
   [[Paper](https://arxiv.org/abs/2111.07991)] [[Code](https://github.com/google-research/vision_transformer#lit-models)] 
 - `SigLIP` **Sigmoid Loss for Language Image Pre-Training.** ICCV 2023.  
-  [[Papaer](https://arxiv.org/abs/2303.15343)] [[Code](https://github.com/google-research/big_vision)]  
+  [[Paper](https://arxiv.org/abs/2303.15343)] [[Code](https://github.com/google-research/big_vision)]  
 - `AlphaCLIP` **Alpha-CLIP: A CLIP Model Focusing on Wherever You Want.** CVPR 2024.  
   [[Paper](https://arxiv.org/abs/2312.03818)] [[Code](https://github.com/SunzeY/AlphaCLIP)] 
 - `LongCLIP` **Long-CLIP: Unlocking the Long-Text Capability of CLIP** ECCV 2024.  
