@@ -37,7 +37,9 @@ A curated list of prompt/adapter learning methods for vision-language models (e.
 - `ALIGN` **Scaling Up Visual and Vision-Language Representation Learning With Noisy Text Supervision.** ICML 2021.  
   [[Paper](https://arxiv.org/abs/2102.05918)]
 - `LiT` **LiT: Zero-Shot Transfer with Locked-image text Tuning.** CVPR 2022.   
-  [[Paper](https://arxiv.org/abs/2111.07991)] [[Code](https://github.com/google-research/vision_transformer#lit-models)] 
+  [[Paper](https://arxiv.org/abs/2111.07991)] [[Code](https://github.com/google-research/vision_transformer#lit-models)]
+- `EVA-CLIP` **EVA-CLIP: Improved Training Techniques for CLIP at Scale.** 2023.   
+  [[Paper](https://arxiv.org/abs/2303.15389)] [[Code](https://github.com/baaivision/EVA)]   
 - `SigLIP` **Sigmoid Loss for Language Image Pre-Training.** ICCV 2023.  
   [[Paper](https://arxiv.org/abs/2303.15343)] [[Code](https://github.com/google-research/big_vision)]  
 - `AlphaCLIP` **Alpha-CLIP: A CLIP Model Focusing on Wherever You Want.** CVPR 2024.  
@@ -128,8 +130,6 @@ Table 1. Average results on 11 datasets. (Only works with open-source code will 
 [[Paper](https://arxiv.org/abs/2312.10945)] ![](https://img.shields.io/badge/Image-orange) <!-- 没imagenet结果 -->
 - `CoPrompt` **Consistency-guided Prompt Learning for Vision-Language Models.** ICLR 2024.  
 [[Paper](https://arxiv.org/abs/2306.01195)] [[Code](https://github.com/ShuvenduRoy/CoPrompt)] ![](https://img.shields.io/badge/Image--Text-blue) 
-- `ProText` **Learning to Prompt with Text Only Supervision for Vision-Language Models.** arxiv 24.  
-[[Paper](https://arxiv.org/abs/2401.02418)] [[Code](https://github.com/muzairkhattak/ProText)] ![](https://img.shields.io/badge/Text-green) 
 - `PromptKD` **PromptKD: Unsupervised Prompt Distillation for Vision Language Models.** CVPR 2024.  
 [[Paper](https://arxiv.org/abs/2403.02781)] [[Code](https://github.com/zhengli97/PromptKD)] ![](https://img.shields.io/badge/Image--Text-blue) 
 - `DePT` **DePT: Decoupled Prompt Tuning.** CVPR 2024.  
@@ -157,7 +157,8 @@ Table 1. Average results on 11 datasets. (Only works with open-source code will 
 #### 2025
 - `TextRefiner` **TextRefiner: Internal Visual Feature as Efficient Refiner for Vision-Language Models Prompt Tuning.** AAAI 2025.     
 [[Paper](https://arxiv.org/abs/2412.08176)] [[Code](https://github.com/xjjxmu/TextRefiner)] ![](https://img.shields.io/badge/Text-green)   
-
+- `ProText` **Learning to Prompt with Text Only Supervision for Vision-Language Models.** AAAI 2025.  
+[[Paper](https://arxiv.org/abs/2401.02418)] [[Code](https://github.com/muzairkhattak/ProText)] ![](https://img.shields.io/badge/Text-green) 
 
 ## Another form of Prompt
 
