@@ -63,11 +63,13 @@ Base-to-Novel Generalization. (ViT-B/16 CLIP)
 | [RPO](https://arxiv.org/abs/2308.14960)        | ICCV 23  | 81.13  | 75.00  | 77.78   | [Link](https://github.com/mlvlab/RPO)  |
 | [MaPLe](https://arxiv.org/abs/2210.03117)      | CVPR 23  | 82.28  | 75.14  | 78.55   | [Link](https://github.com/muzairkhattak/multimodal-prompt-learning)  |
 | [DePT](https://arxiv.org/abs/2309.07439)       | CVPR 24  | 83.62  | 75.04  | 79.10   | [Link](https://github.com/Koorye/DePT) |
+| [QNet](https://openreview.net/forum?id=dKlxDx2SoS) | ICLR 24  | 83.32  | 75.65  | 79.30   | [Link](https://github.com/SHIBOYA/QNet) |  
 | [TCP](https://arxiv.org/abs/2311.18231)        | CVPR 24  | 84.13  | 75.36  | 79.51   | [Link](https://github.com/htyao89/Textual-based_Class-aware_prompt_tuning) |
 | [MMA](https://openaccess.thecvf.com/content/CVPR2024/papers/Yang_MMA_Multi-Modal_Adapter_for_Vision-Language_Models_CVPR_2024_paper.pdf)        | CVPR 24  | 83.20  | 76.80  | 79.87     | [Link](https://github.com/ZjjConan/Multi-Modal-Adapter) |
 | [PromptSRC](https://arxiv.org/abs/2307.06948)  | ICCV 23  | 84.26  | 76.10  | 79.97  | [Link](https://github.com/muzairkhattak/PromptSRC) |
 | [HPT](https://arxiv.org/abs/2312.06323)        | AAAI 24  | 84.32  | 76.86  | 80.23  | [Link](https://github.com/vill-lab/2024-aaai-hpt) |
 | [CoPrompt](https://arxiv.org/abs/2311.18231)   | ICLR 24  | 84.00  | 77.23  | 80.48  | [Link](https://github.com/shuvenduroy/coprompt) |
+| [LLaMP](https://arxiv.org/abs/2312.04076)      | CVPR 24  | 85.16  | 77.71  | 81.27  | [Link](https://github.com/zhaohengz/LLaMP) |
 | [CasPL](https://arxiv.org/abs/2409.17805)      | ECCV 24  | 86.11  | 79.54  | 82.69  | [Link](https://github.com/megvii-research/CasPL) |
 | [PromptKD](https://arxiv.org/abs/2403.02781)   | CVPR 24  | 86.96  | 80.73  | 83.73  | [Link](https://github.com/zhengli97/promptkd) |
 
@@ -140,6 +142,8 @@ Table 1. Average results on 11 datasets. (Only works with open-source code will 
 [[Paper](https://arxiv.org/abs/2311.18231)] [[Code](https://github.com/htyao89/Textual-based_Class-aware_prompt_tuning)] ![](https://img.shields.io/badge/Text-green)
 - `MMA` **MMA: Multi-Modal Adapter for Vision-Language Models.** CVPR 2024.  
 [[Paper](https://openaccess.thecvf.com/content/CVPR2024/papers/Yang_MMA_Multi-Modal_Adapter_for_Vision-Language_Models_CVPR_2024_paper.pdf)] [[Code](https://github.com/ZjjConan/Multi-Modal-Adapter)] ![](https://img.shields.io/badge/Image--Text-blue)
+- `LLaMP` **Large Language Models are Good Prompt Learners for Low-Shot Image Classification.** CVPR 24.   
+[[Paper](https://arxiv.org/abs/2312.04076)] [[Code](https://github.com/zhaohengz/LLaMP)] ![](https://img.shields.io/badge/Image--Text-blue)   
 - `KDPL` **Improving Zero-shot Generalization of Learned Prompts via Unsupervised Knowledge Distillation.** ECCV 2024.   
 [[Paper](https://arxiv.org/abs/2407.03056)] [[Code](https://github.com/miccunifi/KDPL)] ![](https://img.shields.io/badge/Image--Text-blue)
 - `CoCoLe` **Conceptual Codebook Learning for Vision-Language Models.** ECCV 2024.   
@@ -152,7 +156,8 @@ Table 1. Average results on 11 datasets. (Only works with open-source code will 
 [[Paper](https://arxiv.org/abs/2407.04603)] [[Code](https://github.com/MCG-NJU/AWT)] ![](https://img.shields.io/badge/Image--Text-blue)   
 - `ATPrompt` **ATPrompt: Textual Prompt Learning with Embedded Attributes.** arxiv 2024.   
 [[Paper](https://arxiv.org/abs/2412.09442)] [[Code](https://github.com/zhengli97/ATPrompt)] ![](https://img.shields.io/badge/Text-green)
-
+- `QNet` **Prompt Learning with Quaternion Networks.** ICLR 2024.   
+[[Paper](https://openreview.net/forum?id=dKlxDx2SoS)] [[Code](https://github.com/SHIBOYA/QNet)] ![](https://img.shields.io/badge/Image--Text-blue)   
 
 #### 2025
 - `TextRefiner` **TextRefiner: Internal Visual Feature as Efficient Refiner for Vision-Language Models Prompt Tuning.** AAAI 2025.     
