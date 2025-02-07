@@ -230,7 +230,8 @@ Table 2. Test-time prompt tuning methods on OOD data.
 [[Paper](https://arxiv.org/abs/2403.00376)] [[Code](https://github.com/MaHuanAAA/InTTA)]
 - `TDA` **Efficient Test-Time Adaptation of Vision-Language Models.** CVPR 2024.   
 [[Paper](https://arxiv.org/abs/2403.18293)] [[Code](https://github.com/kdiAAA/TDA?tab=readme-ov-file)]   
-
+- `DynaPrompt` **DynaPrompt: Dynamic Test-Time Prompt Tuning.** ICLR 2025.   
+[[Paper](https://openreview.net/forum?id=EFZEdHB3Mp)]
 
 ## General Adapter Learning
 
