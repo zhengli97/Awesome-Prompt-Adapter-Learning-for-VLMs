@@ -17,8 +17,6 @@ A curated list of prompt/adapter learning methods for vision-language models (e.
 - We would appreciate more people joining us in maintaining this list of papers.  
 - Note that papers without open-source code are not recommended.
 
-[<img src="https://api.gitsponsors.com/api/badge/img?id=772418082" height="20">](https://api.gitsponsors.com/api/badge/link?p=bPfDzCdPa54Jd6JFNHNNwgnKp79HqqnafSV+hcDBvDKArNXXA3Ia/IrvN1+Nbg+Q)
-
 ## Keywords
 
 ![](https://img.shields.io/badge/Text-green) Use text-based prompts/adapters.
