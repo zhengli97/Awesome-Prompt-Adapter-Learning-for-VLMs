@@ -157,7 +157,9 @@ Table 1. Average results on 11 datasets. (Only works with open-source code will 
 - `ATPrompt` **ATPrompt: Textual Prompt Learning with Embedded Attributes.** arxiv 2024.   
 [[Paper](https://arxiv.org/abs/2412.09442)] [[Code](https://github.com/zhengli97/ATPrompt)] ![](https://img.shields.io/badge/Text-green)
 - `QNet` **Prompt Learning with Quaternion Networks.** ICLR 2024.   
-[[Paper](https://openreview.net/forum?id=dKlxDx2SoS)] [[Code](https://github.com/SHIBOYA/QNet)] ![](https://img.shields.io/badge/Image--Text-blue)   
+[[Paper](https://openreview.net/forum?id=dKlxDx2SoS)] [[Code](https://github.com/SHIBOYA/QNet)(Empty)] ![](https://img.shields.io/badge/Image--Text-blue)
+- `QMaPLe` **Quantized Prompt for Efficient Generalization of Vision-Language Models.** ECCV 2024.
+[[Paper](https://arxiv.org/abs/2503.08906)] [[Code](https://github.com/beyondhtx/QPrompt)(Empty)]
 
 #### 2025
 - `TextRefiner` **TextRefiner: Internal Visual Feature as Efficient Refiner for Vision-Language Models Prompt Tuning.** AAAI 2025.     
