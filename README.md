@@ -158,14 +158,16 @@ Table 1. Average results on 11 datasets. (Only works with open-source code will 
 [[Paper](https://arxiv.org/abs/2412.09442)] [[Code](https://github.com/zhengli97/ATPrompt)] ![](https://img.shields.io/badge/Text-green)
 - `QNet` **Prompt Learning with Quaternion Networks.** ICLR 2024.   
 [[Paper](https://openreview.net/forum?id=dKlxDx2SoS)] [[Code](https://github.com/SHIBOYA/QNet)(Empty)] ![](https://img.shields.io/badge/Image--Text-blue)
-- `QMaPLe` **Quantized Prompt for Efficient Generalization of Vision-Language Models.** ECCV 2024.
-[[Paper](https://arxiv.org/abs/2503.08906)] [[Code](https://github.com/beyondhtx/QPrompt)(Empty)]
+- `QMaPLe` **Quantized Prompt for Efficient Generalization of Vision-Language Models.** ECCV 2024.   
+[[Paper](https://arxiv.org/abs/2407.10704)] [[Code](https://github.com/beyondhtx/QPrompt)(Empty)]
 
 #### 2025
 - `TextRefiner` **TextRefiner: Internal Visual Feature as Efficient Refiner for Vision-Language Models Prompt Tuning.** AAAI 2025.     
 [[Paper](https://arxiv.org/abs/2412.08176)] [[Code](https://github.com/xjjxmu/TextRefiner)] ![](https://img.shields.io/badge/Text-green)   
 - `ProText` **Learning to Prompt with Text Only Supervision for Vision-Language Models.** AAAI 2025.  
 [[Paper](https://arxiv.org/abs/2401.02418)] [[Code](https://github.com/muzairkhattak/ProText)] ![](https://img.shields.io/badge/Text-green) 
+- `MMRL` **MMRL: Multi-Modal Representation Learning for Vision-Language Models.** CVPR 2025.  
+[[Paper](https://arxiv.org/abs/2503.08497)][[Code](https://github.com/yunncheng/MMRL)] ![](https://img.shields.io/badge/Image--Text-blue)   
 
 ## Another form of Prompt
 
