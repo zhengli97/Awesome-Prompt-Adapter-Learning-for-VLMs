@@ -168,7 +168,7 @@ Table 1. Average results on 11 datasets. (Only works with open-source code will 
 [[Paper](https://arxiv.org/abs/2401.02418)] [[Code](https://github.com/muzairkhattak/ProText)] ![](https://img.shields.io/badge/Text-green) 
 - `MMRL` **MMRL: Multi-Modal Representation Learning for Vision-Language Models.** CVPR 2025.  
 [[Paper](https://arxiv.org/abs/2503.08497)][[Code](https://github.com/yunncheng/MMRL)] ![](https://img.shields.io/badge/Image--Text-blue)
-- `` **DPC: Dual-Prompt Collaboration for Tuning Vision-Language Models.** CVPR 2025.   
+- `DPC` **DPC: Dual-Prompt Collaboration for Tuning Vision-Language Models.** CVPR 2025.   
 [[Paper](https://arxiv.org/abs/2503.13443)] [[Code](https://github.com/JREion/DPC)(Empty)] ![](https://img.shields.io/badge/Text-green)   
 
 ## Another form of Prompt
