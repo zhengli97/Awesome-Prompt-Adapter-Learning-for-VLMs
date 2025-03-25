@@ -299,4 +299,10 @@ Table 2. Test-time prompt tuning methods on OOD data.
 - `PPT` **Parameter-efficient Prompt Learning for 3D Point Cloud Understanding.** ICRA 2024.    
 [[Paper](https://arxiv.org/abs/2402.15823)] [[Code](https://github.com/auniquesun/PPT)]
 - `Point-PRC` **Point-PRC: A Prompt Learning Based Regulation Framework for Generalizable Point Cloud Analysis.** NeurIPS 2024.   
-[[Paper](https://arxiv.org/abs/2410.20406)] [[Code](https://github.com/auniquesun/Point-PRC)]   
+[[Paper](https://arxiv.org/abs/2410.20406)] [[Code](https://github.com/auniquesun/Point-PRC)]
+
+### BioMedical
+- `BiomedCoOp` **BiomedCoOp: Learning to Prompt for Biomedical Vision-Language Models.** CVPR 2025.   
+[[Paper](https://arxiv.org/abs/2411.15232)] [[Code](https://github.com/HealthX-Lab/BiomedCoOp)]   
+
+
