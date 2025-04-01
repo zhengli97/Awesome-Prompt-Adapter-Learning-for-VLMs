@@ -62,9 +62,9 @@ Base-to-Novel Generalization. (ViT-B/16 CLIP)
 | TextRefiner+PromptKD | - | - | 85.22 | 79.64 | **82.33** | - | Plugin |
 | KgCoOp     | [Link](https://arxiv.org/abs/2303.13283) | CVPR 23  | 80.73 | 73.60 | 77.00  | [Link](https://github.com/htyao89/KgCoOp) | - |
 | RPO        | [Link](https://arxiv.org/abs/2308.14960) | ICCV 23  | 81.13 | 75.00 | 77.78  | [Link](https://github.com/mlvlab/RPO)  | -
-| MaPLe      | [Link](https://arxiv.org/abs/2210.03117) | CVPR 23  | 82.28 | 75.14 | 78.55  | [Link](https://github.com/muzairkhattak/multimodal-prompt-learning) | - |
 | DePT       | [Link](https://arxiv.org/abs/2309.07439) | CVPR 24  | 83.80 | 72.89 | 77.97  | [Link](https://github.com/Koorye/DePT) | - |
 | DePT+PromptSRC | - | - | 85.19 | 76.17 | **80.43** | - | Plugin |
+| MaPLe      | [Link](https://arxiv.org/abs/2210.03117) | CVPR 23  | 82.28 | 75.14 | 78.55  | [Link](https://github.com/muzairkhattak/multimodal-prompt-learning) | - |
 | QNet       | [Link](https://openreview.net/forum?id=dKlxDx2SoS) | ICLR 24  | 83.32  | 75.65  | 79.30 | [Link](https://github.com/SHIBOYA/QNet) | - |
 | CasPL      | [Link](https://arxiv.org/abs/2409.17805) | ECCV 24  | 84.78 | 74.49 | 79.30  | [Link](https://github.com/megvii-research/CasPL) | - |
 | CasPL+PromptSRC | - | - | 86.11  | 79.54  | **82.69** | - | Plugin |
