@@ -307,4 +307,8 @@ Table 2. Test-time prompt tuning methods on OOD data.
 - `BiomedCoOp` **BiomedCoOp: Learning to Prompt for Biomedical Vision-Language Models.** CVPR 2025.   
 [[Paper](https://arxiv.org/abs/2411.15232)] [[Code](https://github.com/HealthX-Lab/BiomedCoOp)]   
 
+### Robot
+- `PPL` **Think Small, Act Big: Primitive Prompt Learning for Lifelong Robot Manipulation.** CVPR 2025.   
+[[Paper](https://www.arxiv.org/abs/2504.00420)]
+
 
