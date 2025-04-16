@@ -240,7 +240,9 @@ Table 2. Test-time prompt tuning methods on OOD data.
 - `C-TPT` **C-TPT: Calibrated Test-Time Prompt Tuning for Vision-Language Models via Text Feature Dispersion.** ICLR 2024.   
 [[Paper](https://arxiv.org/abs/2403.14119)] [[Code](https://github.com/hee-suk-yoon/C-TPT)]   
 - `DynaPrompt` **DynaPrompt: Dynamic Test-Time Prompt Tuning.** ICLR 2025.   
-[[Paper](https://openreview.net/forum?id=EFZEdHB3Mp)]
+[[Paper](https://openreview.net/forum?id=EFZEdHB3Mp)]   
+- `R-TPT` **R-TPT: Improving Adversarial Robustness of Vision-Language Models through Test-Time Prompt Tuning.** CVPR 25.   
+[[Paper](https://arxiv.org/abs/2504.11195)] [[Code](https://github.com/TomSheng21/R-TPT)]   
 
 ## General Adapter Learning
 
