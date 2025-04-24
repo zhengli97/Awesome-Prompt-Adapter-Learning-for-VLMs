@@ -113,6 +113,8 @@ Table 1. Average results on 11 datasets. (Only works with open-source code will 
 [[Paper](https://arxiv.org/abs/2205.14865)][[Code](https://github.com/BeierZhu/Prompt-align)] ![](https://img.shields.io/badge/Text-green) <!-- ViT-B/32 -->
 - `PromptSRC` **Self-regulating Prompts: Foundational Model Adaptation without Forgetting.** ICCV 2023.  
 [[Paper](https://arxiv.org/abs/2307.06948)] [[Code](https://github.com/muzairkhattak/PromptSRC)] ![](https://img.shields.io/badge/Image--Text-blue)
+- `LFA` **Black Box Few-Shot Adaptation for Vision-Language models.** ICCV 2023.   
+[[Paper](https://openaccess.thecvf.com/content/ICCV2023/papers/Ouali_Black_Box_Few-Shot_Adaptation_for_Vision-Language_Models_ICCV_2023_paper.pdf)] [[Code](https://github.com/saic-fi/LFA)]   
 - `DeFo` **Learning to Decompose Visual Features with Latent Textual Prompts.** ICLR 2023.  
 [[Paper](https://arxiv.org/abs/2210.04287)] [No Code Found] ![](https://img.shields.io/badge/Text-green)
 - `PLOT` **PLOT: Prompt Learning with Optimal Transport for Vision-Language Models.** ICLR 2023.   
@@ -172,7 +174,7 @@ Table 1. Average results on 11 datasets. (Only works with open-source code will 
 - `MMRL` **MMRL: Multi-Modal Representation Learning for Vision-Language Models.** CVPR 2025.  
 [[Paper](https://arxiv.org/abs/2503.08497)] [[Code](https://github.com/yunncheng/MMRL)] ![](https://img.shields.io/badge/Image--Text-blue)
 - `DPC` **DPC: Dual-Prompt Collaboration for Tuning Vision-Language Models.** CVPR 2025.   
-[[Paper](https://arxiv.org/abs/2503.13443)] [[Code](https://github.com/JREion/DPC)(Empty)] ![](https://img.shields.io/badge/Text-green)   
+[[Paper](https://arxiv.org/abs/2503.13443)] [[Code](https://github.com/JREion/DPC)] ![](https://img.shields.io/badge/Text-green)   
 
 ## Another form of Prompt
 
