@@ -54,30 +54,31 @@ Base-to-Novel Generalization. (ViT-B/16 CLIP)
 
 | Methods    | Paper    | Pub      | Base   | Novel  | HM (main) | Code | Type |
 | :---:      | :---:    | :---:    | ---    | ---    | :---:     | :--: | :--: |
-| CLIP       | [Link](https://arxiv.org/abs/2103.00020) | ICML 21  | 69.34 | 74.22 | 71.70  | [Link](https://github.com/openai/CLIP)  | Model |
-| CoOp       | [Link](https://arxiv.org/abs/2203.05557) | IJCV 22  | 82.69 | 63.22 | 71.66  | [Link](https://github.com/kaiyangzhou/coop)  | - |
-| CoCoOp     | [Link](https://arxiv.org/abs/2203.05557) | CVPR 22  | 80.47 | 71.69 | 75.83  | [Link](https://github.com/KaiyangZhou/CoOp)  | - |
-| DPC        | [Link](https://arxiv.org/abs/2503.13443) | CVPR 25  | 85.15 | 68.84 | 76.13 | [Link](https://github.com/JREion/DPC) | - |
+| CLIP       | [Link](https://arxiv.org/abs/2103.00020) | ICML 21 | 69.34 | 74.22 | 71.70 | [Link](https://github.com/openai/CLIP)  | Model |
+| CoOp       | [Link](https://arxiv.org/abs/2203.05557) | IJCV 22 | 82.69 | 63.22 | 71.66 | [Link](https://github.com/kaiyangzhou/coop)  | - |
+| CoCoOp     | [Link](https://arxiv.org/abs/2203.05557) | CVPR 22 | 80.47 | 71.69 | 75.83 | [Link](https://github.com/KaiyangZhou/CoOp)  | - |
+| DPC        | [Link](https://arxiv.org/abs/2503.13443) | CVPR 25 | 85.15 | 68.84 | 76.13 | [Link](https://github.com/JREion/DPC) | - |
 | DPC+PromptKD | - | - | 87.55 | 80.55 | **83.91** | - | Plugin |
-| ProDA      | [Link](https://arxiv.org/abs/2205.03340) | CVPR 22  | 81.56 | 72.30 | 76.65  | [Link](https://github.com/bbbdylan/proda) | - |
-| TextRefiner | [Link](https://arxiv.org/abs/2412.08176) | AAAI 25 | 79.74 | 74.32 | 76.94  | [Link](https://github.com/xjjxmu/TextRefiner) | - |
+| ProDA       | [Link](https://arxiv.org/abs/2205.03340) | CVPR 22 | 81.56 | 72.30 | 76.65 | [Link](https://github.com/bbbdylan/proda) | - |
+| TextRefiner | [Link](https://arxiv.org/abs/2412.08176) | AAAI 25 | 79.74 | 74.32 | 76.94 | [Link](https://github.com/xjjxmu/TextRefiner) | - |
 | TextRefiner+PromptKD | - | - | 85.22 | 79.64 | **82.33** | - | Plugin |
-| KgCoOp     | [Link](https://arxiv.org/abs/2303.13283) | CVPR 23  | 80.73 | 73.60 | 77.00  | [Link](https://github.com/htyao89/KgCoOp) | - |
-| RPO        | [Link](https://arxiv.org/abs/2308.14960) | ICCV 23  | 81.13 | 75.00 | 77.78  | [Link](https://github.com/mlvlab/RPO)  | -
-| DePT       | [Link](https://arxiv.org/abs/2309.07439) | CVPR 24  | 83.80 | 72.89 | 77.97  | [Link](https://github.com/Koorye/DePT) | - |
+| KgCoOp     | [Link](https://arxiv.org/abs/2303.13283) | CVPR 23 | 80.73 | 73.60 | 77.00 | [Link](https://github.com/htyao89/KgCoOp) | - |
+| RPO        | [Link](https://arxiv.org/abs/2308.14960) | ICCV 23 | 81.13 | 75.00 | 77.78 | [Link](https://github.com/mlvlab/RPO)  | -
+| DePT       | [Link](https://arxiv.org/abs/2309.07439) | CVPR 24 | 83.80 | 72.89 | 77.97 | [Link](https://github.com/Koorye/DePT) | - |
 | DePT+PromptSRC | - | - | 85.19 | 76.17 | **80.43** | - | Plugin |
-| MaPLe      | [Link](https://arxiv.org/abs/2210.03117) | CVPR 23  | 82.28 | 75.14 | 78.55  | [Link](https://github.com/muzairkhattak/multimodal-prompt-learning) | - |
+| MaPLe      | [Link](https://arxiv.org/abs/2210.03117) | CVPR 23 | 82.28 | 75.14 | 78.55 | [Link](https://github.com/muzairkhattak/multimodal-prompt-learning) | - |
 | QNet       | [Link](https://openreview.net/forum?id=dKlxDx2SoS) | ICLR 24  | 83.32  | 75.65  | 79.30 | [Link](https://github.com/SHIBOYA/QNet) | - |
-| CasPL      | [Link](https://arxiv.org/abs/2409.17805) | ECCV 24  | 84.78 | 74.49 | 79.30  | [Link](https://github.com/megvii-research/CasPL) | - |
+| CasPL      | [Link](https://arxiv.org/abs/2409.17805) | ECCV 24 | 84.78 | 74.49 | 79.30 | [Link](https://github.com/megvii-research/CasPL) | - |
 | CasPL+PromptSRC | - | - | 86.11  | 79.54  | **82.69** | - | Plugin |
-| TCP        | [Link](https://arxiv.org/abs/2311.18231) | CVPR 24  | 84.13  | 75.36  | 79.51   | [Link](https://github.com/htyao89/Textual-based_Class-aware_prompt_tuning) | - |
-| MMA        | [Link](https://openaccess.thecvf.com/content/CVPR2024/papers/Yang_MMA_Multi-Modal_Adapter_for_Vision-Language_Models_CVPR_2024_paper.pdf) | CVPR 24  | 83.20  | 76.80  | 79.87     | [Link](https://github.com/ZjjConan/Multi-Modal-Adapter) | - |
-| PromptSRC  | [Link](https://arxiv.org/abs/2307.06948) | ICCV 23  | 84.26  | 76.10  | 79.97  | [Link](https://github.com/muzairkhattak/PromptSRC) | - |
-| HPT        | [Link](https://arxiv.org/abs/2312.06323) | AAAI 24  | 84.32  | 76.86  | 80.23  | [Link](https://github.com/vill-lab/2024-aaai-hpt) | - |
-| CoPrompt   | [Link](https://arxiv.org/abs/2306.01195) | ICLR 24  | 84.00  | 77.23  | 80.48  | [Link](https://github.com/shuvenduroy/coprompt) | - |
-| MMRL       | [Link](https://arxiv.org/abs/2503.08497) | CVPR 25  | 85.68  | 77.16  | 81.20  | [Link](https://github.com/yunncheng/MMRL) | - |
-| LLaMP      | [Link](https://arxiv.org/abs/2312.04076) | CVPR 24  | 85.16  | 77.71  | 81.27  | [Link](https://github.com/zhaohengz/LLaMP) | - |
-| PromptKD   | [Link](https://arxiv.org/abs/2403.02781) | CVPR 24  | 86.96  | 80.73  | 83.73  | [Link](https://github.com/zhengli97/promptkd) | - |
+| TCP        | [Link](https://arxiv.org/abs/2311.18231) | CVPR 24 | 84.13 | 75.36 | 79.51 | [Link](https://github.com/htyao89/Textual-based_Class-aware_prompt_tuning) | - |
+| MMA        | [Link](https://openaccess.thecvf.com/content/CVPR2024/papers/Yang_MMA_Multi-Modal_Adapter_for_Vision-Language_Models_CVPR_2024_paper.pdf) | CVPR 24  | 83.20 | 76.80 | 79.87 | [Link](https://github.com/ZjjConan/Multi-Modal-Adapter) | - |
+| PromptSRC  | [Link](https://arxiv.org/abs/2307.06948) | ICCV 23 | 84.26 | 76.10 | 79.97 | [Link](https://github.com/muzairkhattak/PromptSRC) | - |
+| 2SFS       | [Link](https://arxiv.org/abs/2503.11609) | CVPR 25 | 85.55 | 75.48 | 80.20 | [Link](https://github.com/FarinaMatteo/rethinking_fewshot_vlms) | - |
+| HPT        | [Link](https://arxiv.org/abs/2312.06323) | AAAI 24 | 84.32 | 76.86 | 80.23 | [Link](https://github.com/vill-lab/2024-aaai-hpt) | - |
+| CoPrompt   | [Link](https://arxiv.org/abs/2306.01195) | ICLR 24 | 84.00 | 77.23 | 80.48 | [Link](https://github.com/shuvenduroy/coprompt) | - |
+| MMRL       | [Link](https://arxiv.org/abs/2503.08497) | CVPR 25 | 85.68 | 77.16 | 81.20 | [Link](https://github.com/yunncheng/MMRL) | - |
+| LLaMP      | [Link](https://arxiv.org/abs/2312.04076) | CVPR 24 | 85.16 | 77.71 | 81.27 | [Link](https://github.com/zhaohengz/LLaMP) | - |
+| PromptKD   | [Link](https://arxiv.org/abs/2403.02781) | CVPR 24 | 86.96 | 80.73 | 83.73 | [Link](https://github.com/zhengli97/promptkd) | - |
 
 Table 1. Average results on 11 datasets. (Only works with open-source code will be listed.)
 
