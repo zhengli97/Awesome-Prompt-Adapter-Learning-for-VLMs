@@ -87,10 +87,6 @@ Base-to-Novel Generalization. (ViT-B/16 CLIP)
 
 Table 1. Average results on 11 datasets. (Only works with open-source code will be listed.)
 
-### Video Talks
-
-- 视觉语言模型CLIP的提示学习方法研究, 李政 [[视频地址](https://www.techbeat.net/talk-info?id=915)]
-
 ### Paper List
 
 #### 2022 
