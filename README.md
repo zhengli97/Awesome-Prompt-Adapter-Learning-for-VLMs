@@ -48,7 +48,7 @@ A curated list of prompt/adapter learning methods for vision-language models (e.
 - `AlphaCLIP` **Alpha-CLIP: A CLIP Model Focusing on Wherever You Want.** CVPR 2024.  
   [[Paper](https://arxiv.org/abs/2312.03818)] [[Code](https://github.com/SunzeY/AlphaCLIP)]
 - `CLIP-KD` **CLIP-KD: An Empirical Study of CLIP Model Distillation.** CVPR 2024.   
-  [[Paper](https://arxiv.org/abs/2307.12732)] [[Code](https://github.com/winycg/CLIP-KD)]   
+  [[Paper](https://arxiv.org/abs/2307.12732)] [[Code](https://github.com/winycg/CLIP-KD)] [[论文解读](https://www.zhihu.com/question/646919153/answer/3553439426)]  
 - `LongCLIP` **Long-CLIP: Unlocking the Long-Text Capability of CLIP.** ECCV 2024.  
   [[Paper](https://arxiv.org/abs/2403.15378)] [[Code](https://github.com/beichenzbc/Long-CLIP)]
 
