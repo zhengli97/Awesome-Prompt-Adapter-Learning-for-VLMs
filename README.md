@@ -1,15 +1,18 @@
 # Awesome-Prompt-Adapter-Learning-for-VLMs
-A curated list of prompt/adapter learning methods for vision-language models (e.g., CLIP).
+A curated list of prompt/adapter learning methods for vision-language models (e.g., CLIP, ALIGN).
 
 # Table of Contents
 
 - [Papers](#papers)
     - [Surveys](#surveys)
-    - [Prompt Learning](#general-prompt-learning)
-    - [Test-time Prompt Learning](#general-test-time-prompt-learning)
-    - [Adapter Learning](#general-adapter-learning)
+    - [Foundation Models](#foundation-models)
+    - [General Prompt Learning](#general-prompt-learning)
+    - [Another form of Prompt](#another-form-of-prompt)
+    - [General Test-time Prompt Learning](#general-test-time-prompt-learning)
+    - [General Adapter Learning](#general-adapter-learning)
     - [Video Understanding](#video-understanding)
     - [Continual Learning](#continual-learning)
+    - [Others](#others)
 
 ## 💡Tips:
 
@@ -81,6 +84,10 @@ Base-to-Novel Generalization. (ViT-B/16 CLIP)
 | PromptKD   | [Link](https://arxiv.org/abs/2403.02781) | CVPR 24 | 86.96 | 80.73 | 83.73 | [Link](https://github.com/zhengli97/promptkd) | - |
 
 Table 1. Average results on 11 datasets. (Only works with open-source code will be listed.)
+
+### Video Talks
+
+- 视觉语言模型CLIP的提示学习方法研究, 李政 [[视频地址](https://www.techbeat.net/talk-info?id=915)]
 
 ### Paper List
 
