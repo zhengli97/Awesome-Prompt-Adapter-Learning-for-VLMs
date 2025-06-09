@@ -81,6 +81,7 @@ Base-to-Novel Generalization. (ViT-B/16 CLIP)
 | 2SFS       | [Link](https://arxiv.org/abs/2503.11609) | CVPR 25 | 85.55 | 75.48 | 80.20 | [Link](https://github.com/FarinaMatteo/rethinking_fewshot_vlms) | - |
 | HPT        | [Link](https://arxiv.org/abs/2312.06323) | AAAI 24 | 84.32 | 76.86 | 80.23 | [Link](https://github.com/vill-lab/2024-aaai-hpt) | - |
 | CoPrompt   | [Link](https://arxiv.org/abs/2306.01195) | ICLR 24 | 84.00 | 77.23 | 80.48 | [Link](https://github.com/shuvenduroy/coprompt) | - |
+| SkipT      | [Link](https://arxiv.org/abs/2412.11509) | CVPR 25 | 85.04 | 77.53 | 81.11 | [Link](https://github.com/Koorye/SkipTuning) | - | 
 | MMRL       | [Link](https://arxiv.org/abs/2503.08497) | CVPR 25 | 85.68 | 77.16 | 81.20 | [Link](https://github.com/yunncheng/MMRL) | - |
 | LLaMP      | [Link](https://arxiv.org/abs/2312.04076) | CVPR 24 | 85.16 | 77.71 | 81.27 | [Link](https://github.com/zhaohengz/LLaMP) | - |
 | PromptKD   | [Link](https://arxiv.org/abs/2403.02781) | CVPR 24 | 86.96 | 80.73 | 83.73 | [Link](https://github.com/zhengli97/promptkd) | - |
@@ -186,6 +187,8 @@ Table 1. Average results on 11 datasets. (Only works with open-source code will 
 [[Paper](https://arxiv.org/abs/2503.13443)] [[Code](https://github.com/JREion/DPC)] ![](https://img.shields.io/badge/Text-green)   
 - `2SFS` **Rethinking Few-Shot Adaptation of Vision-Language Models in Two Stages.** CVPR 2025.   
 [[Paper](https://arxiv.org/abs/2503.11609)] [[Code](https://github.com/FarinaMatteo/rethinking_fewshot_vlms)]   
+- `SkipT` **Skip Tuning: Pre-trained Vision-Language Models are Effective and Efficient Adapters Themselves.** CVPR 2025.   
+[[Paper](https://arxiv.org/abs/2412.11509)] [[Code](https://github.com/Koorye/SkipTuning)]   
 
 ## Another form of Prompt
 
@@ -254,7 +257,7 @@ Table 2. Test-time prompt tuning methods on OOD data.
 [[Paper](https://arxiv.org/abs/2403.14119)] [[Code](https://github.com/hee-suk-yoon/C-TPT)]   
 - `DynaPrompt` **DynaPrompt: Dynamic Test-Time Prompt Tuning.** ICLR 2025.   
 [[Paper](https://openreview.net/forum?id=EFZEdHB3Mp)]   
-- `R-TPT` **R-TPT: Improving Adversarial Robustness of Vision-Language Models through Test-Time Prompt Tuning.** CVPR 25.   
+- `R-TPT` **R-TPT: Improving Adversarial Robustness of Vision-Language Models through Test-Time Prompt Tuning.** CVPR 2025.   
 [[Paper](https://arxiv.org/abs/2504.11195)] [[Code](https://github.com/TomSheng21/R-TPT)]   
 - `StatA` **Realistic Test-Time Adaptation of Vision-Language Models.** CVPR 2025.   
 [[Paper](https://arxiv.org/abs/2501.03729)] [[Code](https://github.com/MaxZanella/StatA)]
