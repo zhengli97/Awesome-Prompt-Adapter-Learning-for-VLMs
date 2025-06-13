@@ -190,7 +190,9 @@ Table 1. Average results on 11 datasets. (Only works with open-source code will 
 - `SkipT` **Skip Tuning: Pre-trained Vision-Language Models are Effective and Efficient Adapters Themselves.** CVPR 2025.   
 [[Paper](https://arxiv.org/abs/2412.11509)] [[Code](https://github.com/Koorye/SkipTuning)]   
 - `NLPrompt` **NLPrompt: Noise-Label Prompt Learning for Vision-Language Models.** CVPR 2025.   
-[[Paper](https://arxiv.org/abs/2412.01256)] [[Code](https://github.com/qunovo/NLPrompt)] ![](https://img.shields.io/badge/Text-green)    
+[[Paper](https://arxiv.org/abs/2412.01256)] [[Code](https://github.com/qunovo/NLPrompt)] ![](https://img.shields.io/badge/Text-green)   
+- `TAC` **Task-Aware Clustering for Prompting Vision-Language Models**. CVPR 2025.   
+[[Paper](https://openaccess.thecvf.com/content/CVPR2025/papers/Hao_Task-Aware_Clustering_for_Prompting_Vision-Language_Models_CVPR_2025_paper.pdf)] [[Code](https://github.com/FushengHao/TAC)] ![](https://img.shields.io/badge/Image--Text-blue)
 
 ## Another form of Prompt
 
