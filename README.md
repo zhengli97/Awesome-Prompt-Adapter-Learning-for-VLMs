@@ -228,12 +228,14 @@ Table 1. Average results on 11 datasets. (Only works with open-source code will 
 |-------------|------------|----------| ---   | ---   |  ---  |  ---  |  :---:  | ---  |
 | CoOp        | IJCV 22    | 71.51    | 49.71 | 64.20 | 75.21 | 47.99 | 59.28 | [Link](https://github.com/kaiyangzhou/coop) |
 | CoCoOp      | CVPR 22    | 71.02    | 50.63 | 64.07 | 76.18 | 48.75 | 59.91 | [Link](https://github.com/kaiyangzhou/coop) |
+| DiffTPT     | ICCV 23    | 70.30    | 55.68 | 65.10 | 75.00 | 46.80 | 60.65 | [Link](https://github.com/chunmeifeng/DiffTPT) |
 | TPT         | NeurIPS 22 | 68.98    | 54.77 | 63.45 | 77.06 | 47.94 | 60.81 | [Link](https://github.com/azshue/TPT) |
 | TPT+CoOp    | NeurIPS 22 | 73.61    | 57.95 | 66.83 | 77.27 | 49.29 | 62.84 | [Link](https://github.com/azshue/TPT) |
 | PromptAlign | NeurIPS 23 | ---      | 59.37 | 65.29 | 79.33 | 59.37 | 63.55 | [Link](https://github.com/jameelhassan/PromptAlign) |
 | TPS+CoOp    | Arxiv 24   | 73.73    | 60.49 | 66.84 | 77.44 | 49.08 | 65.52 | [Link](https://github.com/elaine-sui/TPS) | 
 | RLCF        | ICLR 24    | 73.23    | 65.45 | 69.77 | 83.35 | 54.74 | 68.33 | [Link](https://github.com/mzhaoshuai/RLCF) |
 | RLCF+CoOp   | ICLR 24    | 76.05    | 69.74 | 70.62 | 84.51 | 56.49 | 70.34 | [Link](https://github.com/mzhaoshuai/RLCF) | 
+| COSMIC      | CVPR 25    | 78.19    | 73.32 | 69.62 | 85.60 | 62.79 | 72.83 | [Link](https://github.com/hf618/COSMIC) | 
 
 Table 2. Test-time prompt tuning methods on OOD data.
 
@@ -252,7 +254,9 @@ Table 2. Test-time prompt tuning methods on OOD data.
 - `InTTA` **Invariant Test-Time Adaptation for Vision-Language Model Generalization.** Arxiv 2024.  
 [[Paper](https://arxiv.org/abs/2403.00376)] [[Code](https://github.com/MaHuanAAA/InTTA)]
 - `TDA` **Efficient Test-Time Adaptation of Vision-Language Models.** CVPR 2024.   
-[[Paper](https://arxiv.org/abs/2403.18293)] [[Code](https://github.com/kdiAAA/TDA?tab=readme-ov-file)]   
+[[Paper](https://arxiv.org/abs/2403.18293)] [[Code](https://github.com/kdiAAA/TDA?tab=readme-ov-file)]
+- `DMN` **Dual Memory Networks: A Versatile Adaptation Approach for Vision-Language Models.**  CVPR 2024.   
+[[Paper](https://arxiv.org/abs/2403.17589)] [[Code](https://github.com/YBZh/DMN)]    
 - `C-TPT` **C-TPT: Calibrated Test-Time Prompt Tuning for Vision-Language Models via Text Feature Dispersion.** ICLR 2024.   
 [[Paper](https://arxiv.org/abs/2403.14119)] [[Code](https://github.com/hee-suk-yoon/C-TPT)]   
 - `DynaPrompt` **DynaPrompt: Dynamic Test-Time Prompt Tuning.** ICLR 2025.   
@@ -263,6 +267,8 @@ Table 2. Test-time prompt tuning methods on OOD data.
 [[Paper](https://arxiv.org/abs/2501.03729)] [[Code](https://github.com/MaxZanella/StatA)]
 - `O-TPT` **O-TPT: Orthogonality Constraints for Calibrating Test-time Prompt Tuning in Vision-Language Models.** CVPR 2025.   
 [[Paper](https://arxiv.org/abs/2503.12096)] [[Code](https://github.com/ashshaksharifdeen/O-TPT)]   
+- `COSMIC` **COSMIC: Clique-Oriented Semantic Multi-space Integration for Robust CLIP Test-Time Adaptation.** CVPR 2025.   
+[[Paper](https://arxiv.org/abs/2503.23388)] [[Code](https://github.com/hf618/COSMIC)]   
 
 ## General Adapter Learning
 
