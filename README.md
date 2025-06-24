@@ -292,12 +292,27 @@ Table 2. Test-time prompt tuning methods on OOD data.
 ## Video Understanding
 
 ### Prompt Learning
-- `Efficient-Prompt` **Prompting visual-language models for efficient video understanding.** ECCV 2022.  
+- `ActionCLIP` **Actionclip: A new paradigm for video action recognition.** arxiv 21.   
+[[Paper](https://arxiv.org/abs/2109.08472)] [[Code](https://github.com/sallymmx/ActionCLIP)]   
+- `VideoPrompt` **Prompting visual-language models for efficient video understanding.** ECCV 2022.  
 [[Paper](https://arxiv.org/pdf/2112.04478.pdf)] [[Code](https://github.com/ju-chen/Efficient-Prompt)]
 - `InTTA` **Expanding Language-Image Pretrained Models for General Video Recognition.** ECCV 2022.  
 [[Paper](https://arxiv.org/pdf/2208.02816.pdf)] [[Code](https://github.com/microsoft/VideoX/tree/master/X-CLIP)]
-- `RePro` **Compositional Prompt Tuning with Motion Cues for Open-vocabulary Video Relation Detection.** ICLR 2023.  
-[[Paper](https://arxiv.org/pdf/2302.00268.pdf)] [[Code](https://github.com/Dawn-LX/OpenVoc-VidVRD)]
+- `RePro` **Compositional Prompt Tuning with Motion Cues for Open-vocabulary Video Relation Detection.** ICLR 2023.   
+[[Paper](https://arxiv.org/pdf/2302.00268.pdf)] [[Code](https://github.com/Dawn-LX/OpenVoc-VidVRD)]   
+- `Vita-CLIP` **Vita-CLIP: Video and text adaptive CLIP via Multimodal Prompting.** CVPR 2023.   
+[[Paper](https://arxiv.org/abs/2304.03307)] [[Code](https://github.com/TalalWasim/Vita-CLIP)]   
+- `ViFi-CLIP` **Fine-tuned CLIP Models are Efficient Video Learners.** CVPR 2023.   
+[[Paper](https://arxiv.org/abs/2212.03640)] [[Code](https://github.com/muzairkhattak/ViFi-CLIP)]   
+- `OpenVCLIP` **Open-VCLIP: Transforming CLIP to an Open-vocabulary Video Model via Interpolated Weight Optimization.** ICML 2023.   
+[[Paper](https://arxiv.org/abs/2302.00624)] [[Code](https://github.com/wengzejia1/Open-VCLIP)]    
+- `M2-CLIP` **M2-CLIP: A Multimodal, Multi-task Adapting Framework for Video Action Recognition.** AAAI 2024.   
+[[Paper](https://arxiv.org/abs/2401.11649)] [[Code](https://github.com/sallymmx/m2clip)]   
+- `ViLT-CLIP` **ViLT-CLIP: Video and Language Tuning CLIP with Multimodal Prompt Learning and Scenario-Guided Optimization.** AAAI 2024.   
+[[Paper](https://ojs.aaai.org/index.php/AAAI/article/view/28347)] [Code(None)]   
+- `FROSTER` **FROSTER: Frozen CLIP Is A Strong Teacher for Open-Vocabulary Action Recognition.** ICLR 2024.   
+[[Paper](https://arxiv.org/abs/2402.03241)] [[Code](https://github.com/Visual-AI/FROSTER)]   
+
 
 ## Continual Learning
 
