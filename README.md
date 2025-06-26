@@ -192,7 +192,7 @@ Table 1. Average results on 11 datasets. (Only works with open-source code will 
 - `TAC` **Task-Aware Clustering for Prompting Vision-Language Models**. CVPR 2025.   
 [[Paper](https://openaccess.thecvf.com/content/CVPR2025/papers/Hao_Task-Aware_Clustering_for_Prompting_Vision-Language_Models_CVPR_2025_paper.pdf)] [[Code](https://github.com/FushengHao/TAC)] ![](https://img.shields.io/badge/Image--Text-blue)   
 - `ATPrompt` **Advancing Textual Prompt Learning with Anchored Attributes.** ICCV 2025.   
-[[Paper](https://arxiv.org/abs/2412.09442)] [[Code](https://github.com/zhengli97/ATPrompt)] ![](https://img.shields.io/badge/Text-green)   
+[[Paper](https://arxiv.org/abs/2412.09442)] [[Code](https://github.com/zhengli97/ATPrompt)] [[中文解读](https://zhuanlan.zhihu.com/p/11787739769)] ![](https://img.shields.io/badge/Text-green)   
 
 ## Another form of Prompt
 
@@ -279,7 +279,7 @@ Table 2. Test-time prompt tuning methods on OOD data.
 ### Paper List
 
 - `CLIP-Adapter` **CLIP-Adapter: Better Vision-Language Models with Feature Adapters.** Arxiv 2021.  
-[[Paper](https://arxiv.org/abs/2110.04544)] [[Code](https://github.com/gaopengcuhk/CLIP-Adapter)] ![](https://img.shields.io/badge/Image--Text-blue)  
+[[Paper](https://arxiv.org/abs/2110.04544)] [[Code](https://github.com/gaopengcuhk/CLIP-Adapter)]
 - `Tip-Adapter` **Tip-Adapter: Training-free Adaption of CLIP for Few-shot Classification.** ECCV 2022.   
 [[Paper](https://arxiv.org/abs/2207.09519)] [[Code](https://github.com/gaopengcuhk/Tip-Adapter)]
 - `APE` **Not All Features Matter: Enhancing Few-shot CLIP with Adaptive Prior Refinement.** ICCV 2023.   
@@ -311,7 +311,11 @@ Table 2. Test-time prompt tuning methods on OOD data.
 - `ViLT-CLIP` **ViLT-CLIP: Video and Language Tuning CLIP with Multimodal Prompt Learning and Scenario-Guided Optimization.** AAAI 2024.   
 [[Paper](https://ojs.aaai.org/index.php/AAAI/article/view/28347)] [Code(None)]   
 - `FROSTER` **FROSTER: Frozen CLIP Is A Strong Teacher for Open-Vocabulary Action Recognition.** ICLR 2024.   
-[[Paper](https://arxiv.org/abs/2402.03241)] [[Code](https://github.com/Visual-AI/FROSTER)]   
+[[Paper](https://arxiv.org/abs/2402.03241)] [[Code](https://github.com/Visual-AI/FROSTER)]
+
+### Adapter Learning
+- `BT-Adapter` **BT-Adapter: Video Conversation is Feasible Without Video Instruction Tuning.** CVPR 2024.   
+[[Paper](https://arxiv.org/abs/2309.15785)] [[Code](https://github.com/farewellthree/BT-Adapter)]   
 
 
 ## Continual Learning
