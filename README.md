@@ -169,8 +169,6 @@ Table 1. Average results on 11 datasets. (Only works with open-source code will 
 [[Paper](https://arxiv.org/abs/2407.01400)] [No Code Found] ![](https://img.shields.io/badge/Image--Text-blue)   
 - `AWT` **AWT: Transferring Vision-Language Models via Augmentation, Weighting, and Transportation.** NeurIPS 2024.  
 [[Paper](https://arxiv.org/abs/2407.04603)] [[Code](https://github.com/MCG-NJU/AWT)] ![](https://img.shields.io/badge/Image--Text-blue)   
-- `ATPrompt` **ATPrompt: Textual Prompt Learning with Embedded Attributes.** arxiv 2024.   
-[[Paper](https://arxiv.org/abs/2412.09442)] [[Code](https://github.com/zhengli97/ATPrompt)] ![](https://img.shields.io/badge/Text-green)
 - `QNet` **Prompt Learning with Quaternion Networks.** ICLR 2024.   
 [[Paper](https://openreview.net/forum?id=dKlxDx2SoS)] [[Code](https://github.com/SHIBOYA/QNet)(Empty)] ![](https://img.shields.io/badge/Image--Text-blue)
 - `QMaPLe` **Quantized Prompt for Efficient Generalization of Vision-Language Models.** ECCV 2024.   
@@ -192,7 +190,9 @@ Table 1. Average results on 11 datasets. (Only works with open-source code will 
 - `NLPrompt` **NLPrompt: Noise-Label Prompt Learning for Vision-Language Models.** CVPR 2025.   
 [[Paper](https://arxiv.org/abs/2412.01256)] [[Code](https://github.com/qunovo/NLPrompt)] ![](https://img.shields.io/badge/Text-green)   
 - `TAC` **Task-Aware Clustering for Prompting Vision-Language Models**. CVPR 2025.   
-[[Paper](https://openaccess.thecvf.com/content/CVPR2025/papers/Hao_Task-Aware_Clustering_for_Prompting_Vision-Language_Models_CVPR_2025_paper.pdf)] [[Code](https://github.com/FushengHao/TAC)] ![](https://img.shields.io/badge/Image--Text-blue)
+[[Paper](https://openaccess.thecvf.com/content/CVPR2025/papers/Hao_Task-Aware_Clustering_for_Prompting_Vision-Language_Models_CVPR_2025_paper.pdf)] [[Code](https://github.com/FushengHao/TAC)] ![](https://img.shields.io/badge/Image--Text-blue)   
+- `ATPrompt` **Advancing Textual Prompt Learning with Anchored Attributes.** ICCV 2025.   
+[[Paper](https://arxiv.org/abs/2412.09442)] [[Code](https://github.com/zhengli97/ATPrompt)] ![](https://img.shields.io/badge/Text-green)   
 
 ## Another form of Prompt
 
