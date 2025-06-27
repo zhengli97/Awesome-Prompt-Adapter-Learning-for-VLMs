@@ -349,6 +349,8 @@ Table 2. Test-time prompt tuning methods on OOD data.
 ### OOD
 - `LoCoOp` **LoCoOp: Few-Shot Out-of-Distribution Detection via Prompt Learning.** NeurIPS 2023.   
 [[Paper](https://proceedings.neurips.cc/paper_files/paper/2023/file/f0606b882692637835e8ac981089eccd-Paper-Conference.pdf)] [[Code](https://github.com/AtsuMiyai/LoCoOp)]
+- `DeCoOp` **DeCoOp: Robust Prompt Tuning with Out-of-Distribution Detection.** ICML 2024.   
+[[Paper](https://arxiv.org/abs/2406.00345)] [[Code](https://github.com/WNJXYK/DeCoOp)]   
 
 ### Point Cloud
 - `PPT` **Parameter-efficient Prompt Learning for 3D Point Cloud Understanding.** ICRA 2024.    
