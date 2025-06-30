@@ -353,6 +353,8 @@ Table 2. Test-time prompt tuning methods on OOD data.
 [[Paper](https://arxiv.org/abs/2406.00345)] [[Code](https://github.com/WNJXYK/DeCoOp)]   
 
 ### Point Cloud
+- `IDPT` **Instance-aware Dynamic Prompt Tuning for Pre-trained Point Cloud Models.** ICCV 2023.
+[[Paper](https://arxiv.org/abs/2304.07221)] [[Code](https://github.com/zyh16143998882/ICCV23-IDPT)]   
 - `PPT` **Parameter-efficient Prompt Learning for 3D Point Cloud Understanding.** ICRA 2024.    
 [[Paper](https://arxiv.org/abs/2402.15823)] [[Code](https://github.com/auniquesun/PPT)]
 - `Point-PRC` **Point-PRC: A Prompt Learning Based Regulation Framework for Generalizable Point Cloud Analysis.** NeurIPS 2024.   
