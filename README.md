@@ -61,6 +61,7 @@ Base-to-Novel Generalization. (ViT-B/16 CLIP)
 | :---:      | :---:    | :---:    | ---    | ---    | :---:     | :--: | :--: |
 | CLIP       | [Link](https://arxiv.org/abs/2103.00020) | ICML 21 | 69.34 | 74.22 | 71.70 | [Link](https://github.com/openai/CLIP)  | Model |
 | CoOp       | [Link](https://arxiv.org/abs/2203.05557) | IJCV 22 | 82.69 | 63.22 | 71.66 | [Link](https://github.com/kaiyangzhou/coop)  | - |
+| ATPrompt   | [Link](https://arxiv.org/abs/2412.09442) | ICCV 25 | 82.68 | 68.04 | 74.65 | [Link](https://github.com/zhengli97/ATPrompt) | - |
 | CoCoOp     | [Link](https://arxiv.org/abs/2203.05557) | CVPR 22 | 80.47 | 71.69 | 75.83 | [Link](https://github.com/KaiyangZhou/CoOp)  | - |
 | DPC        | [Link](https://arxiv.org/abs/2503.13443) | CVPR 25 | 85.15 | 68.84 | 76.13 | [Link](https://github.com/JREion/DPC) | - |
 | DPC+PromptKD | - | - | 87.55 | 80.55 | **83.91** | - | Plugin |
@@ -190,9 +191,9 @@ Table 1. Average results on 11 datasets. (Only works with open-source code will 
 - `NLPrompt` **NLPrompt: Noise-Label Prompt Learning for Vision-Language Models.** CVPR 2025.   
 [[Paper](https://arxiv.org/abs/2412.01256)] [[Code](https://github.com/qunovo/NLPrompt)] ![](https://img.shields.io/badge/Text-green)   
 - `TAC` **Task-Aware Clustering for Prompting Vision-Language Models**. CVPR 2025.   
-[[Paper](https://openaccess.thecvf.com/content/CVPR2025/papers/Hao_Task-Aware_Clustering_for_Prompting_Vision-Language_Models_CVPR_2025_paper.pdf)] [[Code](https://github.com/FushengHao/TAC)] ![](https://img.shields.io/badge/Image--Text-blue)
+[[Paper](https://openaccess.thecvf.com/content/CVPR2025/papers/Hao_Task-Aware_Clustering_for_Prompting_Vision-Language_Models_CVPR_2025_paper.pdf)] [[Code](https://github.com/FushengHao/TAC)] ![](https://img.shields.io/badge/Image--Text-blue)   
 - `OpenworldAUC` **OpenworldAUC: Towards Unified Evaluation and Optimization for Open-world Prompt Tuning.** ICML 2025.   
-[[Paper]()] [[Code]()] ![](https://img.shields.io/badge/Text-green)   
+[[Paper](https://arxiv.org/abs/2505.05180)] [[Code](https://github.com/huacong/OpenworldAUC)] ![](https://img.shields.io/badge/Text-green)   
 - `ATPrompt` **Advancing Textual Prompt Learning with Anchored Attributes.** ICCV 2025.   
 [[Paper](https://arxiv.org/abs/2412.09442)] [[Code](https://github.com/zhengli97/ATPrompt)] [[中文解读](https://zhuanlan.zhihu.com/p/11787739769)] ![](https://img.shields.io/badge/Text-green)   
 
