@@ -62,6 +62,7 @@ Base-to-Novel Generalization. (ViT-B/16 CLIP)
 | CLIP       | [Link](https://arxiv.org/abs/2103.00020) | ICML 21 | 69.34 | 74.22 | 71.70 | [Link](https://github.com/openai/CLIP)  | Model |
 | CoOp       | [Link](https://arxiv.org/abs/2203.05557) | IJCV 22 | 82.69 | 63.22 | 71.66 | [Link](https://github.com/kaiyangzhou/coop)  | - |
 | ATPrompt   | [Link](https://arxiv.org/abs/2412.09442) | ICCV 25 | 82.68 | 68.04 | 74.65 | [Link](https://github.com/zhengli97/ATPrompt) | - |
+| ATPrompt+PromptKD | - | - | 87.05 | 81.82 | **84.35** | - | Plugin |
 | CoCoOp     | [Link](https://arxiv.org/abs/2203.05557) | CVPR 22 | 80.47 | 71.69 | 75.83 | [Link](https://github.com/KaiyangZhou/CoOp)  | - |
 | DPC        | [Link](https://arxiv.org/abs/2503.13443) | CVPR 25 | 85.15 | 68.84 | 76.13 | [Link](https://github.com/JREion/DPC) | - |
 | DPC+PromptKD | - | - | 87.55 | 80.55 | **83.91** | - | Plugin |
