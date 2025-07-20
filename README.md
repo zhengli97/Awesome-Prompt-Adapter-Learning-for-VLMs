@@ -150,7 +150,7 @@ Table 1. Average results on 11 datasets. (Only works with open-source code will 
 - `CoPrompt` **Consistency-guided Prompt Learning for Vision-Language Models.** ICLR 2024.  
 [[Paper](https://arxiv.org/abs/2306.01195)] [[Code](https://github.com/ShuvenduRoy/CoPrompt)] ![](https://img.shields.io/badge/Image--Text-blue) 
 - `PromptKD` **PromptKD: Unsupervised Prompt Distillation for Vision Language Models.** CVPR 2024.  
-[[Paper](https://arxiv.org/abs/2403.02781)] [[Code](https://github.com/zhengli97/PromptKD)] [[中文版](https://github.com/zhengli97/PromptKD/blob/main/docs/PromptKD_chinese_version.pdf)] [[中文论文解读](https://zhuanlan.zhihu.com/p/684269963)] [[视频解读](https://www.techbeat.net/talk-info?id=915)] ![](https://img.shields.io/badge/Image--Text-blue) 
+[[Paper](https://arxiv.org/abs/2403.02781)] [[Code](https://github.com/zhengli97/PromptKD)] [[中文版](https://github.com/zhengli97/PromptKD/blob/main/docs/PromptKD_chinese_version.pdf)] [[论文解读](https://zhuanlan.zhihu.com/p/684269963)] [[视频解读](https://www.techbeat.net/talk-info?id=915)] ![](https://img.shields.io/badge/Image--Text-blue) 
 - `DePT` **DePT: Decoupled Prompt Tuning.** CVPR 2024.  
 [[Paper](https://arxiv.org/abs/2309.07439)] [[Code](https://github.com/Koorye/DePT)] ![](https://img.shields.io/badge/Image--Text-blue) 
 - `ArGue` **ArGue: Attribute-Guided Prompt Tuning for Vision-Language Models.** CVPR 2024.  
@@ -166,7 +166,7 @@ Table 1. Average results on 11 datasets. (Only works with open-source code will 
 - `CoCoLe` **Conceptual Codebook Learning for Vision-Language Models.** ECCV 2024.   
 [[Paper](https://arxiv.org/abs/2407.02350)] [No Code Found] ![](https://img.shields.io/badge/Image--Text-blue)
 - `CasPL` **Cascade Prompt Learning for Vision-Language Model Adaptation.** ECCV 2024.   
-[[Paper](https://arxiv.org/abs/2409.17805)] [[Code](https://github.com/megvii-research/CasPL)] [[中文论文解读](https://zhuanlan.zhihu.com/p/867291664)] ![](https://img.shields.io/badge/Image--Text-blue)
+[[Paper](https://arxiv.org/abs/2409.17805)] [[Code](https://github.com/megvii-research/CasPL)] [[论文解读](https://zhuanlan.zhihu.com/p/867291664)] ![](https://img.shields.io/badge/Image--Text-blue)
 - `GalLoP` **GalLoP: Learning Global and Local Prompts for Vision-Language Models.** ECCV 2024.   
 [[Paper](https://arxiv.org/abs/2407.01400)] [No Code Found] ![](https://img.shields.io/badge/Image--Text-blue)   
 - `AWT` **AWT: Transferring Vision-Language Models via Augmentation, Weighting, and Transportation.** NeurIPS 2024.  
@@ -178,7 +178,7 @@ Table 1. Average results on 11 datasets. (Only works with open-source code will 
 
 #### 2025
 - `TextRefiner` **TextRefiner: Internal Visual Feature as Efficient Refiner for Vision-Language Models Prompt Tuning.** AAAI 2025.     
-[[Paper](https://arxiv.org/abs/2412.08176)] [[Code](https://github.com/xjjxmu/TextRefiner)] [[中文论文解读](https://zhuanlan.zhihu.com/p/15940023585)] ![](https://img.shields.io/badge/Text-green)  
+[[Paper](https://arxiv.org/abs/2412.08176)] [[Code](https://github.com/xjjxmu/TextRefiner)] [[论文解读](https://zhuanlan.zhihu.com/p/15940023585)] ![](https://img.shields.io/badge/Text-green)  
 - `ProText` **Learning to Prompt with Text Only Supervision for Vision-Language Models.** AAAI 2025.  
 [[Paper](https://arxiv.org/abs/2401.02418)] [[Code](https://github.com/muzairkhattak/ProText)] ![](https://img.shields.io/badge/Text-green) 
 - `MMRL` **MMRL: Multi-Modal Representation Learning for Vision-Language Models.** CVPR 2025.  
@@ -196,7 +196,7 @@ Table 1. Average results on 11 datasets. (Only works with open-source code will 
 - `OpenworldAUC` **OpenworldAUC: Towards Unified Evaluation and Optimization for Open-world Prompt Tuning.** ICML 2025.   
 [[Paper](https://arxiv.org/abs/2505.05180)] [[Code](https://github.com/huacong/OpenworldAUC)] ![](https://img.shields.io/badge/Text-green)   
 - `ATPrompt` **Advancing Textual Prompt Learning with Anchored Attributes.** ICCV 2025.   
-[[Paper](https://arxiv.org/abs/2412.09442)] [[Code](https://github.com/zhengli97/ATPrompt)] [[中文解读](https://zhuanlan.zhihu.com/p/11787739769)] ![](https://img.shields.io/badge/Text-green)   
+[[Paper](https://arxiv.org/abs/2412.09442)] [[Code](https://github.com/zhengli97/ATPrompt)] [[论文解读](https://zhuanlan.zhihu.com/p/11787739769)] [[中文版](https://github.com/zhengli97/ATPrompt/blob/main/docs/ATPrompt_chinese_version.pdf)] ![](https://img.shields.io/badge/Text-green)   
 
 ## Another form of Prompt
 
@@ -370,4 +370,10 @@ Table 2. Test-time prompt tuning methods on OOD data.
 - `PPL` **Think Small, Act Big: Primitive Prompt Learning for Lifelong Robot Manipulation.** CVPR 2025.   
 [[Paper](https://www.arxiv.org/abs/2504.00420)]
 
-
+### Retrival
+- `CLIP4clip` **Clip4clip: An empirical study of clip for end to end video clip retrieval and captioning.** Neurocomputing 2022.   
+[[Paper](https://arxiv.org/abs/2104.08860)] [[Code](https://github.com/ArrowLuo/CLIP4Clip)]   
+- `VoP` **VoP: Text-Video Co-Operative Prompt Tuning for Cross-Modal Retrieval.** CVPR 2023.   
+[[Paper](https://arxiv.org/abs/2211.12764)] [[Code](https://github.com/bighuang624/VoP)]   
+- `DGL` **DGL: Dynamic Global-Local Prompt Tuning for Text-Video Retrieval.** AAAI 2024.   
+[[Paper](https://arxiv.org/abs/2401.10588)] [[Code](https://github.com/knightyxp/DGL)]   
