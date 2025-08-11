@@ -19,6 +19,8 @@ A curated list of prompt/adapter learning methods for vision-language models (e.
 - If you know that some papers published in top conferences (CVPR, ICCV, ECCV, ICML, NeurlPS, ICLR) or journals (TPAMI, IJCV, TIP) have not been included in this list, please feel free to contact me at any time, either by sending an email (zhengli97[at]qq.com) or submitting an issue.
 - We would appreciate more people joining us in maintaining this list of papers.  
 - Note that papers without open-source code are not recommended.
+- We sincerely thank the following people for contributing to this list: [Lingfeng Yang](https://scholar.google.com/citations?user=RLhH0jwAAAAJ&hl=en), [Ge Wu](https://github.com/Martinser), [Jiazuo Yu](https://scholar.google.com/citations?user=FPoIE0UAAAAJ&hl=zh-CN), [Clayne](https://github.com/StellarOdys2ey)[[List](https://github.com/StellarOdys2ey/Generalizable-Prompt-Learning-for-VLMs)]
+
 
 ## Keywords
 
@@ -180,24 +182,42 @@ Table 1. Average results on 11 datasets. (Only works with open-source code will 
 - `TextRefiner` **TextRefiner: Internal Visual Feature as Efficient Refiner for Vision-Language Models Prompt Tuning.** AAAI 2025.     
 [[Paper](https://arxiv.org/abs/2412.08176)] [[Code](https://github.com/xjjxmu/TextRefiner)] [[论文解读](https://zhuanlan.zhihu.com/p/15940023585)] ![](https://img.shields.io/badge/Text-green)  
 - `ProText` **Learning to Prompt with Text Only Supervision for Vision-Language Models.** AAAI 2025.  
-[[Paper](https://arxiv.org/abs/2401.02418)] [[Code](https://github.com/muzairkhattak/ProText)] ![](https://img.shields.io/badge/Text-green) 
+[[Paper](https://arxiv.org/abs/2401.02418)] [[Code](https://github.com/muzairkhattak/ProText)] ![](https://img.shields.io/badge/Text-green)
+- `FATE` **FATE: Feature-Adapted Parameter Tuning for Vision-Language Models.** AAAI 2025.  
+[[Paper](https://ojs.aaai.org/index.php/AAAI/article/view/32975)] [No Code Found] ![](https://img.shields.io/badge/Text-green)
+- `TAP` **Tree of Attributes Prompt Learning For Vision Language Models.** ICLR 2025.   
+[[Paper](https://arxiv.org/abs/2410.11201)] [[Code](https://github.com/HHenryD/TAP)]![](https://img.shields.io/badge/Image--Text-blue)
+- `DeKg` **Divergence-enhanced Knowledge-guided Context Optimization for Visual-Language Prompt Tuning.** ICLR 2025.   
+[[Paper](https://openreview.net/pdf?id=6wOmHdwCC4)] [[Code](https://github.com/cnunlp/DeKg)]![](https://img.shields.io/badge/Text-Green)   
 - `MMRL` **MMRL: Multi-Modal Representation Learning for Vision-Language Models.** CVPR 2025.  
 [[Paper](https://arxiv.org/abs/2503.08497)] [[Code](https://github.com/yunncheng/MMRL)] ![](https://img.shields.io/badge/Image--Text-blue)
 - `DPC` **DPC: Dual-Prompt Collaboration for Tuning Vision-Language Models.** CVPR 2025.   
-[[Paper](https://arxiv.org/abs/2503.13443)] [[Code](https://github.com/JREion/DPC)] ![](https://img.shields.io/badge/Text-green)   
-- `2SFS` **Rethinking Few-Shot Adaptation of Vision-Language Models in Two Stages.** CVPR 2025.   
-[[Paper](https://arxiv.org/abs/2503.11609)] [[Code](https://github.com/FarinaMatteo/rethinking_fewshot_vlms)]   
+[[Paper](https://arxiv.org/abs/2503.13443)] [[Code](https://github.com/JREion/DPC)] [[论文解读]](https://mp.weixin.qq.com/s/reOUIzVdIpNDcnX4p5ArOg) ![](https://img.shields.io/badge/Text-green)   
+- `2SFS` **Rethinking Few-Shot Adaptation of Vision-Language Models in Two Stages.** CVPR 2025.    
+[[Paper](https://arxiv.org/abs/2503.11609)] [[Code](https://github.com/FarinaMatteo/rethinking_fewshot_vlms)] ![](https://img.shields.io/badge/Image--Text-blue)     
 - `SkipT` **Skip Tuning: Pre-trained Vision-Language Models are Effective and Efficient Adapters Themselves.** CVPR 2025.   
-[[Paper](https://arxiv.org/abs/2412.11509)] [[Code](https://github.com/Koorye/SkipTuning)]   
+[[Paper](https://arxiv.org/abs/2412.11509)] [[Code](https://github.com/Koorye/SkipTuning)] ![](https://img.shields.io/badge/Image--Text-blue)     
 - `NLPrompt` **NLPrompt: Noise-Label Prompt Learning for Vision-Language Models.** CVPR 2025.   
 [[Paper](https://arxiv.org/abs/2412.01256)] [[Code](https://github.com/qunovo/NLPrompt)] ![](https://img.shields.io/badge/Text-green)   
 - `TAC` **Task-Aware Clustering for Prompting Vision-Language Models**. CVPR 2025.   
 [[Paper](https://openaccess.thecvf.com/content/CVPR2025/papers/Hao_Task-Aware_Clustering_for_Prompting_Vision-Language_Models_CVPR_2025_paper.pdf)] [[Code](https://github.com/FushengHao/TAC)] ![](https://img.shields.io/badge/Image--Text-blue)   
 - `OpenworldAUC` **OpenworldAUC: Towards Unified Evaluation and Optimization for Open-world Prompt Tuning.** ICML 2025.   
-[[Paper](https://arxiv.org/abs/2505.05180)] [[Code](https://github.com/huacong/OpenworldAUC)] ![](https://img.shields.io/badge/Text-green)   
+[[Paper](https://arxiv.org/abs/2505.05180)] [[Code](https://github.com/huacong/OpenworldAUC)] ![](https://img.shields.io/badge/Text-green)
+- `FM` **Enhancing Target-unspecific Tasks through a Features Matrix.** ICML 2025.   
+[[Paper](https://arxiv.org/abs/2505.03414)] [No Code Found]![](https://img.shields.io/badge/Text-Green)   
+- `SurPL` **Surrogate Prompt Learning: Towards Efficient and Diverse Prompt Learning for Vision-Language Models.** ICML 2025.   
+[[Paper](https://openreview.net/pdf?id=zjG9GRG462)] [[Code](https://github.com/llcllc1997/SurPL)] ![](https://img.shields.io/badge/Image--Text-blue)   
 - `ATPrompt` **Advancing Textual Prompt Learning with Anchored Attributes.** ICCV 2025.   
 [[Paper](https://arxiv.org/abs/2412.09442)] [[Code](https://github.com/zhengli97/ATPrompt)] [[论文解读](https://zhuanlan.zhihu.com/p/11787739769)] [[中文版](https://github.com/zhengli97/ATPrompt/blob/main/docs/ATPrompt_chinese_version.pdf)] ![](https://img.shields.io/badge/Text-green)   
-
+- `HicroPL` **Hierarchical Cross-modal Prompt Learning for Vision-Language Models.** ICCV 2025.   
+[[Paper](https://arxiv.org/abs/2507.14976)] [[Code](https://github.com/zzeoZheng/HiCroPL)(empty)] ![](https://img.shields.io/badge/Image--Text-blue)   
+- `LwEIB` **Learning with Enriched Inductive Biases for Vision-Language Models** IJCV 2025.   
+[[Paper](https://link.springer.com/article/10.1007/s11263-025-02354-1)] [[Code](https://github.com/ZjjConan/VLM-LwEIB)]![](https://img.shields.io/badge/Image--Text-blue)  
+- `BIP` **Bi-modality Individual-aware Prompt tuning for Visual-Language Model.** TPAMI 2025.   
+[[Paper](https://ieeexplore.ieee.org/abstract/document/10949734)] [[Code](https://github.com/htyao89/BIP)] ![](https://img.shields.io/badge/Image--Text-blue)    
+- `DAPT` **Decouple before Align: Visual Disentanglement Enhances Prompt Tuning.** TPAMI 2025.   
+[[Paper](https://ieeexplore.ieee.org/abstract/document/11106768)] [[Code](https://github.com/Ferenas/DAPT)(empty)] ![](https://img.shields.io/badge/Image--Text-blue)     
+ 
 ## Another form of Prompt
 
 ### Paper List
@@ -376,4 +396,4 @@ Table 2. Test-time prompt tuning methods on OOD data.
 - `VoP` **VoP: Text-Video Co-Operative Prompt Tuning for Cross-Modal Retrieval.** CVPR 2023.   
 [[Paper](https://arxiv.org/abs/2211.12764)] [[Code](https://github.com/bighuang624/VoP)]   
 - `DGL` **DGL: Dynamic Global-Local Prompt Tuning for Text-Video Retrieval.** AAAI 2024.   
-[[Paper](https://arxiv.org/abs/2401.10588)] [[Code](https://github.com/knightyxp/DGL)]   
+[[Paper](https://arxiv.org/abs/2401.10588)] [[Code](https://github.com/knightyxp/DGL)]
