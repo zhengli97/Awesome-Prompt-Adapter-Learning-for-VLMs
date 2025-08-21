@@ -6,6 +6,7 @@ A curated list of prompt/adapter learning methods for vision-language models (e.
 - [Papers](#papers)
     - [Surveys](#surveys)
     - [Foundation Models](#foundation-models)
+    - [Datasets](#datasets)
     - [General Prompt Learning](#general-prompt-learning)
     - [Another form of Prompt](#another-form-of-prompt)
     - [General Test-time Prompt Learning](#general-test-time-prompt-learning)
@@ -53,6 +54,17 @@ A curated list of prompt/adapter learning methods for vision-language models (e.
   [[Paper](https://arxiv.org/abs/2307.12732)] [[Code](https://github.com/winycg/CLIP-KD)] [[论文解读](https://www.zhihu.com/question/646919153/answer/3553439426)]  
 - `LongCLIP` **Long-CLIP: Unlocking the Long-Text Capability of CLIP.** ECCV 2024.  
   [[Paper](https://arxiv.org/abs/2403.15378)] [[Code](https://github.com/beichenzbc/Long-CLIP)]
+
+## Datasets
+
+Base-to-Novel: [ImageNet-1K](https://image-net.org/challenges/LSVRC/2012/index.php), [Caltech101](https://data.caltech.edu/records/mzrjq-6wc02), [Oxford Pets](https://www.robots.ox.ac.uk/~vgg/data/pets/), [StanfordCars](https://ai.stanford.edu/~jkrause/cars/car_dataset.html), [Flowers102](https://www.robots.ox.ac.uk/~vgg/data/flowers/102/), [Food101](https://vision.ee.ethz.ch/datasets_extra/food-101/), [FGVC Aircraft](https://www.robots.ox.ac.uk/~vgg/data/fgvc-aircraft/), [SUN397](http://vision.princeton.edu/projects/2010/SUN/), [DTD](https://www.robots.ox.ac.uk/~vgg/data/dtd/), [EuroSAT](https://github.com/phelber/EuroSAT), [UCF101](https://www.crcv.ucf.edu/data/UCF101.php).
+
+Domain Generalization: [ImageNet-V2](https://github.com/modestyachts/ImageNetV2), [ImageNet-Sketch](https://github.com/HaohanWang/ImageNet-Sketch), [ImageNet-Adversarial](https://github.com/hendrycks/natural-adv-examples), [ImageNet-Rendition](https://github.com/hendrycks/imagenet-r).
+
+**Due to various factors, the links to some datasets may be outdated or invalid.  
+To make it easy for you to download these datasets, we maintain a repository on HuggingFace, which contains all the datasets to be used (except ImageNet). Each dataset also includes the corresponding split_zhou_xx.json file.**
+
+[[Huggingface_Dataset_Download_Link](https://huggingface.co/zhengli97/prompt_learning_dataset)]
 
 ## General Prompt Learning
 ### Experimental Comparison
