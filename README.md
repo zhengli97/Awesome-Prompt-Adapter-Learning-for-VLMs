@@ -20,7 +20,7 @@ A curated list of prompt/adapter learning methods for vision-language models (e.
 - If you know that some papers published in top conferences (CVPR, ICCV, ECCV, ICML, NeurlPS, ICLR) or journals (TPAMI, IJCV, TIP) have not been included in this list, please feel free to contact me at any time, either by sending an email (zhengli97[at]qq.com) or submitting an issue.
 - We would appreciate more people joining us in maintaining this list of papers.  
 - Note that papers without open-source code are not recommended.
-- We sincerely thank the following people for contributing to this list: [Lingfeng Yang](https://scholar.google.com/citations?user=RLhH0jwAAAAJ&hl=en), [Ge Wu](https://github.com/Martinser), [Jiazuo Yu](https://scholar.google.com/citations?user=FPoIE0UAAAAJ&hl=zh-CN), [Clayne](https://github.com/StellarOdys2ey)[[List](https://github.com/StellarOdys2ey/Generalizable-Prompt-Learning-for-VLMs)]
+- We sincerely thank the following people for contributing to this list: [Lingfeng Yang](https://scholar.google.com/citations?user=RLhH0jwAAAAJ&hl=en), [Ge Wu](https://github.com/Martinser), [Jiazuo Yu](https://scholar.google.com/citations?user=FPoIE0UAAAAJ&hl=zh-CN), [Qiji Ma](https://github.com/StellarOdys2ey)[[List](https://github.com/StellarOdys2ey/Generalizable-Prompt-Learning-for-VLMs)]
 
 
 ## Keywords
