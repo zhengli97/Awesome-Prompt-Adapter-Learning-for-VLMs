@@ -124,7 +124,7 @@ Table 1. Average results on 11 datasets. (Only works with open-source code will 
 - `KgCoOp` **Visual-Language Prompt Tuningx with Knowledge-guided Context Optimization.** CVPR 2023.  
 [[Paper](https://arxiv.org/abs/2303.13283)] [[Code](https://github.com/htyao89/KgCoOp)] ![](https://img.shields.io/badge/Text-green)
 - `LASP` **LASP: Text-to-Text Optimization for Language-Aware Soft Prompting of Vision & Language Models.** CVPR 2023.  
-[[Paper](https://arxiv.org/abs/2210.01115)] [No Code Found] ![](https://img.shields.io/badge/Text-green)
+[[Paper](https://arxiv.org/abs/2210.01115)] [[Code](https://github.com/1adrianb/lasp)] ![](https://img.shields.io/badge/Text-green)
 - `DAM-VP` **Diversity-Aware Meta Visual Prompting.** CVPR 2023.  
 [[Paper](https://arxiv.org/abs/2303.08138)] [[Code](https://github.com/shikiw/DAM-VP)] ![](https://img.shields.io/badge/Image-orange) 
 - `TaskRes` **Task Residual for Tuning Vision-Language Models.** CVPR 2023.  
