@@ -132,7 +132,7 @@ Table 1. Average results on 11 datasets. (Only works with open-source code will 
 - `RPO` **Read-only Prompt Optimization for Vision-Language Few-shot Learning.** ICCV 2023.  
 [[Paper](https://arxiv.org/abs/2308.14960)] [[Code](https://github.com/mlvlab/rpo)] ![](https://img.shields.io/badge/Image--Text-blue)
 - `KAPT` **Knowledge-Aware Prompt Tuning for Generalizable Vision-Language Models.** ICCV 2023.  
-[[Paper](https://openaccess.thecvf.com/content/ICCV2023/papers/Kan_Knowledge-Aware_Prompt_Tuning_for_Generalizable_Vision-Language_Models_ICCV_2023_paper.pdf)] [No Code] ![](https://img.shields.io/badge/Text-green)
+[[Paper](https://openaccess.thecvf.com/content/ICCV2023/papers/Kan_Knowledge-Aware_Prompt_Tuning_for_Generalizable_Vision-Language_Models_ICCV_2023_paper.pdf)] [Code Not Found] ![](https://img.shields.io/badge/Text-green)
 - `CuPL` **What does a platypus look like? Generating customized prompts for zero-shot image classification.** ICCV 2023.   
 [[Paper](https://arxiv.org/pdf/2209.03320)] [[Code](https://github.com/sarahpratt/CuPL)] ![](https://img.shields.io/badge/Text-green)    
 - `ProGrad` **Prompt-aligned Gradient for Prompt Tuning.** ICCV 2023.  
@@ -142,7 +142,7 @@ Table 1. Average results on 11 datasets. (Only works with open-source code will 
 - `LFA` **Black Box Few-Shot Adaptation for Vision-Language models.** ICCV 2023.   
 [[Paper](https://openaccess.thecvf.com/content/ICCV2023/papers/Ouali_Black_Box_Few-Shot_Adaptation_for_Vision-Language_Models_ICCV_2023_paper.pdf)] [[Code](https://github.com/saic-fi/LFA)]   
 - `DeFo` **Learning to Decompose Visual Features with Latent Textual Prompts.** ICLR 2023.  
-[[Paper](https://arxiv.org/abs/2210.04287)] [No Code Found] ![](https://img.shields.io/badge/Text-green)
+[[Paper](https://arxiv.org/abs/2210.04287)] [Code Not Found] ![](https://img.shields.io/badge/Text-green)
 - `PLOT` **PLOT: Prompt Learning with Optimal Transport for Vision-Language Models.** ICLR 2023.   
 [[Paper](https://arxiv.org/pdf/2210.01253)] [[Code](https://github.com/CHENGY12/PLOT)] ![](https://img.shields.io/badge/Text-green)   
 - `POMP` **Prompt Pre-Training with Twenty-Thousand Classes for Open-Vocabulary Visual Recognition.** NeurIPS 2023.  
@@ -150,17 +150,17 @@ Table 1. Average results on 11 datasets. (Only works with open-source code will 
 
 #### 2024
 - `MetaPrompt` **Learning Domain Invariant Prompt for Vision-Language Models.** TIP 2024.  
-[[Paper](https://arxiv.org/abs/2212.04196)] [No Code] ![](https://img.shields.io/badge/Image--Text-blue)
+[[Paper](https://arxiv.org/abs/2212.04196)] [Code Not Found] ![](https://img.shields.io/badge/Image--Text-blue)
 - `ProVP` **Progressive Visual Prompt Learning with Contrastive Feature Re-formation.** IJCV 2024.  
 [[Paper](https://arxiv.org/abs/2304.08386)] [[Code](https://github.com/MCG-NJU/ProVP)] ![](https://img.shields.io/badge/Image-orange)
 - `CoPL` **CoPL: Contextual Prompt Learning for Vision-Language Understanding.**  AAAI 2024.    
-[[Paper](https://arxiv.org/abs/2307.00910)] [No Code Found] ![](https://img.shields.io/badge/Text-green)    
+[[Paper](https://arxiv.org/abs/2307.00910)] [Code Not Found] ![](https://img.shields.io/badge/Text-green)    
 - `SA2VP` **SA2VP: Spatially Aligned-and-Adapted Visual Prompt.** AAAI 2024.  
 [[Paper](https://arxiv.org/abs/2312.10376)] [[Code](https://github.com/tommy-xq/SA2VP)] ![](https://img.shields.io/badge/Image-orange)
 - `HPT` **Learning Hierarchical Prompt with Structured Linguistic Knowledge for Vision-Language Models.** AAAI 2024.  
 [[Paper](https://arxiv.org/abs/2312.06323)] [[Code](https://github.com/Vill-Lab/2024-AAAI-HPT)] ![](https://img.shields.io/badge/Image--Text-blue)
 - `LaViP` **LaViP: Language-Grounded Visual Prompts.** AAAI 2024.  
-[[Paper](https://arxiv.org/abs/2312.10945)] [No Code Found] ![](https://img.shields.io/badge/Image-orange) <!-- 没imagenet结果 -->
+[[Paper](https://arxiv.org/abs/2312.10945)] [Code Not Found] ![](https://img.shields.io/badge/Image-orange) <!-- 没imagenet结果 -->
 - `CoPrompt` **Consistency-guided Prompt Learning for Vision-Language Models.** ICLR 2024.  
 [[Paper](https://arxiv.org/abs/2306.01195)] [[Code](https://github.com/ShuvenduRoy/CoPrompt)] ![](https://img.shields.io/badge/Image--Text-blue) 
 - `PromptKD` **PromptKD: Unsupervised Prompt Distillation for Vision Language Models.** CVPR 2024.  
@@ -168,7 +168,7 @@ Table 1. Average results on 11 datasets. (Only works with open-source code will 
 - `DePT` **DePT: Decoupled Prompt Tuning.** CVPR 2024.  
 [[Paper](https://arxiv.org/abs/2309.07439)] [[Code](https://github.com/Koorye/DePT)] ![](https://img.shields.io/badge/Image--Text-blue) 
 - `ArGue` **ArGue: Attribute-Guided Prompt Tuning for Vision-Language Models.** CVPR 2024.  
-[[Paper](https://arxiv.org/abs/2311.16494)] [No Code Found] ![](https://img.shields.io/badge/Text-green)
+[[Paper](https://arxiv.org/abs/2311.16494)] [Code Not Found] ![](https://img.shields.io/badge/Text-green)
 - `TCP` **TCP: Textual-based Class-aware Prompt tuning for Visual-Language Model.** CVPR 2024.  
 [[Paper](https://arxiv.org/abs/2311.18231)] [[Code](https://github.com/htyao89/Textual-based_Class-aware_prompt_tuning)] ![](https://img.shields.io/badge/Text-green)
 - `MMA` **MMA: Multi-Modal Adapter for Vision-Language Models.** CVPR 2024.  
@@ -178,11 +178,11 @@ Table 1. Average results on 11 datasets. (Only works with open-source code will 
 - `KDPL` **Improving Zero-shot Generalization of Learned Prompts via Unsupervised Knowledge Distillation.** ECCV 2024.   
 [[Paper](https://arxiv.org/abs/2407.03056)] [[Code](https://github.com/miccunifi/KDPL)] ![](https://img.shields.io/badge/Image--Text-blue)
 - `CoCoLe` **Conceptual Codebook Learning for Vision-Language Models.** ECCV 2024.   
-[[Paper](https://arxiv.org/abs/2407.02350)] [No Code Found] ![](https://img.shields.io/badge/Image--Text-blue)
+[[Paper](https://arxiv.org/abs/2407.02350)] [Code Not Found] ![](https://img.shields.io/badge/Image--Text-blue)
 - `CasPL` **Cascade Prompt Learning for Vision-Language Model Adaptation.** ECCV 2024.   
 [[Paper](https://arxiv.org/abs/2409.17805)] [[Code](https://github.com/megvii-research/CasPL)] [[论文解读](https://zhuanlan.zhihu.com/p/867291664)] ![](https://img.shields.io/badge/Image--Text-blue)
 - `GalLoP` **GalLoP: Learning Global and Local Prompts for Vision-Language Models.** ECCV 2024.   
-[[Paper](https://arxiv.org/abs/2407.01400)] [No Code Found] ![](https://img.shields.io/badge/Image--Text-blue)   
+[[Paper](https://arxiv.org/abs/2407.01400)] [Code Not Found] ![](https://img.shields.io/badge/Image--Text-blue)   
 - `AWT` **AWT: Transferring Vision-Language Models via Augmentation, Weighting, and Transportation.** NeurIPS 2024.  
 [[Paper](https://arxiv.org/abs/2407.04603)] [[Code](https://github.com/MCG-NJU/AWT)] ![](https://img.shields.io/badge/Image--Text-blue)   
 - `QNet` **Prompt Learning with Quaternion Networks.** ICLR 2024.   
@@ -196,7 +196,7 @@ Table 1. Average results on 11 datasets. (Only works with open-source code will 
 - `ProText` **Learning to Prompt with Text Only Supervision for Vision-Language Models.** AAAI 2025.  
 [[Paper](https://arxiv.org/abs/2401.02418)] [[Code](https://github.com/muzairkhattak/ProText)] ![](https://img.shields.io/badge/Text-green)
 - `FATE` **FATE: Feature-Adapted Parameter Tuning for Vision-Language Models.** AAAI 2025.  
-[[Paper](https://ojs.aaai.org/index.php/AAAI/article/view/32975)] [No Code Found] ![](https://img.shields.io/badge/Text-green)
+[[Paper](https://ojs.aaai.org/index.php/AAAI/article/view/32975)] [Code Not Found] ![](https://img.shields.io/badge/Text-green)
 - `TAP` **Tree of Attributes Prompt Learning For Vision Language Models.** ICLR 2025.   
 [[Paper](https://arxiv.org/abs/2410.11201)] [[Code](https://github.com/HHenryD/TAP)]![](https://img.shields.io/badge/Image--Text-blue)
 - `DeKg` **Divergence-enhanced Knowledge-guided Context Optimization for Visual-Language Prompt Tuning.** ICLR 2025.   
@@ -216,20 +216,30 @@ Table 1. Average results on 11 datasets. (Only works with open-source code will 
 - `OpenworldAUC` **OpenworldAUC: Towards Unified Evaluation and Optimization for Open-world Prompt Tuning.** ICML 2025.   
 [[Paper](https://arxiv.org/abs/2505.05180)] [[Code](https://github.com/huacong/OpenworldAUC)] ![](https://img.shields.io/badge/Text-green)
 - `FM` **Enhancing Target-unspecific Tasks through a Features Matrix.** ICML 2025.   
-[[Paper](https://arxiv.org/abs/2505.03414)] [No Code Found]![](https://img.shields.io/badge/Text-Green)   
+[[Paper](https://arxiv.org/abs/2505.03414)] [Code Not Found] ![](https://img.shields.io/badge/Text-Green)   
 - `SurPL` **Surrogate Prompt Learning: Towards Efficient and Diverse Prompt Learning for Vision-Language Models.** ICML 2025.   
 [[Paper](https://openreview.net/pdf?id=zjG9GRG462)] [[Code](https://github.com/llcllc1997/SurPL)] ![](https://img.shields.io/badge/Image--Text-blue)   
 - `ATPrompt` **Advancing Textual Prompt Learning with Anchored Attributes.** ICCV 2025.   
 [[Paper](https://arxiv.org/abs/2412.09442)] [[Code](https://github.com/zhengli97/ATPrompt)] [[论文解读](https://zhuanlan.zhihu.com/p/11787739769)] [[中文版](https://github.com/zhengli97/ATPrompt/blob/main/docs/ATPrompt_chinese_version.pdf)] ![](https://img.shields.io/badge/Text-green)   
 - `HicroPL` **Hierarchical Cross-modal Prompt Learning for Vision-Language Models.** ICCV 2025.   
-[[Paper](https://arxiv.org/abs/2507.14976)] [[Code](https://github.com/zzeoZheng/HiCroPL)(empty)] ![](https://img.shields.io/badge/Image--Text-blue)   
+[[Paper](https://arxiv.org/abs/2507.14976)] [[Code](https://github.com/zzeoZheng/HiCroPL)] ![](https://img.shields.io/badge/Image--Text-blue)
+- `CaPL` **Causality-guided Prompt Learning for Vision-language Models via Visual Granulation.** ICCV 2025.   
+[[Paper](https://openaccess.thecvf.com/content/ICCV2025/papers/Gao_Causality-guided_Prompt_Learning_for_Vision-language_Models_via_Visual_Granulation_ICCV_2025_paper.pdf)] [[Code](https://github.com/GaoMY-521/causality-guided-prompt-learning)(Empty)] ![](https://img.shields.io/badge/Image-orange)   
 - `LwEIB` **Learning with Enriched Inductive Biases for Vision-Language Models** IJCV 2025.   
 [[Paper](https://link.springer.com/article/10.1007/s11263-025-02354-1)] [[Code](https://github.com/ZjjConan/VLM-LwEIB)]![](https://img.shields.io/badge/Image--Text-blue)  
 - `BIP` **Bi-modality Individual-aware Prompt tuning for Visual-Language Model.** TPAMI 2025.   
 [[Paper](https://ieeexplore.ieee.org/abstract/document/10949734)] [[Code](https://github.com/htyao89/BIP)] ![](https://img.shields.io/badge/Image--Text-blue)    
 - `DAPT` **Decouple before Align: Visual Disentanglement Enhances Prompt Tuning.** TPAMI 2025.   
-[[Paper](https://ieeexplore.ieee.org/abstract/document/11106768)] [[Code](https://github.com/Ferenas/DAPT)(empty)] ![](https://img.shields.io/badge/Image--Text-blue)     
- 
+[[Paper](https://ieeexplore.ieee.org/abstract/document/11106768)] [[Code](https://github.com/Ferenas/DAPT)] ![](https://img.shields.io/badge/Image--Text-blue)     
+- `Spotlighter` **Spotlighter: Revisiting Prompt Tuning from a Representative Mining View.** EMNLP 2025 Findings.  
+[[Paper](https://aclanthology.org/anthology-files/anthology-files/pdf/findings/2025.findings-emnlp.392.pdf)] [[Code](https://github.com/greatest-gourmet/Spotlighter)] ![](https://img.shields.io/badge/Image--Text-blue)  
+- `VaMP` **VaMP: Variational Multi-Modal Prompt Learning for Vision-Language Models.** NeurIPS 2025.    
+[[Paper](https://openreview.net/forum?id=8an1xVyKxS)] [Code Not Found]    
+- `KAID` **KAID: Knowledge-Aware Interactive Distillation for Vision-Language Models.** ACM MM 2025.   
+[[Paper](https://dl.acm.org/doi/abs/10.1145/3746027.3755008)] [Code Not Found] [[论文解读](https://zhuanlan.zhihu.com/p/1972333513954027010)] ![](https://img.shields.io/badge/Image--Text-blue)   
+
+
+
 ## Another form of Prompt
 
 ### Paper List
@@ -309,6 +319,9 @@ Table 2. Test-time prompt tuning methods on OOD data.
 [[Paper](https://arxiv.org/abs/2503.12096)] [[Code](https://github.com/ashshaksharifdeen/O-TPT)]   
 - `COSMIC` **COSMIC: Clique-Oriented Semantic Multi-space Integration for Robust CLIP Test-Time Adaptation.** CVPR 2025.   
 [[Paper](https://arxiv.org/abs/2503.23388)] [[Code](https://github.com/hf618/COSMIC)]   
+- **Multi-Cache Enhanced Prototype Learning for Test-Time Generalization of Vision-Language Models.** ICCV 2025.
+[[Paper](https://arxiv.org/abs/2508.01225)] [Code(https://github.com/CenturyChen/ICCV25-MCP)]   
+
 
 ## General Adapter Learning
 
