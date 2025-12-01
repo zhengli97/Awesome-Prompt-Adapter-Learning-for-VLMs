@@ -237,7 +237,8 @@ Table 1. Average results on 11 datasets. (Only works with open-source code will 
 [[Paper](https://openreview.net/forum?id=8an1xVyKxS)] [Code Not Found]    
 - `KAID` **KAID: Knowledge-Aware Interactive Distillation for Vision-Language Models.** ACM MM 2025.   
 [[Paper](https://dl.acm.org/doi/abs/10.1145/3746027.3755008)] [Code Not Found] [[论文解读](https://zhuanlan.zhihu.com/p/1972333513954027010)] ![](https://img.shields.io/badge/Image--Text-blue)   
-
+- `AnchorOPT` **AnchorOPT: Towards Optimizing Dynamic Anchors for Adaptive Prompt Learning.** arxiv 25.   
+[[Paper](https://arxiv.org/abs/2511.21188)] [[Code](https://github.com/zhengli97/ATPrompt)] ![](https://img.shields.io/badge/Text-green)   
 
 
 ## Another form of Prompt
